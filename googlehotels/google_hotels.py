@@ -4,6 +4,7 @@ import asyncio
 from contextlib import suppress
 from dataclasses import dataclass, field
 from datetime import date
+from html import unescape
 from urllib.parse import parse_qs, urlparse
 import uuid
 from typing import Any
@@ -16,6 +17,7 @@ from .models import (
     PanelName,
     PropertyRecord,
     ScrapeRun,
+    SearchListing,
     Stage,
 )
 from .parser import parse_property_bundle, parse_search_captures, stable_id
@@ -76,9 +78,14 @@ class GoogleHotelsScraper:
         session = await self._open_session(run, lean=True)
         try:
             page = session.page
-            await self._goto_search(page, query)
+            await page.goto(self.build_search_url(query), wait_until="domcontentloaded", timeout=self.config.timeout_ms)
+            await self._mark_action(session, "search_load")
+            await self._submit_search(page, query)
+            await self._validate_search_state(page, query)
             await self._settle(page)
             listings = parse_search_captures(session.captures, self.query_key(query))
+            dom_listings = await self._extract_search_listing_dom(page, self.query_key(query))
+            listings = self._merge_search_listings(listings, dom_listings)
             return run, ExtractionBundle(listings=listings, captures=session.captures)
         finally:
             await self._close_session(session)
@@ -195,7 +202,9 @@ class GoogleHotelsScraper:
                 bundle.offers = parsed.offers
                 bundle.listings = parsed.listings
             else:
-                bundle.listings = parse_search_captures(session.captures, self.query_key(query))
+                listings = parse_search_captures(session.captures, self.query_key(query))
+                dom_listings = await self._extract_search_listing_dom(page, self.query_key(query))
+                bundle.listings = self._merge_search_listings(listings, dom_listings)
             return run, bundle
         finally:
             await self._close_session(session)
@@ -397,9 +406,79 @@ class GoogleHotelsScraper:
         for locator in locators:
             if await locator.count():
                 await self._mark_action(session, f"panel:{panel.value}")
-                await locator.click()
-                return True
+                with suppress(Exception):
+                    await locator.click(timeout=5_000)
+                    return True
         return False
+
+    async def _extract_search_listing_dom(self, page: Page, query_key: str) -> list["SearchListing"]:
+        cards = await page.locator('div[jsname="mutHjb"]').evaluate_all(
+            """(elements) => {
+                const clean = (value) => (value || "").replace(/\\s+/g, " ").trim();
+                return elements.map((card) => {
+                    const name = clean(card.querySelector('h2')?.textContent);
+                    if (!name) {
+                        return null;
+                    }
+                    const detailAnchor =
+                        Array.from(card.querySelectorAll('a[data-href^="/entity/"]')).find((anchor) => {
+                            return clean(anchor.getAttribute('aria-label')) === name;
+                        }) || null;
+                    const photo = card.querySelector('img[src], img[data-src]');
+                    return {
+                        name,
+                        detail_url: detailAnchor?.href || null,
+                        entity_path: detailAnchor?.getAttribute('data-href') || null,
+                        thumbnail_url: photo?.getAttribute('src') || photo?.getAttribute('data-src') || null,
+                    };
+                }).filter(Boolean);
+            }"""
+        )
+        listings = []
+        for rank, card in enumerate(cards, start=1):
+            name = card.get("name")
+            entity_path = card.get("entity_path")
+            token = self._extract_entity_token(entity_path)
+            if not name or not token:
+                continue
+            listings.append(
+                SearchListing(
+                    listing_id=stable_id(token),
+                    query_key=query_key,
+                    rank=rank,
+                    name=name,
+                    thumbnail_url=self._normalize_dom_url(card.get("thumbnail_url")),
+                    detail_url=card.get("detail_url"),
+                )
+            )
+        return listings
+
+    @staticmethod
+    def _merge_search_listings(
+        listings: list["SearchListing"],
+        dom_listings: list["SearchListing"],
+    ) -> list["SearchListing"]:
+        if not dom_listings:
+            return listings
+        merged: dict[str, SearchListing] = {listing.listing_id: listing for listing in listings}
+        name_index = {listing.name: listing for listing in listings if listing.name}
+        ordered = list(listings)
+        for dom_listing in dom_listings:
+            target = merged.get(dom_listing.listing_id)
+            if target is None and dom_listing.name:
+                target = name_index.get(dom_listing.name)
+            if target is None:
+                ordered.append(dom_listing)
+                merged[dom_listing.listing_id] = dom_listing
+                if dom_listing.name:
+                    name_index[dom_listing.name] = dom_listing
+                continue
+            target.rank = min(target.rank, dom_listing.rank)
+            target.name = target.name or dom_listing.name
+            target.thumbnail_url = dom_listing.thumbnail_url or target.thumbnail_url
+            target.detail_url = dom_listing.detail_url or target.detail_url
+        ordered.sort(key=lambda listing: (listing.rank, listing.name or ""))
+        return ordered
 
     async def _open_property_from_results(self, page: Page, session: "CapturedPageSession", property_name: str) -> None:
         anchor = page.locator(f'a[aria-label="{property_name}"]').first
@@ -591,6 +670,21 @@ class GoogleHotelsScraper:
         if raw:
             return raw
         return None
+
+    @staticmethod
+    def _extract_entity_token(entity_path: str | None) -> str | None:
+        if not entity_path:
+            return None
+        parts = [part for part in entity_path.split("/") if part]
+        if len(parts) < 2 or parts[0] != "entity":
+            return None
+        return parts[1] or None
+
+    @staticmethod
+    def _normalize_dom_url(url: str | None) -> str | None:
+        if not url:
+            return None
+        return unescape(url)
 
     @staticmethod
     def query_key(query: HotelQuery) -> str:

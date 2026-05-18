@@ -6,7 +6,7 @@ import re
 from datetime import date
 from html import unescape
 from typing import Any
-from urllib.parse import urljoin
+from urllib.parse import parse_qsl, urlencode, urljoin, urlsplit, urlunsplit
 
 from .models import (
     ExtractionBundle,
@@ -35,6 +35,11 @@ PROPERTY_TIMES_RE = re.compile(r'\["(?P<check_in>[^"]*M)","(?P<check_out>[^"]*M)
 PROPERTY_TOKEN_RE = re.compile(r'"(?P<token>Cho[^"]+)"')
 PHOTO_URL_RE = re.compile(r'https://lh[0-9][^"]+')
 THUMBNAIL_URL_RE = re.compile(r'https://[^"]+w152-h152-n-k-no')
+SEARCH_THUMBNAIL_URL_RE = re.compile(r'https://[^"]+s287-w287-h192-n-k-no-v1')
+RAW_SEARCH_CARD_THUMBNAIL_RE = re.compile(
+    r'\{\\"397419284\\":\[\[null,\\"(?P<name>[^"]+)\\".*?\[null,\[\[null,\[\\"(?P<thumbnail>https://[^"]+s287-w287-h192-n-k-no-v1)',
+    re.DOTALL,
+)
 AMENITY_SECTION_RE = re.compile(r'\["Amenities",\[\[(?P<section>.*?)\]\],null,\["Essential info"', re.DOTALL)
 AMENITY_ITEM_RE = re.compile(r'\["(?P<amenity>[^"]+)",(?:true|false),')
 BDMBFE_LINK_RE = re.compile(
@@ -94,8 +99,10 @@ def stable_id(*parts: str) -> str:
 
 def parse_search_captures(captures: list[NetworkCapture], query_key: str) -> list[SearchListing]:
     listings: list[SearchListing] = []
-    seen: set[str] = set()
-    for capture in captures:
+    listing_by_id: dict[str, SearchListing] = {}
+    selected_captures = _select_search_result_captures(captures)
+    raw_thumbnail_by_name = _extract_search_thumbnails_from_raw(selected_captures)
+    for capture in selected_captures:
         for _, payload in _iter_rpc_payloads(capture, {"Ya3XAc", "AtySUc"}):
             for match in SEARCH_ITEM_RE.finditer(payload):
                 token = match.group("token")
@@ -103,11 +110,11 @@ def parse_search_captures(captures: list[NetworkCapture], query_key: str) -> lis
                 if not token or not name:
                     continue
                 listing_id = stable_id(token)
-                if listing_id in seen:
-                    continue
-                seen.add(listing_id)
-                listings.append(
-                    SearchListing(
+                thumbnail_url = raw_thumbnail_by_name.get(name) or _extract_search_thumbnail_url(payload, match.start(), match.end())
+                detail_url = _build_search_detail_url(capture.page_url, token)
+                listing = listing_by_id.get(listing_id)
+                if listing is None:
+                    listing = SearchListing(
                         listing_id=listing_id,
                         query_key=query_key,
                         rank=len(listings) + 1,
@@ -115,10 +122,24 @@ def parse_search_captures(captures: list[NetworkCapture], query_key: str) -> lis
                         rating=_coerce_float(match.group("rating")),
                         review_count=_coerce_int(match.group("review_count")),
                         visible_price=unescape(match.group("price")),
-                        detail_url=_build_detail_url(token),
+                        thumbnail_url=thumbnail_url,
+                        detail_url=detail_url,
                         raw_capture_id=capture.capture_id,
                     )
-                )
+                    listings.append(listing)
+                    listing_by_id[listing_id] = listing
+                    continue
+                listing.name = listing.name or name
+                listing.rating = listing.rating or _coerce_float(match.group("rating"))
+                listing.review_count = listing.review_count or _coerce_int(match.group("review_count"))
+                listing.visible_price = listing.visible_price or unescape(match.group("price"))
+                listing.thumbnail_url = listing.thumbnail_url or thumbnail_url
+                if listing.detail_url is None or "ap=MAE" in capture.page_url:
+                    listing.detail_url = detail_url
+                listing.raw_capture_id = listing.raw_capture_id or capture.capture_id
+    for listing in listings:
+        if listing.thumbnail_url is None and listing.name:
+            listing.thumbnail_url = raw_thumbnail_by_name.get(listing.name)
     return listings
 
 
@@ -311,6 +332,31 @@ def _extract_thumbnail_urls(payload: str) -> list[str]:
     return _merge_unique([], [unescape(url) for url in THUMBNAIL_URL_RE.findall(payload)])
 
 
+def _extract_search_thumbnail_url(payload: str, start: int, end: int) -> str | None:
+    window_start = max(0, start - 4000)
+    window_end = min(len(payload), end + 12000)
+    window = payload[window_start:window_end]
+    match = SEARCH_THUMBNAIL_URL_RE.search(window)
+    if match:
+        return unescape(match.group(0))
+    fallback = PHOTO_URL_RE.search(window)
+    if fallback:
+        return unescape(fallback.group(0))
+    return None
+
+
+def _extract_search_thumbnails_from_raw(captures: list[NetworkCapture]) -> dict[str, str]:
+    thumbnails: dict[str, str] = {}
+    for capture in captures:
+        body = capture.response_body or ""
+        for match in RAW_SEARCH_CARD_THUMBNAIL_RE.finditer(body):
+            name = unescape(match.group("name"))
+            thumbnail = unescape(match.group("thumbnail"))
+            if name and thumbnail and name not in thumbnails:
+                thumbnails[name] = thumbnail
+    return thumbnails
+
+
 def _extract_amenities(payload: str) -> list[str]:
     section_match = AMENITY_SECTION_RE.search(payload)
     if not section_match:
@@ -444,6 +490,45 @@ def _clean_text_excerpt(value: str | None) -> str | None:
 
 def _build_detail_url(token: str) -> str:
     return f"https://www.google.com/travel/search?qs={token}"
+
+
+def _build_search_detail_url(page_url: str | None, token: str) -> str:
+    if not page_url:
+        return _build_detail_url(token)
+    parsed = urlsplit(page_url)
+    params = parse_qsl(parsed.query, keep_blank_values=True)
+    updated: list[tuple[str, str]] = []
+    has_qs = False
+    for key, value in params:
+        if key == "qs":
+            updated.append((key, token))
+            has_qs = True
+        else:
+            updated.append((key, value))
+    if not has_qs:
+        updated.append(("qs", token))
+    return urlunsplit((parsed.scheme, parsed.netloc, parsed.path, urlencode(updated), parsed.fragment))
+
+
+def _select_search_result_captures(captures: list[NetworkCapture]) -> list[NetworkCapture]:
+    results_page = [capture for capture in captures if "ap=MAE" in (capture.page_url or "")]
+    if results_page:
+        return sorted(results_page, key=_search_capture_priority)
+    labeled = [capture for capture in captures if capture.action == "search_load"]
+    if labeled:
+        return sorted(labeled, key=_search_capture_priority)
+    return captures
+
+
+def _search_capture_priority(capture: NetworkCapture) -> tuple[int, int]:
+    rpcids = set(capture.rpcids)
+    if "AtySUc" in rpcids:
+        return (0, 0)
+    if "Ya3XAc" in rpcids:
+        return (1, 0)
+    if "M0CRd" in rpcids:
+        return (2, 0)
+    return (3, 0)
 
 
 def _normalize_url(value: str | None) -> str | None:

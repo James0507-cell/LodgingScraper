@@ -1,0 +1,31 @@
+{
+  "listings": [],
+  "property_record": {
+    "property_id": "c20e802ee0fd2b27",
+    "canonical_url": null,
+    "google_entity_id": null,
+    "name": null,
+    "address": null,
+    "latitude": null,
+    "longitude": null,
+    "rating": null,
+    "review_count": null,
+    "description": null,
+    "images": [],
+    "cheapest_price": null,
+    "cheapest_price_amount": null,
+    "cheapest_price_currency": null,
+    "cheapest_price_provider": null,
+    "amenities": [],
+    "amenity_groups": [],
+    "phone": null,
+    "website": null,
+    "check_in_time": null,
+    "check_out_time": null,
+    "property_type": null,
+    "raw_capture_ids": [],
+    "last_seen_at": "2026-05-18T11:28:39.668443+00:00"
+  },
+  "offers": [],
+  "captures": []
+}
