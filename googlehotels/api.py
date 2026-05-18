@@ -7,7 +7,15 @@ from http import HTTPStatus
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 from urllib.parse import parse_qs, urlparse
 
-from .service import ScraperService, ServiceConfig, build_optional_query, build_query, parse_panels
+from .service import (
+    ScraperService,
+    ServiceConfig,
+    build_optional_query,
+    build_query_from_payload,
+    optional_payload_str,
+    parse_panels,
+    require_payload_str,
+)
 
 
 def run_server(
@@ -67,6 +75,14 @@ def create_handler(service: ScraperService):
                         return
                     self._send_json(HTTPStatus.OK, {"place": payload})
                     return
+                if path.startswith("/api/jobs/"):
+                    job_id = path.rsplit("/", 1)[-1]
+                    payload = service.get_job_payload(job_id)
+                    if payload is None:
+                        self._send_json(HTTPStatus.NOT_FOUND, {"error": f"Job '{job_id}' was not found."})
+                        return
+                    self._send_json(HTTPStatus.OK, payload)
+                    return
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": f"Route '{path}' was not found."})
             except ValueError as exc:
                 self._send_json(HTTPStatus.BAD_REQUEST, {"error": str(exc)})
@@ -79,30 +95,30 @@ def create_handler(service: ScraperService):
             try:
                 payload = self._read_json_body()
                 if path == "/api/search":
-                    query = _query_from_payload(payload)
+                    query = build_query_from_payload(payload)
                     result = asyncio.run(service.run_search(query, headful=bool(payload.get("headful", False))))
                     self._send_json(HTTPStatus.OK, result)
                     return
                 if path == "/api/detail":
-                    query = _query_from_payload(payload)
-                    detail_url = _require_str(payload, "detail_url")
+                    query = build_query_from_payload(payload)
+                    detail_url = require_payload_str(payload, "detail_url")
                     result = asyncio.run(
                         service.run_detail(
                             query,
                             detail_url,
-                            property_id=_optional_str(payload, "property_id"),
+                            property_id=optional_payload_str(payload, "property_id"),
                             headful=bool(payload.get("headful", False)),
                         )
                     )
                     self._send_json(HTTPStatus.OK, result)
                     return
                 if path == "/api/probe":
-                    query = _query_from_payload(payload)
+                    query = build_query_from_payload(payload)
                     panels = parse_panels(str(payload.get("panels", "prices,reviews,photos,about")))
                     result = asyncio.run(
                         service.run_probe(
                             query,
-                            property_name=_optional_str(payload, "property_name"),
+                            property_name=optional_payload_str(payload, "property_name"),
                             panels=panels,
                             headful=bool(payload.get("headful", False)),
                         )
@@ -110,18 +126,30 @@ def create_handler(service: ScraperService):
                     self._send_json(HTTPStatus.OK, result)
                     return
                 if path == "/api/replay":
-                    artifact_run = _require_str(payload, "artifact_run")
+                    artifact_run = require_payload_str(payload, "artifact_run")
                     panels = parse_panels(str(payload.get("panels", "") or "")) if payload.get("panels") else None
                     result = asyncio.run(
                         service.run_replay(
                             artifact_run,
                             live=bool(payload.get("live", False)),
-                            property_id=_optional_str(payload, "property_id"),
+                            property_id=optional_payload_str(payload, "property_id"),
                             panels=panels,
                             query_override=build_optional_query(payload),
                         )
                     )
                     self._send_json(HTTPStatus.OK, result)
+                    return
+                if path == "/api/jobs/search":
+                    self._send_json(HTTPStatus.ACCEPTED, service.submit_job("search", payload))
+                    return
+                if path == "/api/jobs/detail":
+                    self._send_json(HTTPStatus.ACCEPTED, service.submit_job("detail", payload))
+                    return
+                if path == "/api/jobs/probe":
+                    self._send_json(HTTPStatus.ACCEPTED, service.submit_job("probe", payload))
+                    return
+                if path == "/api/jobs/replay":
+                    self._send_json(HTTPStatus.ACCEPTED, service.submit_job("replay", payload))
                     return
                 self._send_json(HTTPStatus.NOT_FOUND, {"error": f"Route '{path}' was not found."})
             except ValueError as exc:
@@ -153,36 +181,6 @@ def create_handler(service: ScraperService):
             self.wfile.write(body)
 
     return ScraperAPIHandler
-
-
-def _query_from_payload(payload: dict):
-    return build_query(
-        destination=_require_str(payload, "destination"),
-        check_in=_require_str(payload, "check_in"),
-        check_out=_require_str(payload, "check_out"),
-        adults=_parse_int(payload.get("adults", 2), default=2),
-        children=_parse_int(payload.get("children", 0), default=0),
-        rooms=_parse_int(payload.get("rooms", 1), default=1),
-        currency=_optional_str(payload, "currency"),
-        locale=_optional_str(payload, "locale"),
-    )
-
-
-def _require_str(payload: dict, key: str) -> str:
-    value = payload.get(key)
-    if not isinstance(value, str) or not value.strip():
-        raise ValueError(f"'{key}' is required.")
-    return value.strip()
-
-
-def _optional_str(payload: dict, key: str) -> str | None:
-    value = payload.get(key)
-    if value is None:
-        return None
-    if not isinstance(value, str):
-        raise ValueError(f"'{key}' must be a string.")
-    value = value.strip()
-    return value or None
 
 
 def _parse_int(value, *, default: int) -> int:

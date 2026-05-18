@@ -49,6 +49,10 @@ Optional query parameters:
 
 If dates are provided, stored offers are filtered to that stay window.
 
+### `GET /api/jobs/<job_id>`
+
+Returns one async job status and, once complete, the result payload.
+
 ### `POST /api/search`
 
 Runs live browser search.
@@ -125,6 +129,27 @@ Live replay request:
 }
 ```
 
+### `POST /api/jobs/search`
+
+Queues the same work as `POST /api/search`, but returns immediately with a `job_id`.
+
+### `POST /api/jobs/detail`
+
+Queues the same work as `POST /api/detail`, but returns immediately with a `job_id`.
+
+### `POST /api/jobs/probe`
+
+Queues the same work as `POST /api/probe`, but returns immediately with a `job_id`.
+
+### `POST /api/jobs/replay`
+
+Queues the same work as `POST /api/replay`, but returns immediately with a `job_id`.
+
+All async job routes also support:
+
+- `force_refresh`
+  - skip cache reuse and force fresh execution
+
 ## Response Shape
 
 The API intentionally mirrors the CLI JSON shape.
@@ -170,10 +195,12 @@ Detail, probe, and replay return:
 
 1. Use `POST /api/search` for discovery.
 2. If you need the strongest current full-property result, call `POST /api/replay` with `"live": true`.
-3. Cache `property_id` and later fetch `GET /api/properties/<property_id>` for stored data.
+3. For production mobile usage, prefer `POST /api/jobs/replay` with `"live": true` and poll `GET /api/jobs/<job_id>`.
+4. Cache `property_id` and later fetch `GET /api/properties/<property_id>` for stored data.
 
 ## Current Quality Notes
 
 - `search` is still partial and mainly useful for discovery.
 - `detail` still leaves some core property fields null on some runs.
 - `replay` with `"live": true` is currently the strongest endpoint for complete property data.
+- async `/api/jobs/...` endpoints are the recommended integration path for mobile clients.

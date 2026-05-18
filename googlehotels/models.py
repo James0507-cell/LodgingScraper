@@ -33,6 +33,7 @@ class PanelName(StrEnum):
 
 class JobStatus(StrEnum):
     PENDING = "pending"
+    RUNNING = "running"
     SUCCESS = "success"
     FAILED = "failed"
     PARTIAL = "partial"

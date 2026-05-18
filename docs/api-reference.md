@@ -11,6 +11,7 @@ The API is designed for application use, especially from a mobile app backend or
 - live replay
 - access to stored runs
 - access to stored properties
+- async job submission and polling
 
 ## Base Server
 
@@ -366,7 +367,81 @@ curl "http://127.0.0.1:8000/api/properties/CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvT
 }
 ```
 
-## 5. Live Search
+## 5. Get One Async Job
+
+### Endpoint
+
+```http
+GET /api/jobs/<job_id>
+```
+
+### Purpose
+
+Returns the current status of one async job created through `/api/jobs/...`.
+
+### Path Arguments
+
+- `job_id`
+  - Type: `string`
+  - Meaning: async scraper job identifier
+
+### Example Request
+
+```bash
+curl http://127.0.0.1:8000/api/jobs/6c23d38892fb4379b95fe1a4bbf35247
+```
+
+### Example Response While Running
+
+```json
+{
+  "job_id": "6c23d38892fb4379b95fe1a4bbf35247",
+  "kind": "replay",
+  "status": "running",
+  "cache_key": "a8cbb8e5656d4d38a4b909f1a0f7f0f12be5a4ed4b1f30b65f8edc915cbefb39",
+  "created_at": "2026-05-18T13:40:00.100000+00:00",
+  "updated_at": "2026-05-18T13:40:00.300000+00:00",
+  "error": null
+}
+```
+
+### Example Response When Complete
+
+```json
+{
+  "job_id": "6c23d38892fb4379b95fe1a4bbf35247",
+  "kind": "replay",
+  "status": "success",
+  "cache_key": "a8cbb8e5656d4d38a4b909f1a0f7f0f12be5a4ed4b1f30b65f8edc915cbefb39",
+  "created_at": "2026-05-18T13:40:00.100000+00:00",
+  "updated_at": "2026-05-18T13:40:02.100000+00:00",
+  "error": null,
+  "result": {
+    "command": "replay",
+    "run": {
+      "run_id": "live-replay-run-id",
+      "stage": "replay",
+      "status": "success",
+      "property_id": "CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOA1IAA",
+      "opened_panels": ["offers", "reviews", "photos", "about"],
+      "captures": 10,
+      "rpcids": {
+        "AtySUc": 4
+      }
+    },
+    "artifact_paths": {
+      "bundle_json": "artifacts/live-replay-run-id/bundle.json",
+      "run_json": "artifacts/live-replay-run-id/run.json"
+    },
+    "place": {
+      "property_id": "CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOA1IAA",
+      "name": "Airo Hotel Manila"
+    }
+  }
+}
+```
+
+## 6. Live Search
 
 ### Endpoint
 
@@ -477,7 +552,7 @@ curl -X POST http://127.0.0.1:8000/api/search ^
   - `thumbnail_url`
 - `detail_url` is the most important output from this endpoint.
 
-## 6. Live Detail Scraping
+## 7. Live Detail Scraping
 
 ### Endpoint
 
@@ -597,7 +672,7 @@ Optional:
 - This endpoint is currently not the strongest full-property endpoint.
 - It often returns offers and some images correctly, but some core fields may remain `null`.
 
-## 7. Live Probe Scraping
+## 8. Live Probe Scraping
 
 ### Endpoint
 
@@ -756,7 +831,7 @@ prices,reviews,photos,about
 - This endpoint is one of the best sources for collecting fresh artifacts.
 - It depends on browser automation and can be slower than replay.
 
-## 8. Replay Scraping
+## 9. Replay Scraping
 
 ### Endpoint
 
@@ -984,6 +1059,141 @@ Optional:
 - This is currently the strongest endpoint for complete property data.
 - It still depends on the original artifact template matching the property/search flow you want to replay.
 
+## 10. Async Job Endpoints
+
+These endpoints are the production-shaped version of the scraper API. They queue work immediately and let the client poll later.
+
+Available async submit routes:
+
+- `POST /api/jobs/search`
+- `POST /api/jobs/detail`
+- `POST /api/jobs/probe`
+- `POST /api/jobs/replay`
+
+Each one accepts the same request body as its non-job equivalent.
+
+### Why Use Job Endpoints
+
+Use them when:
+
+- your mobile app should not wait on a long live scrape request
+- you want polling instead of a long blocking HTTP request
+- you want cache reuse for repeated identical requests
+
+### Shared Async Submit Response
+
+Example first submission:
+
+```json
+{
+  "job_id": "6c23d38892fb4379b95fe1a4bbf35247",
+  "kind": "replay",
+  "status": "pending",
+  "cache_key": "a8cbb8e5656d4d38a4b909f1a0f7f0f12be5a4ed4b1f30b65f8edc915cbefb39",
+  "created_at": "2026-05-18T13:40:00.100000+00:00",
+  "updated_at": "2026-05-18T13:40:00.100000+00:00",
+  "error": null
+}
+```
+
+Example repeated submission served from cache:
+
+```json
+{
+  "job_id": "f515b3bc04dd406e8a7dbf53ca0ab8bb",
+  "kind": "replay",
+  "status": "success",
+  "cache_key": "a8cbb8e5656d4d38a4b909f1a0f7f0f12be5a4ed4b1f30b65f8edc915cbefb39",
+  "created_at": "2026-05-18T13:45:10.200000+00:00",
+  "updated_at": "2026-05-18T13:45:10.200000+00:00",
+  "error": null,
+  "cached": true,
+  "result": {
+    "command": "replay",
+    "run": {
+      "run_id": "live-replay-run-id",
+      "stage": "replay",
+      "status": "success",
+      "property_id": "CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOA1IAA",
+      "opened_panels": ["offers", "reviews", "photos", "about"],
+      "captures": 10,
+      "rpcids": {
+        "AtySUc": 4
+      }
+    },
+    "artifact_paths": {
+      "bundle_json": "artifacts/live-replay-run-id/bundle.json",
+      "run_json": "artifacts/live-replay-run-id/run.json"
+    },
+    "place": {
+      "property_id": "CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOA1IAA",
+      "name": "Airo Hotel Manila"
+    }
+  }
+}
+```
+
+### `force_refresh`
+
+All async job routes support:
+
+- `force_refresh`
+  - Type: `boolean`
+  - Default: `false`
+  - Meaning: if `true`, skip a valid cache hit and enqueue fresh work anyway
+
+### Async Search Job
+
+```http
+POST /api/jobs/search
+```
+
+Request body: same as `POST /api/search`, plus optional `force_refresh`.
+
+### Async Detail Job
+
+```http
+POST /api/jobs/detail
+```
+
+Request body: same as `POST /api/detail`, plus optional `force_refresh`.
+
+### Async Probe Job
+
+```http
+POST /api/jobs/probe
+```
+
+Request body: same as `POST /api/probe`, plus optional `force_refresh`.
+
+### Async Replay Job
+
+```http
+POST /api/jobs/replay
+```
+
+Request body: same as `POST /api/replay`, plus optional `force_refresh`.
+
+### Example Mobile-Friendly Flow
+
+1. Submit:
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/jobs/replay ^
+  -H "Content-Type: application/json" ^
+  -d "{\"artifact_run\":\"d6dd05565b3740bfa72d92fd1128d487\",\"live\":true,\"destination\":\"Manila\",\"check_in\":\"2026-06-10\",\"check_out\":\"2026-06-11\"}"
+```
+
+2. Read `job_id` from the response.
+
+3. Poll:
+
+```bash
+curl http://127.0.0.1:8000/api/jobs/<job_id>
+```
+
+4. When `status` becomes `success`, read `result.place`.
+
 ## Recommendation by Use Case
 
 If your mobile app needs:
@@ -992,7 +1202,7 @@ If your mobile app needs:
   - use `POST /api/search`
 
 - a complete property payload with pricing:
-  - use `POST /api/replay` with `live=true`
+  - use `POST /api/jobs/replay` with `live=true`
 
 - a property that was already scraped and stored:
   - use `GET /api/properties/<property_id>`

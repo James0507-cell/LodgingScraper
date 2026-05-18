@@ -97,6 +97,53 @@ class APITests(unittest.TestCase):
         self.assertEqual(payload["place"]["name"], "Airo Hotel Manila")
         self.assertEqual(payload["place"]["cheapest_price_provider"], "Priceline")
 
+    def test_async_replay_job_can_be_polled(self) -> None:
+        status, payload = self.request_json(
+            "POST",
+            "/api/jobs/replay",
+            {
+                "artifact_run": ARTIFACT_RUN,
+            },
+        )
+        self.assertEqual(status, 202)
+        self.assertIn(payload["status"], {"pending", "running", "success"})
+        job_id = payload["job_id"]
+
+        for _ in range(20):
+            status, job_payload = self.request_json("GET", f"/api/jobs/{job_id}")
+            self.assertEqual(status, 200)
+            if job_payload["status"] == "success":
+                self.assertEqual(job_payload["result"]["place"]["name"], "Airo Hotel Manila")
+                break
+        else:
+            self.fail("Replay job did not complete successfully within polling window.")
+
+    def test_async_replay_job_uses_cache_on_repeat_submission(self) -> None:
+        first_status, first_payload = self.request_json(
+            "POST",
+            "/api/jobs/replay",
+            {
+                "artifact_run": ARTIFACT_RUN,
+            },
+        )
+        self.assertEqual(first_status, 202)
+        first_job_id = first_payload["job_id"]
+        for _ in range(20):
+            _, job_payload = self.request_json("GET", f"/api/jobs/{first_job_id}")
+            if job_payload["status"] == "success":
+                break
+        second_status, second_payload = self.request_json(
+            "POST",
+            "/api/jobs/replay",
+            {
+                "artifact_run": ARTIFACT_RUN,
+            },
+        )
+        self.assertEqual(second_status, 202)
+        self.assertEqual(second_payload["status"], "success")
+        self.assertTrue(second_payload.get("cached"))
+        self.assertEqual(second_payload["result"]["place"]["name"], "Airo Hotel Manila")
+
 
 if __name__ == "__main__":
     unittest.main()

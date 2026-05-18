@@ -85,6 +85,28 @@ class Database:
                     raw_capture_id TEXT,
                     FOREIGN KEY (property_id) REFERENCES properties (property_id)
                 );
+
+                CREATE TABLE IF NOT EXISTS api_jobs (
+                    job_id TEXT PRIMARY KEY,
+                    kind TEXT NOT NULL,
+                    status TEXT NOT NULL,
+                    cache_key TEXT,
+                    request_json TEXT NOT NULL,
+                    result_json TEXT,
+                    error TEXT,
+                    created_at TEXT NOT NULL,
+                    updated_at TEXT NOT NULL
+                );
+
+                CREATE TABLE IF NOT EXISTS api_cache (
+                    cache_key TEXT PRIMARY KEY,
+                    endpoint TEXT NOT NULL,
+                    payload_json TEXT NOT NULL,
+                    run_id TEXT,
+                    property_id TEXT,
+                    created_at TEXT NOT NULL,
+                    expires_at TEXT NOT NULL
+                );
                 """
             )
             self._ensure_property_column(connection, "amenity_groups_json", "TEXT NOT NULL DEFAULT '[]'")
@@ -383,3 +405,105 @@ class Database:
             )
             for row in rows
         ]
+
+    def create_job(self, job_id: str, kind: str, status: str, request_json: str, cache_key: str | None, created_at: str) -> None:
+        with self.session() as connection:
+            connection.execute(
+                """
+                INSERT INTO api_jobs (job_id, kind, status, cache_key, request_json, result_json, error, created_at, updated_at)
+                VALUES (?, ?, ?, ?, ?, NULL, NULL, ?, ?)
+                """,
+                (job_id, kind, status, cache_key, request_json, created_at, created_at),
+            )
+
+    def update_job(
+        self,
+        job_id: str,
+        *,
+        status: str,
+        result_json: str | None = None,
+        error: str | None = None,
+        updated_at: str,
+    ) -> None:
+        with self.session() as connection:
+            connection.execute(
+                """
+                UPDATE api_jobs
+                SET status = ?, result_json = COALESCE(?, result_json), error = ?, updated_at = ?
+                WHERE job_id = ?
+                """,
+                (status, result_json, error, updated_at, job_id),
+            )
+
+    def get_job(self, job_id: str) -> dict | None:
+        with self.session() as connection:
+            row = connection.execute(
+                """
+                SELECT job_id, kind, status, cache_key, request_json, result_json, error, created_at, updated_at
+                FROM api_jobs
+                WHERE job_id = ?
+                """,
+                (job_id,),
+            ).fetchone()
+        if row is None:
+            return None
+        return {
+            "job_id": row["job_id"],
+            "kind": row["kind"],
+            "status": row["status"],
+            "cache_key": row["cache_key"],
+            "request": row["request_json"],
+            "result": row["result_json"],
+            "error": row["error"],
+            "created_at": row["created_at"],
+            "updated_at": row["updated_at"],
+        }
+
+    def save_cache(
+        self,
+        *,
+        cache_key: str,
+        endpoint: str,
+        payload_json: str,
+        run_id: str | None,
+        property_id: str | None,
+        created_at: str,
+        expires_at: str,
+    ) -> None:
+        with self.session() as connection:
+            connection.execute(
+                """
+                INSERT INTO api_cache (cache_key, endpoint, payload_json, run_id, property_id, created_at, expires_at)
+                VALUES (?, ?, ?, ?, ?, ?, ?)
+                ON CONFLICT(cache_key) DO UPDATE SET
+                    endpoint = excluded.endpoint,
+                    payload_json = excluded.payload_json,
+                    run_id = excluded.run_id,
+                    property_id = excluded.property_id,
+                    created_at = excluded.created_at,
+                    expires_at = excluded.expires_at
+                """,
+                (cache_key, endpoint, payload_json, run_id, property_id, created_at, expires_at),
+            )
+
+    def get_cache(self, cache_key: str, now_iso: str) -> dict | None:
+        with self.session() as connection:
+            row = connection.execute(
+                """
+                SELECT cache_key, endpoint, payload_json, run_id, property_id, created_at, expires_at
+                FROM api_cache
+                WHERE cache_key = ? AND expires_at >= ?
+                """,
+                (cache_key, now_iso),
+            ).fetchone()
+        if row is None:
+            return None
+        return {
+            "cache_key": row["cache_key"],
+            "endpoint": row["endpoint"],
+            "payload_json": row["payload_json"],
+            "run_id": row["run_id"],
+            "property_id": row["property_id"],
+            "created_at": row["created_at"],
+            "expires_at": row["expires_at"],
+        }

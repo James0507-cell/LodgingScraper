@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+import asyncio
 import json
 import sys
+import uuid
+from concurrent.futures import Future, ThreadPoolExecutor
 from dataclasses import dataclass
-from datetime import date
+from datetime import date, timedelta
+from hashlib import sha256
 from pathlib import Path
 
 from .database import Database
@@ -27,6 +31,7 @@ class ServiceConfig:
     artifacts_root: str | Path = "artifacts"
     database_path: str | Path = "googlehotels.sqlite3"
     replay_artifacts_root: str | Path | None = None
+    max_job_workers: int = 2
 
 
 class ScraperService:
@@ -36,6 +41,15 @@ class ScraperService:
         self.database = Database(self.config.database_path)
         self.database.initialize()
         self.replay_client = ReplayClient(self.config.replay_artifacts_root or self.config.artifacts_root)
+        self.executor = ThreadPoolExecutor(max_workers=self.config.max_job_workers, thread_name_prefix="scraper-job")
+        self._futures: dict[str, Future] = {}
+        self.cache_ttls = {
+            "search": timedelta(hours=6),
+            "detail": timedelta(hours=12),
+            "probe": timedelta(hours=12),
+            "replay": timedelta(days=7),
+            "replay_live": timedelta(hours=3),
+        }
 
     async def run_search(self, query: HotelQuery, headful: bool = False) -> dict:
         config = BrowserConfig(headless=not headful)
@@ -124,6 +138,47 @@ class ScraperService:
     def list_runs_payload(self, limit: int = 20) -> dict:
         return {"runs": self.database.list_runs(limit=limit)}
 
+    def submit_job(self, kind: str, request_payload: dict) -> dict:
+        normalized_request = json.loads(json.dumps(request_payload, sort_keys=True))
+        cache_key = self._build_cache_key(kind, normalized_request)
+        force_refresh = bool(normalized_request.pop("force_refresh", False))
+        if not force_refresh:
+            cached = self._get_cached_payload(cache_key)
+            if cached is not None:
+                return self._create_completed_cached_job(kind, normalized_request, cache_key, cached)
+
+        job_id = uuid.uuid4().hex
+        now_iso = utc_now().isoformat()
+        self.database.create_job(
+            job_id,
+            kind=kind,
+            status=JobStatus.PENDING.value,
+            request_json=json.dumps(normalized_request, sort_keys=True),
+            cache_key=cache_key,
+            created_at=now_iso,
+        )
+        future = self.executor.submit(self._run_job_sync, job_id, kind, normalized_request, cache_key)
+        self._futures[job_id] = future
+        return self.get_job_payload(job_id) or {"job_id": job_id, "status": JobStatus.PENDING.value}
+
+    def get_job_payload(self, job_id: str) -> dict | None:
+        self._sync_job_future(job_id)
+        job = self.database.get_job(job_id)
+        if job is None:
+            return None
+        payload = {
+            "job_id": job["job_id"],
+            "kind": job["kind"],
+            "status": job["status"],
+            "cache_key": job["cache_key"],
+            "created_at": job["created_at"],
+            "updated_at": job["updated_at"],
+            "error": job["error"],
+        }
+        if job["result"]:
+            payload["result"] = json.loads(job["result"])
+        return payload
+
     def _finalize_run(self, command: str, run, bundle: ExtractionBundle) -> dict:
         run.status = JobStatus.SUCCESS
         run.finished_at = utc_now()
@@ -137,6 +192,122 @@ class ScraperService:
         if bundle.offers:
             self.database.save_offers(bundle.offers)
         return build_stdout_payload(command, run, bundle, bundle_path)
+
+    def _run_job_sync(self, job_id: str, kind: str, request_payload: dict, cache_key: str) -> None:
+        self.database.update_job(job_id, status=JobStatus.RUNNING.value, updated_at=utc_now().isoformat())
+        try:
+            result = self._execute_job(kind, request_payload)
+        except Exception as exc:
+            self.database.update_job(
+                job_id,
+                status=JobStatus.FAILED.value,
+                error=str(exc),
+                updated_at=utc_now().isoformat(),
+            )
+            raise
+        result_json = json.dumps(result, sort_keys=True)
+        self.database.update_job(
+            job_id,
+            status=JobStatus.SUCCESS.value,
+            result_json=result_json,
+            updated_at=utc_now().isoformat(),
+        )
+        self._save_cache(kind, cache_key, result)
+
+    def _execute_job(self, kind: str, request_payload: dict) -> dict:
+        if kind == "search":
+            query = build_query_from_payload(request_payload)
+            return asyncio.run(self.run_search(query, headful=bool(request_payload.get("headful", False))))
+        if kind == "detail":
+            query = build_query_from_payload(request_payload)
+            detail_url = require_payload_str(request_payload, "detail_url")
+            return asyncio.run(
+                self.run_detail(
+                    query,
+                    detail_url,
+                    property_id=optional_payload_str(request_payload, "property_id"),
+                    headful=bool(request_payload.get("headful", False)),
+                )
+            )
+        if kind == "probe":
+            query = build_query_from_payload(request_payload)
+            panels = parse_panels(str(request_payload.get("panels", "prices,reviews,photos,about")))
+            return asyncio.run(
+                self.run_probe(
+                    query,
+                    property_name=optional_payload_str(request_payload, "property_name"),
+                    panels=panels,
+                    headful=bool(request_payload.get("headful", False)),
+                )
+            )
+        if kind == "replay":
+            panels = parse_panels(str(request_payload.get("panels", "") or "")) if request_payload.get("panels") else None
+            return asyncio.run(
+                self.run_replay(
+                    require_payload_str(request_payload, "artifact_run"),
+                    live=bool(request_payload.get("live", False)),
+                    property_id=optional_payload_str(request_payload, "property_id"),
+                    panels=panels,
+                    query_override=build_optional_query(request_payload),
+                )
+            )
+        raise ValueError(f"Unsupported job kind '{kind}'.")
+
+    def _build_cache_key(self, kind: str, payload: dict) -> str:
+        encoded = json.dumps({"kind": kind, "payload": payload}, sort_keys=True, separators=(",", ":"))
+        return sha256(encoded.encode("utf-8")).hexdigest()
+
+    def _get_cached_payload(self, cache_key: str) -> dict | None:
+        cached = self.database.get_cache(cache_key, utc_now().isoformat())
+        if cached is None:
+            return None
+        return json.loads(cached["payload_json"])
+
+    def _save_cache(self, kind: str, cache_key: str, result: dict) -> None:
+        now = utc_now()
+        ttl = self.cache_ttls["replay_live" if kind == "replay" and result.get("command") == "replay" and result["run"]["captures"] < 20 else kind]
+        self.database.save_cache(
+            cache_key=cache_key,
+            endpoint=kind,
+            payload_json=json.dumps(result, sort_keys=True),
+            run_id=result.get("run", {}).get("run_id"),
+            property_id=result.get("run", {}).get("property_id"),
+            created_at=now.isoformat(),
+            expires_at=(now + ttl).isoformat(),
+        )
+
+    def _create_completed_cached_job(self, kind: str, request_payload: dict, cache_key: str, result: dict) -> dict:
+        job_id = uuid.uuid4().hex
+        now_iso = utc_now().isoformat()
+        result_json = json.dumps(result, sort_keys=True)
+        self.database.create_job(
+            job_id,
+            kind=kind,
+            status=JobStatus.SUCCESS.value,
+            request_json=json.dumps(request_payload, sort_keys=True),
+            cache_key=cache_key,
+            created_at=now_iso,
+        )
+        self.database.update_job(
+            job_id,
+            status=JobStatus.SUCCESS.value,
+            result_json=result_json,
+            updated_at=now_iso,
+        )
+        payload = self.get_job_payload(job_id) or {"job_id": job_id, "status": JobStatus.SUCCESS.value}
+        payload["cached"] = True
+        return payload
+
+    def _sync_job_future(self, job_id: str) -> None:
+        future = self._futures.get(job_id)
+        if future is None:
+            return
+        if future.done():
+            try:
+                future.result()
+            except Exception:
+                pass
+            self._futures.pop(job_id, None)
 
 
 def build_query(
@@ -162,6 +333,19 @@ def build_query(
     )
 
 
+def build_query_from_payload(payload: dict) -> HotelQuery:
+    return build_query(
+        destination=require_payload_str(payload, "destination"),
+        check_in=require_payload_str(payload, "check_in"),
+        check_out=require_payload_str(payload, "check_out"),
+        adults=int(payload.get("adults", 2)),
+        children=int(payload.get("children", 0)),
+        rooms=int(payload.get("rooms", 1)),
+        currency=payload.get("currency"),
+        locale=payload.get("locale"),
+    )
+
+
 def build_optional_query(payload: dict) -> HotelQuery | None:
     if not any(payload.get(field) is not None for field in ("destination", "check_in", "check_out", "adults", "children", "rooms", "currency", "locale")):
         return None
@@ -178,6 +362,23 @@ def build_optional_query(payload: dict) -> HotelQuery | None:
         currency=payload.get("currency"),
         locale=payload.get("locale"),
     )
+
+
+def require_payload_str(payload: dict, key: str) -> str:
+    value = payload.get(key)
+    if not isinstance(value, str) or not value.strip():
+        raise ValueError(f"'{key}' is required.")
+    return value.strip()
+
+
+def optional_payload_str(payload: dict, key: str) -> str | None:
+    value = payload.get(key)
+    if value is None:
+        return None
+    if not isinstance(value, str):
+        raise ValueError(f"'{key}' must be a string.")
+    value = value.strip()
+    return value or None
 
 
 def parse_panels(raw: str) -> list[PanelName]:
