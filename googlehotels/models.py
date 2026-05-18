@@ -17,6 +17,7 @@ class Stage(StrEnum):
     PANEL = "panel"
     OFFER_REFRESH = "offer_refresh"
     PROBE = "probe"
+    REPLAY = "replay"
 
 
 class PanelName(StrEnum):

@@ -96,6 +96,48 @@ All live scrape commands print JSON to stdout and also save artifacts:
 - `artifacts/<run_id>/bundle.json`
 - `artifacts/<run_id>/run.json`
 
+## Run replay mode
+
+Replays one saved artifact run and prints parsed JSON to stdout.
+
+Offline replay from saved captures:
+
+By run id:
+
+```bash
+python main.py replay --artifact-run d6dd05565b3740bfa72d92fd1128d487
+```
+
+By artifact directory path:
+
+```bash
+python main.py replay --artifact-run "artifacts/d6dd05565b3740bfa72d92fd1128d487"
+```
+
+Override the property id if needed:
+
+```bash
+python main.py replay --artifact-run d6dd05565b3740bfa72d92fd1128d487 --property-id "CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOA1IAA"
+```
+
+Override the panels associated with the replay parse:
+
+```bash
+python main.py replay --artifact-run d6dd05565b3740bfa72d92fd1128d487 --panels prices,reviews,photos,about
+```
+
+Live HTTP replay using the saved request templates:
+
+```bash
+python main.py replay --live --artifact-run d6dd05565b3740bfa72d92fd1128d487
+```
+
+Live HTTP replay with explicit dates and destination:
+
+```bash
+python main.py replay --live --artifact-run d6dd05565b3740bfa72d92fd1128d487 --destination "Manila" --check-in 2026-06-10 --check-out 2026-06-11
+```
+
 The JSON output includes, when available:
 
 - place name
@@ -115,4 +157,8 @@ The JSON output includes, when available:
 
 ## Current limitation
 
-Replay mode is not implemented as a runnable CLI command yet. The current commands use live Playwright browser automation.
+Live replay is HTTP-based and reuses saved batchexecute templates from an earlier browser run. It is fresh data, but it is still template-driven:
+
+- it depends on the saved artifact having the right request shapes
+- property replay is scoped to the saved property flow
+- some DOM-only fields still fall back to the saved `bundle.json` when they are not present in the live RPC responses

@@ -9,6 +9,7 @@ from datetime import date
 from .database import Database
 from .google_hotels import BrowserConfig, GoogleHotelsScraper
 from .models import ExtractionBundle, PanelName, PropertyRecord, SearchListing, to_jsonable
+from .replay_client import ReplayClient
 from .storage import ArtifactStore
 
 
@@ -40,6 +41,15 @@ def build_parser() -> argparse.ArgumentParser:
     probe.add_argument("--artifacts", default="artifacts")
     probe.add_argument("--db", default="googlehotels.sqlite3")
     probe.add_argument("--headful", action="store_true")
+
+    replay = subparsers.add_parser("replay", help="Replay one saved artifact run offline or over live HTTP and print parsed JSON.")
+    replay.add_argument("--artifact-run", required=True, help="Artifact run id or artifact directory path.")
+    replay.add_argument("--live", action="store_true", help="Fetch fresh data by replaying saved RPC templates against a new HTTP session.")
+    replay.add_argument("--property-id")
+    replay.add_argument("--panels", default="")
+    _add_optional_query_args(replay)
+    replay.add_argument("--artifacts", default="artifacts")
+    replay.add_argument("--db", default="googlehotels.sqlite3")
     return parser
 
 
@@ -54,6 +64,17 @@ def _add_query_args(parser: argparse.ArgumentParser) -> None:
     parser.add_argument("--locale")
 
 
+def _add_optional_query_args(parser: argparse.ArgumentParser) -> None:
+    parser.add_argument("--destination")
+    parser.add_argument("--check-in")
+    parser.add_argument("--check-out")
+    parser.add_argument("--adults", type=int)
+    parser.add_argument("--children", type=int)
+    parser.add_argument("--rooms", type=int)
+    parser.add_argument("--currency")
+    parser.add_argument("--locale")
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
@@ -64,35 +85,54 @@ def main(argv: list[str] | None = None) -> int:
         print(f"Initialized database at {database.path}")
         return 0
 
-    return asyncio.run(_run_live_command(args))
+    return asyncio.run(_run_command(args))
 
 
-async def _run_live_command(args) -> int:
+async def _run_command(args) -> int:
     from .models import HotelQuery, JobStatus, utc_now
 
-    query = HotelQuery(
-        destination=args.destination,
-        check_in=date.fromisoformat(args.check_in),
-        check_out=date.fromisoformat(args.check_out),
-        adults=args.adults,
-        children=args.children,
-        rooms=args.rooms,
-        currency=args.currency,
-        locale=args.locale,
-    )
-    config = BrowserConfig(headless=not args.headful)
     storage = ArtifactStore(args.artifacts)
     database = Database(args.db)
     database.initialize()
 
-    async with GoogleHotelsScraper(config) as scraper:
-        if args.command == "search":
-            run, bundle = await scraper.run_search(query)
-        elif args.command == "detail":
-            run, bundle = await scraper.run_property_detail(query, args.detail_url, args.property_id)
+    if args.command == "replay":
+        replay_client = ReplayClient(args.artifacts)
+        replay_panels = parse_panels(args.panels) if args.panels.strip() else None
+        query_override = build_optional_query(args)
+        if args.live:
+            replay_result = await replay_client.replay_live_artifact(
+                args.artifact_run,
+                query_override=query_override,
+                property_id=args.property_id,
+                panels=replay_panels,
+            )
         else:
-            panels = parse_panels(args.panels)
-            run, bundle = await scraper.run_probe(query, args.property_name, panels)
+            replay_result = await replay_client.replay_artifact(
+                args.artifact_run,
+                property_id=args.property_id,
+                panels=replay_panels,
+            )
+        run, bundle = replay_result.run, replay_result.bundle
+    else:
+        query = HotelQuery(
+            destination=args.destination,
+            check_in=date.fromisoformat(args.check_in),
+            check_out=date.fromisoformat(args.check_out),
+            adults=args.adults,
+            children=args.children,
+            rooms=args.rooms,
+            currency=args.currency,
+            locale=args.locale,
+        )
+        config = BrowserConfig(headless=not args.headful)
+        async with GoogleHotelsScraper(config) as scraper:
+            if args.command == "search":
+                run, bundle = await scraper.run_search(query)
+            elif args.command == "detail":
+                run, bundle = await scraper.run_property_detail(query, args.detail_url, args.property_id)
+            else:
+                panels = parse_panels(args.panels)
+                run, bundle = await scraper.run_probe(query, args.property_name, panels)
 
     run.status = JobStatus.SUCCESS
     run.finished_at = utc_now()
@@ -108,6 +148,28 @@ async def _run_live_command(args) -> int:
 
     print(render_stdout_json(build_stdout_payload(args.command, run, bundle, bundle_path)))
     return 0
+
+
+def build_optional_query(args):
+    from .models import HotelQuery
+
+    if not any(
+        getattr(args, field, None) is not None
+        for field in ("destination", "check_in", "check_out", "adults", "children", "rooms", "currency", "locale")
+    ):
+        return None
+    if not args.destination or not args.check_in or not args.check_out:
+        raise ValueError("Live replay query overrides require --destination, --check-in, and --check-out together.")
+    return HotelQuery(
+        destination=args.destination,
+        check_in=date.fromisoformat(args.check_in),
+        check_out=date.fromisoformat(args.check_out),
+        adults=args.adults if args.adults is not None else 2,
+        children=args.children if args.children is not None else 0,
+        rooms=args.rooms if args.rooms is not None else 1,
+        currency=args.currency,
+        locale=args.locale,
+    )
 
 
 def parse_panels(raw: str) -> list[PanelName]:

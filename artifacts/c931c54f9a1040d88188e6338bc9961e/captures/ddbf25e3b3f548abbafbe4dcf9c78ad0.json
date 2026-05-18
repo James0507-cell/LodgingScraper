@@ -1,0 +1,53 @@
+{
+  "capture_id": "ddbf25e3b3f548abbafbe4dcf9c78ad0",
+  "stage": "replay",
+  "action": "panel:offers",
+  "page_url": "https://www.google.com/travel/search?q=Manila&hl=en-US&ts=CAEqBwoFOgNQSFA&ap=MAA",
+  "request_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=zM1L7d&source-path=%2Ftravel%2Fsearch&f.sid=-3659853369258027583&bl=boq_travel-frontend-ui_20260515.02_p0&hl=en-US&soc-app=162&soc-platform=1&soc-device=1&_reqid=1660954&rt=c",
+  "request_method": "POST",
+  "request_headers": {
+    "accept": "*/*",
+    "accept-language": "en-US",
+    "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+    "origin": "https://www.google.com",
+    "referer": "https://www.google.com/travel/search?q=Manila&hl=en-US&ts=CAEqBwoFOgNQSFA&ap=MAA",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+    "x-same-domain": "1",
+    "x-goog-ext-190139975-jspb": "[\"PH\",\"ZZ\",\"yol64A==\"]",
+    "x-goog-ext-259736195-jspb": "[\"en-US\",\"PH\",\"PHP\",1,null,[-480],null,null,7,[]]",
+    "sec-ch-ua": "\"HeadlessChrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\""
+  },
+  "request_body": "f.req=%5B%5B%5B%22zM1L7d%22%2C%22%5Bnull%2Cnull%2Cnull%2C%5B152%2C152%5D%2C%5C%22ChoIoKz0-qyipbXjARoNL2cvMTFoX2swNTBsehAB%5C%22%5D%22%2Cnull%2C%221%22%5D%5D%5D",
+  "response_status": 200,
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "Date": "Mon, 18 May 2026 10:50:31 GMT",
+    "Content-Disposition": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin",
+    "X-Content-Type-Options": "nosniff",
+    "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+    "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /_/TravelFrontendUi/cspreport",
+    "Server": "ESF",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Accept-Ranges": "none",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "response_body": ")]}'\n\n1098\n[[\"wrb.fr\",\"zM1L7d\",\"[[[2,null,null,137,[\\\"https://lh3.googleusercontent.com/p/AF1QipMj8uwwzgB4_5klITbwfgqR3v8urLK07xsIGPXL\\\\u003dw152-h152-n-k-no\\\"]],[5,null,null,69,[\\\"https://lh3.googleusercontent.com/p/AF1QipM2LGqyMNUJrz9seG8UY39ZYBXbVZYdXRKPR-Rf\\\\u003dw152-h152-n-k-no\\\"]],[4,null,null,68,[\\\"https://lh3.googleusercontent.com/p/AF1QipPIg6WnsUGMQdujVYbomKLPeffalBnSejYxWxjG\\\\u003dw152-h152-n-k-no\\\"]],[null,1,null,260,[\\\"https://lh3.googleusercontent.com/gps-cs-s/APNQkAHRMnIcc7t93TrRiih_-yUfeBUtM4HXyk3WBrneEoK6ZyQxs4xlrKpTA4J35EJiMpbhl6X2gNPBNn2NpOUslnoZsNMv_52A2zBQAxFASU63yJRL6Ova6rDHELmTFNJrI3bgugc\\\\u003dw152-h152-n-k-no\\\"]],[null,0,null,182,[\\\"https://lh3.googleusercontent.com/p/AF1QipNVbnMm7UikyFa5OQWtbAibjWUPZ8xtZPi3fE71\\\\u003dw152-h152-n-k-no\\\"]],[null,null,1,2,[\\\"https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid\\\\u003d2RIlQ1kZk2n4_bNK5d3PnQ\\\\u0026cb_client\\\\u003dtravel.mf.gps\\\\u0026w\\\\u003d152\\\\u0026h\\\\u003d152\\\\u0026yaw\\\\u003d300.11475\\\\u0026pitch\\\\u003d0\\\\u0026thumbfov\\\\u003d100\\\"]]],6]\",null,null,null,\"1\"],[\"di\",57],[\"af.httprm\",57,\"129011303226361940\",26]]\n26\n[[\"e\",4,null,null,1136]]\n",
+  "captured_at": "2026-05-18T10:50:31.886513+00:00",
+  "parser_version": "live-replay-1",
+  "artifact_dir": null,
+  "rpcids": [
+    "zM1L7d"
+  ]
+}
