@@ -1,0 +1,1740 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - generic:
+          - button "Skip to main content" [ref=e16]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e19]:
+            - generic: Accessibility feedback
+        - navigation [ref=e23]:
+          - link "Travel" [ref=e26]:
+            - img [ref=e29]
+            - generic: Travel
+          - link "Explore" [ref=e35]:
+            - img [ref=e38]
+            - generic: Explore
+          - link "Flights" [ref=e43]:
+            - img [ref=e46]
+            - generic: Flights
+          - link "Hotels" [ref=e51]:
+            - img [ref=e54]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e62]:
+            - img [ref=e65]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fqs%3DCAE4AA%26hl%3Den%26ved%3D0CAAQ5JsGahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQCQ%26ts%3DCAEaIAoCGgASGhIUCgcI6g8QBRgYEgcI6g8QBRgZGAEyAggBKgkKBToDUEhQGgA%26ap%3DMAE%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fqs%3DCAE4AA%26hl%3Den%26ved%3D0CAAQ5JsGahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQCQ%26ts%3DCAEaIAoCGgASGhIUCgcI6g8QBRgYEgcI6g8QBRgZGAEyAggBKgkKBToDUEhQGgA%26ap%3DMAE%26utm_source%3Dsign_in_ogb&hl=en&ec=GAZAlQM
+  - generic [ref=e89]:
+    - form "Filters" [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - combobox "Search for places, hotels and more" [ref=e109]: Davao City
+          - button "Clear" [ref=e111] [cursor=pointer]:
+            - img [ref=e112]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - textbox "Check-in" [ref=e124]: Sun, May 24
+            - button [ref=e127]:
+              - img [ref=e130]
+            - button [active] [ref=e134]:
+              - img [ref=e137]
+          - generic [ref=e141]:
+            - textbox "Check-out" [ref=e142]: Mon, May 25
+            - button [ref=e145]:
+              - img [ref=e148]
+            - button [ref=e152]:
+              - img [ref=e155]
+        - button "Number of travelers. Current number of travelers is 2." [ref=e163] [cursor=pointer]:
+          - img [ref=e164]
+          - generic [ref=e166]: "2"
+          - img [ref=e167]
+      - generic [ref=e172]:
+        - button "All filters" [ref=e175]:
+          - img [ref=e178]
+          - generic [ref=e180]: All filters
+        - generic [ref=e183]:
+          - button "Under ₱2,500, Price, Not selected" [ref=e1006]:
+            - img [ref=e189]
+            - generic [ref=e200]: Under ₱2,500
+          - button "Pool, Amenities, Not selected" [ref=e203]:
+            - img [ref=e206]
+            - generic [ref=e211]: Pool
+          - button "Spa, Amenities, Not selected" [ref=e214]:
+            - img [ref=e217]
+            - generic [ref=e221]: Spa
+          - button "4+ rating, Guest rating, Not selected" [ref=e224]:
+            - img [ref=e227]
+            - generic [ref=e231]: 4+ rating
+          - button "4- or 5-star, Hotel class, Not selected" [ref=e234]:
+            - img [ref=e237]
+            - generic [ref=e242]: 4- or 5-star
+          - button "Price, Not selected" [ref=e245]:
+            - img [ref=e248]
+            - generic [ref=e258]:
+              - generic [ref=e259]: Price
+              - img [ref=e260]
+          - button "Property type, Not selected" [ref=e1009]:
+            - img [ref=e1012]
+            - generic [ref=e1021]:
+              - generic [ref=e1022]: Property type
+              - img [ref=e1023]
+          - button "Offers, Not selected" [ref=e264]:
+            - img [ref=e267]
+            - generic [ref=e271]:
+              - generic [ref=e272]: Offers
+              - img [ref=e273]
+          - button "Guest rating, Not selected" [ref=e277]:
+            - img [ref=e280]
+            - generic [ref=e283]:
+              - generic [ref=e284]: Guest rating
+              - img [ref=e285]
+          - button "Hotel class, Not selected" [ref=e289]:
+            - img [ref=e292]
+            - generic [ref=e296]:
+              - generic [ref=e297]: Hotel class
+              - img [ref=e298]
+          - button "Amenities, Not selected" [ref=e302]:
+            - img [ref=e305]
+            - generic [ref=e308]:
+              - generic [ref=e309]: Amenities
+              - img [ref=e310]
+          - button "Brands, Not selected" [ref=e314]:
+            - img [ref=e317]
+            - generic [ref=e320]:
+              - generic [ref=e321]: Brands
+              - img [ref=e322]
+          - button "Eco-certified, Not selected" [ref=e326]:
+            - img [ref=e329]
+            - generic [ref=e334]: Eco-certified
+          - button "Sort by, Not selected" [ref=e337]:
+            - img [ref=e340]
+            - generic [ref=e343]:
+              - generic [ref=e344]: Sort by
+              - img [ref=e345]
+    - generic [ref=e348]:
+      - main [ref=e349]:
+        - tabpanel [ref=e1026]:
+          - generic [ref=e1027]:
+            - heading "Davao City · 3,423 results Learn more about these results" [level=1] [ref=e1029]:
+              - generic [ref=e1030]: Davao City · 3,423 results
+              - button "Learn more about these results" [ref=e1035]:
+                - img
+            - generic [ref=e1039]:
+              - link "Balcony View Studio Mesatierra Garden Residences" [ref=e1040] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAQQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Balcony View Studio Mesatierra Garden Residences" [level=2]
+                        - link "Prices starting from ₱1,525, Balcony View Studio Mesatierra Garden Residences" [ref=e1041] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAYQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1046]: ₱1,525
+                      - link "Excellent location" [ref=e1047] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAgQyocGahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQhvdmVydmlldw
+                        - generic [ref=e1051]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Balcony View Studio Mesatierra Garden Residences: Apartment, Sleeps 3, 1 bedroom, 1 bathroom, 2 sq m, Balcony, Elevator, Fitness center, Kitchen,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 3
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 2 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Balcony
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Elevator
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                      - link "View details for Balcony View Studio Mesatierra Garden Residences" [ref=e1052] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAwQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1053]:
+                          - generic [ref=e1055]: View details
+                  - generic [ref=e1056]:
+                    - generic [ref=e1057] [cursor=pointer]:
+                      - link "Photos for Balcony View Studio Mesatierra Garden Residences" [ref=e1058]:
+                        - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CA0QyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1061]:
+                        - listitem [ref=e1062]:
+                          - img "Photo 1" [ref=e1063]
+                        - listitem [ref=e1064]:
+                          - img "Photo 2" [ref=e1065]
+                        - listitem [ref=e1066]
+                        - listitem [ref=e1067]
+                        - listitem [ref=e1068]
+                        - listitem [ref=e1069]
+                    - generic:
+                      - button "Back" [ref=e1072]:
+                        - img
+                      - button "Next" [ref=e1077]:
+                        - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1081]:
+              - link "Crown Regency Residences Davao" [ref=e1082] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CBwQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Crown Regency Residences Davao" [level=2]
+                        - link "Prices starting from ₱950, Crown Regency Residences Davao GREAT DEAL 42% less than usual" [ref=e1083] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CB4QrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1087]:
+                            - generic [ref=e1088]: GREAT DEAL
+                            - generic [ref=e1091]: ₱950
+                      - link "3.5 out of 5 stars from 339 reviews, Crown Regency Residences Davao" [ref=e1092] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CCEQwIsFahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1099]:
+                          - generic [ref=e1100]:
+                            - generic [ref=e1101]: "3.5"
+                            - img [ref=e1102]
+                            - generic [ref=e1104]: (339)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Crown Regency Residences Davao, a 3-star hotel.: Breakfast ($), Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Restaurant, Room service, Kitchen in some rooms,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast ($)
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen in some rooms
+                      - link "View prices for Crown Regency Residences Davao" [ref=e1105] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CCQQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1106]:
+                          - generic [ref=e1108]: View prices
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110] [cursor=pointer]:
+                      - link "Photos for Crown Regency Residences Davao" [ref=e1111]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CCUQyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1114]:
+                        - listitem [ref=e1115]:
+                          - img "Photo 1" [ref=e1116]
+                        - listitem [ref=e1117]:
+                          - img "Photo 2" [ref=e1118]
+                        - listitem [ref=e1119]
+                        - listitem [ref=e1120]
+                        - listitem [ref=e1121]
+                        - listitem [ref=e1122]
+                    - generic:
+                      - button "Back" [ref=e1125]:
+                        - img
+                      - button "Next" [ref=e1130]:
+                        - img
+                    - generic [ref=e1135]: GREAT DEAL
+            - generic [ref=e1137]:
+              - link "Sotogrande Davao Hotel" [ref=e1138] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CDcQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Sotogrande Davao Hotel" [level=2]
+                        - link "Prices starting from ₱2,616, Sotogrande Davao Hotel" [ref=e1139] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CDkQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1144]: ₱2,616
+                      - link "4 out of 5 stars from 335 reviews, Sotogrande Davao Hotel" [ref=e1145] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CDsQwIsFahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1152]:
+                          - generic [ref=e1153]:
+                            - generic [ref=e1154]: "4.0"
+                            - img [ref=e1155]
+                            - generic [ref=e1157]: (335)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Sotogrande Davao Hotel: Breakfast, Wi-Fi, Free parking, Pool, Air conditioning, Fitness center, Bar, Restaurant, Room service,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                      - link "View prices for Sotogrande Davao Hotel" [ref=e1158] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CD4QssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1159]:
+                          - generic [ref=e1161]: View prices
+                  - generic [ref=e1162]:
+                    - generic [ref=e1163] [cursor=pointer]:
+                      - link "Photos for Sotogrande Davao Hotel" [ref=e1164]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CD8QyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1167]:
+                        - listitem [ref=e1168]:
+                          - img "Photo 1" [ref=e1169]
+                        - listitem [ref=e1170]:
+                          - img "Photo 2" [ref=e1171]
+                        - listitem [ref=e1172]
+                        - listitem [ref=e1173]
+                        - listitem [ref=e1174]
+                        - listitem [ref=e1175]
+                    - generic:
+                      - button "Back" [ref=e1178]:
+                        - img
+                      - button "Next" [ref=e1183]:
+                        - img
+            - generic [ref=e1187]:
+              - link "Madayaw Residences- Condo" [ref=e1188] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CE8QyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Madayaw Residences- Condo" [level=2]
+                        - link "Prices starting from ₱1,256, Madayaw Residences- Condo" [ref=e1189] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CFEQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1194]: ₱1,256
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Madayaw Residences- Condo: Apartment, Sleeps 4, 1 bedroom, 1 bathroom, 3 sq m, Kitchen, Microwave, Washer, Free parking,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 4
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 3 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Microwave
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Washer
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                      - link "View details for Madayaw Residences- Condo" [ref=e1195] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CFUQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1196]:
+                          - generic [ref=e1198]: View details
+                  - generic [ref=e1199]:
+                    - generic [ref=e1200] [cursor=pointer]:
+                      - link "Photos for Madayaw Residences- Condo" [ref=e1201]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CFYQyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1204]:
+                        - listitem [ref=e1205]:
+                          - img "Photo 1" [ref=e1206]
+                        - listitem [ref=e1207]:
+                          - img "Photo 2" [ref=e1208]
+                        - listitem [ref=e1209]
+                        - listitem [ref=e1210]
+                        - listitem [ref=e1211]
+                        - listitem [ref=e1212]
+                    - generic:
+                      - button "Back" [ref=e1215]:
+                        - img
+                      - button "Next" [ref=e1220]:
+                        - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1224]:
+              - link "Acacia Hotel Davao" [ref=e1225] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGUQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Acacia Hotel Davao" [level=2]
+                        - link "Prices starting from ₱3,929, Acacia Hotel Davao" [ref=e1226] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGcQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1231]: ₱3,929
+                      - link "4.4 out of 5 stars from 1,118 reviews, Acacia Hotel Davao" [ref=e1232] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGkQwIsFahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1239]:
+                          - generic [ref=e1240]:
+                            - generic [ref=e1241]: "4.4"
+                            - img [ref=e1242]
+                            - generic [ref=e1244]: (1.1K)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Acacia Hotel Davao: Breakfast, Wi-Fi, Free parking, Pool, Air conditioning, Bar, Restaurant, Room service, Airport shuttle,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                      - link "View prices for Acacia Hotel Davao" [ref=e1245] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGwQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1246]:
+                          - generic [ref=e1248]: View prices
+                  - generic [ref=e1249]:
+                    - generic [ref=e1250] [cursor=pointer]:
+                      - link "Photos for Acacia Hotel Davao" [ref=e1251]:
+                        - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CG0QyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1254]:
+                        - listitem [ref=e1255]:
+                          - img "Photo 1" [ref=e1256]
+                        - listitem [ref=e1257]:
+                          - img "Photo 2" [ref=e1258]
+                        - listitem [ref=e1259]
+                        - listitem [ref=e1260]
+                        - listitem [ref=e1261]
+                        - listitem [ref=e1262]
+                    - generic:
+                      - button "Back" [ref=e1265]:
+                        - img
+                      - button "Next" [ref=e1270]:
+                        - img
+            - generic [ref=e1274]:
+              - link "Davao City Condo in Madayaw Residences" [ref=e1275] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CHwQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Davao City Condo in Madayaw Residences" [level=2]
+                        - link "Prices starting from ₱1,048, Davao City Condo in Madayaw Residences" [ref=e1276] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CH4QrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1281]: ₱1,048
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Davao City Condo in Madayaw Residences: Apartment, Sleeps 4, 1 bedroom, 1 bathroom, 3 beds, 36 sq m, Air conditioning, Kitchen, Microwave,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 4
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 3 beds
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 36 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Microwave
+                      - link "View details for Davao City Condo in Madayaw Residences" [ref=e1282] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CIIBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1283]:
+                          - generic [ref=e1285]: View details
+                  - generic [ref=e1286]:
+                    - generic [ref=e1287] [cursor=pointer]:
+                      - link "Photos for Davao City Condo in Madayaw Residences" [ref=e1288]:
+                        - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CIMBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1291]:
+                        - listitem [ref=e1292]:
+                          - img "Photo 1" [ref=e1293]
+                        - listitem [ref=e1294]:
+                          - img "Photo 2" [ref=e1295]
+                        - listitem [ref=e1296]
+                        - listitem [ref=e1297]
+                        - listitem [ref=e1298]
+                        - listitem [ref=e1299]
+                    - generic:
+                      - button "Back" [ref=e1302]:
+                        - img
+                      - button "Next" [ref=e1307]:
+                        - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1311]:
+              - link "Luxebridge Suites Davao" [ref=e1312] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJIBEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Luxebridge Suites Davao" [level=2]
+                        - link "Prices starting from ₱1,887, Luxebridge Suites Davao" [ref=e1313] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJQBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1318]: ₱1,887
+                      - link "4.1 out of 5 stars from 119 reviews, Luxebridge Suites Davao" [ref=e1319] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJYBEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1326]:
+                          - generic [ref=e1327]:
+                            - generic [ref=e1328]: "4.1"
+                            - img [ref=e1329]
+                            - generic [ref=e1331]: (119)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Luxebridge Suites Davao: Wi-Fi, Free parking, Air conditioning, Restaurant,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link "View prices for Luxebridge Suites Davao" [ref=e1332] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJkBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1333]:
+                          - generic [ref=e1335]: View prices
+                  - generic [ref=e1336]:
+                    - generic [ref=e1337] [cursor=pointer]:
+                      - link "Photos for Luxebridge Suites Davao" [ref=e1338]:
+                        - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJoBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1341]:
+                        - listitem [ref=e1342]:
+                          - img "Photo 1" [ref=e1343]
+                        - listitem [ref=e1344]:
+                          - img "Photo 2" [ref=e1345]
+                        - listitem [ref=e1346]
+                        - listitem [ref=e1347]
+                        - listitem [ref=e1348]
+                        - listitem [ref=e1349]
+                    - generic:
+                      - button "Back" [ref=e1352]:
+                        - img
+                      - button "Next" [ref=e1357]:
+                        - img
+            - generic [ref=e1361]:
+              - link "The Ritz Hotel at Garden Oases" [ref=e1362] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CKkBEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "The Ritz Hotel at Garden Oases" [level=2]
+                        - link "Prices starting from ₱2,235, The Ritz Hotel at Garden Oases" [ref=e1363] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CKsBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1368]: ₱2,235
+                      - link "4 out of 5 stars from 963 reviews, The Ritz Hotel at Garden Oases" [ref=e1369] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CK0BEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1376]:
+                          - generic [ref=e1377]:
+                            - generic [ref=e1378]: "4.0"
+                            - img [ref=e1379]
+                            - generic [ref=e1381]: (963)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for The Ritz Hotel at Garden Oases, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Bar, Restaurant, Room service,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                      - link "View prices for The Ritz Hotel at Garden Oases" [ref=e1382] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CLABELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1383]:
+                          - generic [ref=e1385]: View prices
+                  - generic [ref=e1386]:
+                    - generic [ref=e1387] [cursor=pointer]:
+                      - link "Photos for The Ritz Hotel at Garden Oases" [ref=e1388]:
+                        - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CLEBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1391]:
+                        - listitem [ref=e1392]:
+                          - img "Photo 1" [ref=e1393]
+                        - listitem [ref=e1394]:
+                          - img "Photo 2" [ref=e1395]
+                        - listitem [ref=e1396]
+                        - listitem [ref=e1397]
+                        - listitem [ref=e1398]
+                        - listitem [ref=e1399]
+                    - generic:
+                      - button "Back" [ref=e1402]:
+                        - img
+                      - button "Next" [ref=e1407]:
+                        - img
+            - generic [ref=e1411]:
+              - link "Fully furnished condo" [ref=e1412] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMABEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Fully furnished condo" [level=2]
+                        - link "Prices starting from ₱1,234, Fully furnished condo" [ref=e1413] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMIBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1418]: ₱1,234
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Fully furnished condo: Apartment, Sleeps 3, 1 bedroom, 1 bathroom, 1 bed, 25 sq m, Air conditioning, Kitchen, No crib,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 3
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bed
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 25 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: No crib
+                      - link "View details for Fully furnished condo" [ref=e1419] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMYBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1420]:
+                          - generic [ref=e1422]: View details
+                  - generic [ref=e1423]:
+                    - generic [ref=e1424] [cursor=pointer]:
+                      - link "Photos for Fully furnished condo" [ref=e1425]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMcBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1428]:
+                        - listitem [ref=e1429]:
+                          - img "Photo 1" [ref=e1430]
+                        - listitem [ref=e1431]:
+                          - img "Photo 2" [ref=e1432]
+                        - listitem [ref=e1433]
+                        - listitem [ref=e1434]
+                        - listitem [ref=e1435]
+                        - listitem [ref=e1436]
+                    - generic:
+                      - button "Back" [ref=e1439]:
+                        - img
+                      - button "Next" [ref=e1444]:
+                        - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1448]:
+              - link "La Couronne de Davao - Inspiria Condo" [ref=e1449] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CNYBEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "La Couronne de Davao - Inspiria Condo" [level=2]
+                        - link "Prices starting from ₱2,660, La Couronne de Davao - Inspiria Condo" [ref=e1450] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CNgBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1455]: ₱2,660
+                      - link "5 out of 5 stars from 1 reviews, La Couronne de Davao - Inspiria Condo" [ref=e1456] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CNoBEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1463]:
+                          - generic [ref=e1464]:
+                            - generic [ref=e1465]: "5.0"
+                            - img [ref=e1466]
+                            - generic [ref=e1468]: (1)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for La Couronne de Davao - Inspiria Condo: Free Wi-Fi, Parking, Pool, Air conditioning, Fitness center, Kitchen in rooms, Smoke-free property,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen in rooms
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Smoke-free property
+                      - link "View prices for La Couronne de Davao - Inspiria Condo" [ref=e1469] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CN0BELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1470]:
+                          - generic [ref=e1472]: View prices
+                  - generic [ref=e1473]:
+                    - generic [ref=e1474] [cursor=pointer]:
+                      - link "Photos for La Couronne de Davao - Inspiria Condo" [ref=e1475]:
+                        - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CN4BEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1478]:
+                        - listitem [ref=e1479]:
+                          - img "Photo 1" [ref=e1480]
+                        - listitem [ref=e1481]:
+                          - img "Photo 2" [ref=e1482]
+                        - listitem [ref=e1483]
+                        - listitem [ref=e1484]
+                        - listitem [ref=e1485]
+                        - listitem [ref=e1486]
+                    - generic:
+                      - button "Back" [ref=e1489]:
+                        - img
+                      - button "Next" [ref=e1494]:
+                        - img
+            - generic [ref=e1498]:
+              - link "Jade Dragons Suites Davao, Davao City" [ref=e1499] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CO0BEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Jade Dragons Suites Davao, Davao City" [level=2]
+                        - link "Prices starting from ₱825, Jade Dragons Suites Davao, Davao City GREAT DEAL 31% less than usual" [ref=e1500] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CO8BEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1504]:
+                            - generic [ref=e1505]: GREAT DEAL
+                            - generic [ref=e1508]: ₱825
+                      - link "3.9 out of 5 stars from 58 reviews, Jade Dragons Suites Davao, Davao City" [ref=e1509] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CPIBEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1516]:
+                          - generic [ref=e1517]:
+                            - generic [ref=e1518]: "3.9"
+                            - img [ref=e1519]
+                            - generic [ref=e1521]: (58)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Jade Dragons Suites Davao, Davao City: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Airport shuttle,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                      - link "View prices for Jade Dragons Suites Davao, Davao City" [ref=e1522] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CPUBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1523]:
+                          - generic [ref=e1525]: View prices
+                  - generic [ref=e1526]:
+                    - generic [ref=e1527] [cursor=pointer]:
+                      - link "Photos for Jade Dragons Suites Davao, Davao City" [ref=e1528]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CPYBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1531]:
+                        - listitem [ref=e1532]:
+                          - img "Photo 1" [ref=e1533]
+                        - listitem [ref=e1534]:
+                          - img "Photo 2" [ref=e1535]
+                        - listitem [ref=e1536]
+                        - listitem [ref=e1537]
+                        - listitem [ref=e1538]
+                        - listitem [ref=e1539]
+                    - generic:
+                      - button "Back" [ref=e1542]:
+                        - img
+                      - button "Next" [ref=e1547]:
+                        - img
+                    - generic [ref=e1552]: GREAT DEAL
+            - generic [ref=e1554]:
+              - link "The Royal Mandaya Hotel" [ref=e1555] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CIgCEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "The Royal Mandaya Hotel" [level=2]
+                        - link "Prices starting from ₱3,074, The Royal Mandaya Hotel" [ref=e1556] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CIoCEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1561]: ₱3,074
+                      - generic:
+                        - generic:
+                          - link "4.3 out of 5 stars from 1,151 reviews, The Royal Mandaya Hotel" [ref=e1562] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CIwCEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                            - img [ref=e1569]:
+                              - generic [ref=e1570]:
+                                - generic [ref=e1571]: "4.3"
+                                - img [ref=e1572]
+                                - generic [ref=e1574]: (1.2K)
+                          - generic: ·
+                          - link "Excellent location" [ref=e1575] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CI4CEMqHBmoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQhvdmVydmlldw
+                            - generic [ref=e1579]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for The Royal Mandaya Hotel, a 3-star hotel.: Free breakfast, Free Wi-Fi, Free parking, Pool, Air conditioning, Spa, Bar, Restaurant,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Spa
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link "View prices for The Royal Mandaya Hotel" [ref=e1580] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CJECELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1581]:
+                          - generic [ref=e1583]: View prices
+                  - generic [ref=e1584]:
+                    - generic [ref=e1585] [cursor=pointer]:
+                      - link "Photos for The Royal Mandaya Hotel" [ref=e1586]:
+                        - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CJICEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1589]:
+                        - listitem [ref=e1590]:
+                          - img "Photo 1" [ref=e1591]
+                        - listitem [ref=e1592]:
+                          - img "Photo 2" [ref=e1593]
+                        - listitem [ref=e1594]
+                        - listitem [ref=e1595]
+                        - listitem [ref=e1596]
+                        - listitem [ref=e1597]
+                    - generic:
+                      - button "Back" [ref=e1600]:
+                        - img
+                      - button "Next" [ref=e1605]:
+                        - img
+            - generic [ref=e1609]:
+              - link "RedDoorz near G Mall Bajada Davao" [ref=e1610] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKECEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "RedDoorz near G Mall Bajada Davao" [level=2]
+                        - link "Prices starting from ₱817, RedDoorz near G Mall Bajada Davao GREAT DEAL 26% less than usual" [ref=e1611] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKMCEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1615]:
+                            - generic [ref=e1616]: GREAT DEAL
+                            - generic [ref=e1619]: ₱817
+                      - link "3.8 out of 5 stars from 146 reviews, RedDoorz near G Mall Bajada Davao" [ref=e1620] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKYCEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1627]:
+                          - generic [ref=e1628]:
+                            - generic [ref=e1629]: "3.8"
+                            - img [ref=e1630]
+                            - generic [ref=e1632]: (146)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for RedDoorz near G Mall Bajada Davao: Free Wi-Fi, Free parking, Air conditioning, Kid-friendly,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link "View prices for RedDoorz near G Mall Bajada Davao" [ref=e1633] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKkCELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1634]:
+                          - generic [ref=e1636]: View prices
+                  - generic [ref=e1637]:
+                    - generic [ref=e1638] [cursor=pointer]:
+                      - link "Photos for RedDoorz near G Mall Bajada Davao" [ref=e1639]:
+                        - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKoCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1642]:
+                        - listitem [ref=e1643]:
+                          - img "Photo 1" [ref=e1644]
+                        - listitem [ref=e1645]:
+                          - img "Photo 2" [ref=e1646]
+                        - listitem [ref=e1647]
+                        - listitem [ref=e1648]
+                        - listitem [ref=e1649]
+                        - listitem [ref=e1650]
+                    - generic:
+                      - button "Back" [ref=e1653]:
+                        - img
+                      - button "Next" [ref=e1658]:
+                        - img
+                    - generic [ref=e1663]: GREAT DEAL
+            - generic [ref=e1665]:
+              - link "Avida Towers Davao city by darpm" [ref=e1666] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CLwCEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Avida Towers Davao city by darpm" [level=2]
+                        - link "Prices starting from ₱2,782, Avida Towers Davao city by darpm" [ref=e1667] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CL4CEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1672]: ₱2,782
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img "4.1 out of 5 stars from 48 reviews":
+                                - generic:
+                                  - generic: "4.1"
+                                  - img
+                                  - generic: (48)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Avida Towers Davao city by darpm: Apartment, Sleeps 3, 1 bedroom, 1 bathroom, 2 beds, 2 sq m, Elevator, Ironing board, Kitchen,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 3
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 2 beds
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 2 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Elevator
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Ironing board
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                      - link "View details for Avida Towers Davao city by darpm" [ref=e1673] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CMICELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1674]:
+                          - generic [ref=e1676]: View details
+                  - generic [ref=e1677]:
+                    - generic [ref=e1678] [cursor=pointer]:
+                      - link "Photos for Avida Towers Davao city by darpm" [ref=e1679]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CMMCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1682]:
+                        - listitem [ref=e1683]:
+                          - img "Photo 1" [ref=e1684]
+                        - listitem [ref=e1685]:
+                          - img "Photo 2" [ref=e1686]
+                        - listitem [ref=e1687]
+                        - listitem [ref=e1688]
+                        - listitem [ref=e1689]
+                        - listitem [ref=e1690]
+                    - generic:
+                      - button "Back" [ref=e1693]:
+                        - img
+                      - button "Next" [ref=e1698]:
+                        - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1702]:
+              - link "The Madeline Boutique Hotel and Suites" [ref=e1703] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNICEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "The Madeline Boutique Hotel and Suites" [level=2]
+                        - link "Prices starting from ₱2,351, The Madeline Boutique Hotel and Suites DEAL 23% less than usual" [ref=e1704] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNQCEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1708]:
+                            - generic [ref=e1709]: DEAL
+                            - generic [ref=e1712]: ₱2,351
+                      - link "4.2 out of 5 stars from 172 reviews, The Madeline Boutique Hotel and Suites" [ref=e1713] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNcCEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1720]:
+                          - generic [ref=e1721]:
+                            - generic [ref=e1722]: "4.2"
+                            - img [ref=e1723]
+                            - generic [ref=e1725]: (172)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for The Madeline Boutique Hotel and Suites: Breakfast, Wi-Fi, Free parking, Air conditioning, Bar, Restaurant, Room service, Airport shuttle, Full-service laundry,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                      - link "View prices for The Madeline Boutique Hotel and Suites" [ref=e1726] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNoCELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1727]:
+                          - generic [ref=e1729]: View prices
+                  - generic [ref=e1730]:
+                    - generic [ref=e1731] [cursor=pointer]:
+                      - link "Photos for The Madeline Boutique Hotel and Suites" [ref=e1732]:
+                        - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNsCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1735]:
+                        - listitem [ref=e1736]:
+                          - img "Photo 1" [ref=e1737]
+                        - listitem [ref=e1738]:
+                          - img "Photo 2" [ref=e1739]
+                        - listitem [ref=e1740]
+                        - listitem [ref=e1741]
+                        - listitem [ref=e1742]
+                        - listitem [ref=e1743]
+                    - generic:
+                      - button "Back" [ref=e1746]:
+                        - img
+                      - button "Next" [ref=e1751]:
+                        - img
+                    - generic [ref=e1756]: DEAL
+            - generic [ref=e1758]:
+              - link "Snooze Inn and Suites" [ref=e1759] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CO0CEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Snooze Inn and Suites" [level=2]
+                        - link "Prices starting from ₱3,174, Snooze Inn and Suites" [ref=e1760] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CO8CEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1765]: ₱3,174
+                      - link "4.2 out of 5 stars from 22 reviews, Snooze Inn and Suites" [ref=e1766] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CPECEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1773]:
+                          - generic [ref=e1774]:
+                            - generic [ref=e1775]: "4.2"
+                            - img [ref=e1776]
+                            - generic [ref=e1778]: (22)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Snooze Inn and Suites: Wi-Fi, Restaurant,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link "View prices for Snooze Inn and Suites" [ref=e1779] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CPQCELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1780]:
+                          - generic [ref=e1782]: View prices
+                  - generic [ref=e1783]:
+                    - generic [ref=e1784] [cursor=pointer]:
+                      - link "Photos for Snooze Inn and Suites" [ref=e1785]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CPUCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1788]:
+                        - listitem [ref=e1789]:
+                          - img "Photo 1" [ref=e1790]
+                        - listitem [ref=e1791]:
+                          - img "Photo 2" [ref=e1792]
+                        - listitem [ref=e1793]
+                        - listitem [ref=e1794]
+                        - listitem [ref=e1795]
+                        - listitem [ref=e1796]
+                    - generic:
+                      - button "Back" [ref=e1799]:
+                        - img
+                      - button "Next" [ref=e1804]:
+                        - img
+            - generic [ref=e1808]:
+              - link "Blue Lotus Hotel" [ref=e1809] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIQDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Blue Lotus Hotel" [level=2]
+                        - link "Prices starting from ₱3,655, Blue Lotus Hotel" [ref=e1810] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIYDEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1815]: ₱3,655
+                      - link "4.4 out of 5 stars from 530 reviews, Blue Lotus Hotel" [ref=e1816] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIgDEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1823]:
+                          - generic [ref=e1824]:
+                            - generic [ref=e1825]: "4.4"
+                            - img [ref=e1826]
+                            - generic [ref=e1828]: (530)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Blue Lotus Hotel: Breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Fitness center, Restaurant, Room service, Accessible,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Accessible
+                      - link "View prices for Blue Lotus Hotel" [ref=e1829] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIsDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1830]:
+                          - generic [ref=e1832]: View prices
+                  - generic [ref=e1833]:
+                    - generic [ref=e1834] [cursor=pointer]:
+                      - link "Photos for Blue Lotus Hotel" [ref=e1835]:
+                        - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIwDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1838]:
+                        - listitem [ref=e1839]:
+                          - img "Photo 1" [ref=e1840]
+                        - listitem [ref=e1841]:
+                          - img "Photo 2" [ref=e1842]
+                        - listitem [ref=e1843]
+                        - listitem [ref=e1844]
+                        - listitem [ref=e1845]
+                        - listitem [ref=e1846]
+                    - generic:
+                      - button "Back" [ref=e1849]:
+                        - img
+                      - button "Next" [ref=e1854]:
+                        - img
+            - generic [ref=e1858]:
+              - link "Seda Abreeza" [ref=e1859] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CJsDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Seda Abreeza" [level=2]
+                        - link "Prices starting from ₱6,020, Seda Abreeza" [ref=e1860] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CJ0DEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1865]: ₱6,020
+                      - generic:
+                        - generic:
+                          - link "4.4 out of 5 stars from 1,415 reviews, Seda Abreeza" [ref=e1866] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CJ8DEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                            - img [ref=e1873]:
+                              - generic [ref=e1874]:
+                                - generic [ref=e1875]: "4.4"
+                                - img [ref=e1876]
+                                - generic [ref=e1878]: (1.4K)
+                          - generic: ·
+                          - link "Excellent location" [ref=e1879] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CKEDEMqHBmoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQhvdmVydmlldw
+                            - generic [ref=e1883]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Seda Abreeza, a 4-star hotel.: Breakfast, Free Wi-Fi, Free parking, Pool, Air conditioning, Fitness center, Bar, Restaurant,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 4-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link "View prices for Seda Abreeza" [ref=e1884] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CKQDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1885]:
+                          - generic [ref=e1887]: View prices
+                  - generic [ref=e1888]:
+                    - generic [ref=e1889] [cursor=pointer]:
+                      - link "Photos for Seda Abreeza" [ref=e1890]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CKUDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1893]:
+                        - listitem [ref=e1894]:
+                          - img "Photo 1" [ref=e1895]
+                        - listitem [ref=e1896]:
+                          - img "Photo 2" [ref=e1897]
+                        - listitem [ref=e1898]
+                        - listitem [ref=e1899]
+                        - listitem [ref=e1900]
+                        - listitem [ref=e1901]
+                    - generic:
+                      - button "Back" [ref=e1904]:
+                        - img
+                      - button "Next" [ref=e1909]:
+                        - img
+            - generic [ref=e1913]:
+              - link "Domicilio Lorenzo" [ref=e1914] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLQDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "Domicilio Lorenzo" [level=2]
+                        - link "Prices starting from ₱2,073, Domicilio Lorenzo" [ref=e1915] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLYDEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1920]: ₱2,073
+                      - link "4.4 out of 5 stars from 309 reviews, Domicilio Lorenzo" [ref=e1921] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLgDEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1928]:
+                          - generic [ref=e1929]:
+                            - generic [ref=e1930]: "4.4"
+                            - img [ref=e1931]
+                            - generic [ref=e1933]: (309)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Domicilio Lorenzo, a 3-star hotel.: Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Breakfast, Business center, Kid-friendly,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Business center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link "View prices for Domicilio Lorenzo" [ref=e1934] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLsDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1935]:
+                          - generic [ref=e1937]: View prices
+                  - generic [ref=e1938]:
+                    - generic [ref=e1939] [cursor=pointer]:
+                      - link "Photos for Domicilio Lorenzo" [ref=e1940]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLwDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1943]:
+                        - listitem [ref=e1944]:
+                          - img "Photo 1" [ref=e1945]
+                        - listitem [ref=e1946]:
+                          - img "Photo 2" [ref=e1947]
+                        - listitem [ref=e1948]
+                        - listitem [ref=e1949]
+                        - listitem [ref=e1950]
+                        - listitem [ref=e1951]
+                    - generic:
+                      - button "Back" [ref=e1954]:
+                        - img
+                      - button "Next" [ref=e1959]:
+                        - img
+            - generic [ref=e1963]:
+              - link "One Oasis Davao" [ref=e1964] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CMsDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading "One Oasis Davao" [level=2]
+                        - link "Prices starting from ₱2,016, One Oasis Davao GREAT DEAL 35% less than usual" [ref=e1965] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CM0DEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1969]:
+                            - generic [ref=e1970]: GREAT DEAL
+                            - generic [ref=e1973]: ₱2,016
+                      - link "4.1 out of 5 stars from 610 reviews, One Oasis Davao" [ref=e1974] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CNADEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1981]:
+                          - generic [ref=e1982]:
+                            - generic [ref=e1983]: "4.1"
+                            - img [ref=e1984]
+                            - generic [ref=e1986]: (610)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for One Oasis Davao: Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Fitness center, Airport shuttle, Full-service laundry, Kid-friendly,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link "View prices for One Oasis Davao" [ref=e1987] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CNMDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1988]:
+                          - generic [ref=e1990]: View prices
+                  - generic [ref=e1991]:
+                    - generic [ref=e1992] [cursor=pointer]:
+                      - link "Photos for One Oasis Davao" [ref=e1993]:
+                        - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CNQDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list "Photos" [ref=e1996]:
+                        - listitem [ref=e1997]:
+                          - img "Photo 1" [ref=e1998]
+                        - listitem [ref=e1999]:
+                          - img "Photo 2" [ref=e2000]
+                        - listitem [ref=e2001]
+                        - listitem [ref=e2002]
+                        - listitem [ref=e2003]
+                        - listitem [ref=e2004]
+                    - generic:
+                      - button "Back" [ref=e2007]:
+                        - img
+                      - button "Next" [ref=e2012]:
+                        - img
+                    - generic [ref=e2017]: GREAT DEAL
+            - generic [ref=e2018]:
+              - button "Next" [ref=e2020]:
+                - generic [ref=e2023]: Next
+                - img [ref=e2024]
+              - generic [ref=e2026]: Showing results 1 - 20 of 3,423
+      - contentinfo [ref=e983]:
+        - button "Currency·PHP" [ref=e986]:
+          - generic [ref=e988]: Currency·PHP
+          - img [ref=e989]
+        - generic [ref=e991]:
+          - generic [ref=e992]: Buhangin, Davao City, Philippines - From your Internet address
+          - link "Learn more about location link" [ref=e994] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+            - text: Learn more
+        - generic [ref=e995]:
+          - link "About Google Travel" [ref=e996] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link "Privacy" [ref=e997] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+          - link "Terms" [ref=e998] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+          - link "Join user studies" [ref=e999] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXTX379748&Q_Language=en-US
+          - link "Feedback" [ref=e1000] [cursor=pointer]:
+            - /url: ./#0
+          - link "Help Center" [ref=e1001] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+        - paragraph [ref=e1003]:
+          - text: Displayed currencies may differ from the currencies used to book properties.
+          - link "Learn more about currencies" [ref=e1004] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+            - text: Learn more
+  - generic [ref=e1005]: Page loaded.

@@ -1,0 +1,28 @@
+{
+  "run_id": "93e9bc9c4fee45fab509aed1bb12d8f9",
+  "stage": "probe",
+  "started_at": "2026-05-18T07:30:17.401963+00:00",
+  "finished_at": "2026-05-18T07:30:41.348695+00:00",
+  "status": "success",
+  "query": {
+    "destination": "Manila",
+    "check_in": "2026-06-10",
+    "check_out": "2026-06-11",
+    "adults": 2,
+    "children": 0,
+    "rooms": 1,
+    "currency": null,
+    "locale": null,
+    "max_results": null
+  },
+  "property_id": "7a6a2067adb39146",
+  "listing_id": null,
+  "opened_panels": [
+    "offers",
+    "reviews",
+    "photos",
+    "about"
+  ],
+  "error": null,
+  "artifact_dir": null
+}

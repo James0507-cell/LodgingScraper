@@ -1,0 +1,3149 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button [ref=e2027] [cursor=pointer]:
+          - img [ref=e7]
+        - link [ref=e2028] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - button [ref=e2029]
+        - button [ref=e2030]
+        - navigation [ref=e23]:
+          - link [ref=e2031]:
+            - img [ref=e29]
+          - link [ref=e2032]:
+            - img [ref=e38]
+          - link [ref=e2033]:
+            - img [ref=e46]
+          - link [ref=e2034]:
+            - img [ref=e54]
+          - link [ref=e2035]:
+            - img [ref=e65]
+      - generic [ref=e74]:
+        - button [ref=e2036] [cursor=pointer]:
+          - img [ref=e79]
+        - link [ref=e2037] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fqs%3DCAE4AA%26hl%3Den%26ved%3D0CAAQ5JsGahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQCQ%26ts%3DCAEaIAoCGgASGhIUCgcI6g8QBRgYEgcI6g8QBRgZGAEyAggBKgkKBToDUEhQGgA%26ap%3DMAE%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fqs%3DCAE4AA%26hl%3Den%26ved%3D0CAAQ5JsGahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQCQ%26ts%3DCAEaIAoCGgASGhIUCgcI6g8QBRgYEgcI6g8QBRgZGAEyAggBKgkKBToDUEhQGgA%26ap%3DMAE%26utm_source%3Dsign_in_ogb&hl=en&ec=GAZAlQM
+          - text: Sign in
+  - generic [ref=e89]:
+    - form [ref=e2038]:
+      - generic [ref=e96]:
+        - generic [ref=e104]:
+          - img [ref=e106]
+          - combobox [ref=e2039]: Davao City
+          - button [ref=e2040] [cursor=pointer]:
+            - img [ref=e112]
+        - generic [ref=e115] [cursor=pointer]:
+          - generic [ref=e117]:
+            - generic [ref=e119]:
+              - img [ref=e121]
+              - textbox [ref=e2041]:
+                - /placeholder: Check-in
+                - text: Sun, May 24
+              - button [ref=e127]:
+                - img [ref=e130]
+              - button [ref=e134]:
+                - img [ref=e137]
+            - generic [ref=e141]:
+              - textbox [ref=e2042]:
+                - /placeholder: Check-out
+                - text: Mon, May 25
+              - button [ref=e145]:
+                - img [ref=e148]
+              - button [ref=e152]:
+                - img [ref=e155]
+          - dialog [ref=e2045]:
+            - heading [level=1] [ref=e2047]:
+              - generic [ref=e2048]:
+                - generic [ref=e2050]:
+                  - img [ref=e2052]
+                  - textbox [active] [ref=e2055]:
+                    - /placeholder: Check-in
+                    - text: Sun, May 24
+                  - button [ref=e2058]:
+                    - img [ref=e2061]
+                  - button [ref=e2065]:
+                    - img [ref=e2068]
+                - generic [ref=e2073]:
+                  - textbox [ref=e2074]:
+                    - /placeholder: Check-out
+                    - text: Mon, May 25
+                  - button [ref=e2077]:
+                    - img [ref=e2080]
+                  - button [ref=e2084]:
+                    - img [ref=e2087]
+            - grid [ref=e2095]:
+              - rowgroup [ref=e2096]:
+                - generic [ref=e2097]: May
+                - generic [ref=e2098]:
+                  - generic [ref=e2099]: S
+                  - generic [ref=e2100]: M
+                  - generic [ref=e2101]: T
+                  - generic [ref=e2102]: W
+                  - generic [ref=e2103]: T
+                  - generic [ref=e2104]: F
+                  - generic [ref=e2105]: S
+                - generic [ref=e2106]:
+                  - row [ref=e2107]:
+                    - gridcell [ref=e2108]:
+                      - button [ref=e2109]:
+                        - generic [ref=e2110]: "1"
+                    - gridcell [ref=e2111]:
+                      - button [ref=e2112]:
+                        - generic [ref=e2113]: "2"
+                  - row [ref=e2114]:
+                    - gridcell [ref=e2115]:
+                      - button [ref=e2116]:
+                        - generic [ref=e2117]: "3"
+                    - gridcell [ref=e2118]:
+                      - button [ref=e2119]:
+                        - generic [ref=e2120]: "4"
+                    - gridcell [ref=e2121]:
+                      - button [ref=e2122]:
+                        - generic [ref=e2123]: "5"
+                    - gridcell [ref=e2124]:
+                      - button [ref=e2125]:
+                        - generic [ref=e2126]: "6"
+                    - gridcell [ref=e2127]:
+                      - button [ref=e2128]:
+                        - generic [ref=e2129]: "7"
+                    - gridcell [ref=e2130]:
+                      - button [ref=e2131]:
+                        - generic [ref=e2132]: "8"
+                    - gridcell [ref=e2133]:
+                      - button [ref=e2134]:
+                        - generic [ref=e2135]: "9"
+                  - row [ref=e2136]:
+                    - gridcell [ref=e2137]:
+                      - button [ref=e2138]:
+                        - generic [ref=e2139]: "10"
+                    - gridcell [ref=e2140]:
+                      - button [ref=e2141]:
+                        - generic [ref=e2142]: "11"
+                    - gridcell [ref=e2143]:
+                      - button [ref=e2144]:
+                        - generic [ref=e2145]: "12"
+                    - gridcell [ref=e2146]:
+                      - button [ref=e2147]:
+                        - generic [ref=e2148]: "13"
+                    - gridcell [ref=e2149]:
+                      - button [ref=e2150]:
+                        - generic [ref=e2151]: "14"
+                    - gridcell [ref=e2152]:
+                      - button [ref=e2153]:
+                        - generic [ref=e2154]: "15"
+                    - gridcell [ref=e2155]:
+                      - button [ref=e2156]:
+                        - generic [ref=e2157]: "16"
+                  - row [ref=e2158]:
+                    - gridcell [ref=e2159]:
+                      - button [ref=e2160]:
+                        - generic [ref=e2161]: "17"
+                    - gridcell [ref=e2162]:
+                      - button [ref=e2163]:
+                        - generic [ref=e2164]: "18"
+                    - gridcell [ref=e2165]:
+                      - button [ref=e2166]:
+                        - generic [ref=e2167]: "19"
+                    - gridcell [ref=e2168]:
+                      - button [ref=e2169]:
+                        - generic [ref=e2170]: "20"
+                    - gridcell [ref=e2171]:
+                      - button [ref=e2172]:
+                        - generic [ref=e2173]: "21"
+                    - gridcell [ref=e2174]:
+                      - button [ref=e2175]:
+                        - generic [ref=e2176]: "22"
+                    - gridcell [ref=e2177]:
+                      - button [ref=e2178]:
+                        - generic [ref=e2179]: "23"
+                  - row [ref=e2180]:
+                    - gridcell [selected] [ref=e2181]:
+                      - button [ref=e2182]:
+                        - generic [ref=e2183]: "24"
+                    - gridcell [selected] [ref=e2184]:
+                      - button [ref=e2185]:
+                        - generic [ref=e2186]: "25"
+                    - gridcell [ref=e2187]:
+                      - button [ref=e2188]:
+                        - generic [ref=e2189]: "26"
+                    - gridcell [ref=e2190]:
+                      - button [ref=e2191]:
+                        - generic [ref=e2192]: "27"
+                    - gridcell [ref=e2193]:
+                      - button [ref=e2194]:
+                        - generic [ref=e2195]: "28"
+                    - gridcell [ref=e2196]:
+                      - button [ref=e2197]:
+                        - generic [ref=e2198]: "29"
+                    - gridcell [ref=e2199]:
+                      - button [ref=e2200]:
+                        - generic [ref=e2201]: "30"
+                  - row [ref=e2202]:
+                    - gridcell [ref=e2203]:
+                      - button [ref=e2204]:
+                        - generic [ref=e2205]: "31"
+              - rowgroup [ref=e2206]:
+                - generic [ref=e2207]: June
+                - generic [ref=e2208]:
+                  - generic [ref=e2209]: S
+                  - generic [ref=e2210]: M
+                  - generic [ref=e2211]: T
+                  - generic [ref=e2212]: W
+                  - generic [ref=e2213]: T
+                  - generic [ref=e2214]: F
+                  - generic [ref=e2215]: S
+                - generic [ref=e2216]:
+                  - row [ref=e2217]:
+                    - gridcell [ref=e2218]:
+                      - button [ref=e2219]:
+                        - generic [ref=e2220]: "1"
+                    - gridcell [ref=e2221]:
+                      - button [ref=e2222]:
+                        - generic [ref=e2223]: "2"
+                    - gridcell [ref=e2224]:
+                      - button [ref=e2225]:
+                        - generic [ref=e2226]: "3"
+                    - gridcell [ref=e2227]:
+                      - button [ref=e2228]:
+                        - generic [ref=e2229]: "4"
+                    - gridcell [ref=e2230]:
+                      - button [ref=e2231]:
+                        - generic [ref=e2232]: "5"
+                    - gridcell [ref=e2233]:
+                      - button [ref=e2234]:
+                        - generic [ref=e2235]: "6"
+                  - row [ref=e2236]:
+                    - gridcell [ref=e2237]:
+                      - button [ref=e2238]:
+                        - generic [ref=e2239]: "7"
+                    - gridcell [ref=e2240]:
+                      - button [ref=e2241]:
+                        - generic [ref=e2242]: "8"
+                    - gridcell [ref=e2243]:
+                      - button [ref=e2244]:
+                        - generic [ref=e2245]: "9"
+                    - gridcell [ref=e2246]:
+                      - button [ref=e2247]:
+                        - generic [ref=e2248]: "10"
+                    - gridcell [ref=e2249]:
+                      - button [ref=e2250]:
+                        - generic [ref=e2251]: "11"
+                    - gridcell [ref=e2252]:
+                      - button [ref=e2253]:
+                        - generic [ref=e2254]: "12"
+                    - gridcell [ref=e2255]:
+                      - button [ref=e2256]:
+                        - generic [ref=e2257]: "13"
+                  - row [ref=e2258]:
+                    - gridcell [ref=e2259]:
+                      - button [ref=e2260]:
+                        - generic [ref=e2261]: "14"
+                    - gridcell [ref=e2262]:
+                      - button [ref=e2263]:
+                        - generic [ref=e2264]: "15"
+                    - gridcell [ref=e2265]:
+                      - button [ref=e2266]:
+                        - generic [ref=e2267]: "16"
+                    - gridcell [ref=e2268]:
+                      - button [ref=e2269]:
+                        - generic [ref=e2270]: "17"
+                    - gridcell [ref=e2271]:
+                      - button [ref=e2272]:
+                        - generic [ref=e2273]: "18"
+                    - gridcell [ref=e2274]:
+                      - button [ref=e2275]:
+                        - generic [ref=e2276]: "19"
+                    - gridcell [ref=e2277]:
+                      - button [ref=e2278]:
+                        - generic [ref=e2279]: "20"
+                  - row [ref=e2280]:
+                    - gridcell [ref=e2281]:
+                      - button [ref=e2282]:
+                        - generic [ref=e2283]: "21"
+                    - gridcell [ref=e2284]:
+                      - button [ref=e2285]:
+                        - generic [ref=e2286]: "22"
+                    - gridcell [ref=e2287]:
+                      - button [ref=e2288]:
+                        - generic [ref=e2289]: "23"
+                    - gridcell [ref=e2290]:
+                      - button [ref=e2291]:
+                        - generic [ref=e2292]: "24"
+                    - gridcell [ref=e2293]:
+                      - button [ref=e2294]:
+                        - generic [ref=e2295]: "25"
+                    - gridcell [ref=e2296]:
+                      - button [ref=e2297]:
+                        - generic [ref=e2298]: "26"
+                    - gridcell [ref=e2299]:
+                      - button [ref=e2300]:
+                        - generic [ref=e2301]: "27"
+                  - row [ref=e2302]:
+                    - gridcell [ref=e2303]:
+                      - button [ref=e2304]:
+                        - generic [ref=e2305]: "28"
+                    - gridcell [ref=e2306]:
+                      - button [ref=e2307]:
+                        - generic [ref=e2308]: "29"
+                    - gridcell [ref=e2309]:
+                      - button [ref=e2310]:
+                        - generic [ref=e2311]: "30"
+              - rowgroup [ref=e2312]:
+                - generic [ref=e2313]: July
+                - generic [ref=e2314]:
+                  - generic [ref=e2315]: S
+                  - generic [ref=e2316]: M
+                  - generic [ref=e2317]: T
+                  - generic [ref=e2318]: W
+                  - generic [ref=e2319]: T
+                  - generic [ref=e2320]: F
+                  - generic [ref=e2321]: S
+                - generic [ref=e2322]:
+                  - row [ref=e2323]:
+                    - gridcell [ref=e2324]:
+                      - button [ref=e2325]:
+                        - generic [ref=e2326]: "1"
+                    - gridcell [ref=e2327]:
+                      - button [ref=e2328]:
+                        - generic [ref=e2329]: "2"
+                    - gridcell [ref=e2330]:
+                      - button [ref=e2331]:
+                        - generic [ref=e2332]: "3"
+                    - gridcell [ref=e2333]:
+                      - button [ref=e2334]:
+                        - generic [ref=e2335]: "4"
+                  - row [ref=e2336]:
+                    - gridcell [ref=e2337]:
+                      - button [ref=e2338]:
+                        - generic [ref=e2339]: "5"
+                    - gridcell [ref=e2340]:
+                      - button [ref=e2341]:
+                        - generic [ref=e2342]: "6"
+                    - gridcell [ref=e2343]:
+                      - button [ref=e2344]:
+                        - generic [ref=e2345]: "7"
+                    - gridcell [ref=e2346]:
+                      - button [ref=e2347]:
+                        - generic [ref=e2348]: "8"
+                    - gridcell [ref=e2349]:
+                      - button [ref=e2350]:
+                        - generic [ref=e2351]: "9"
+                    - gridcell [ref=e2352]:
+                      - button [ref=e2353]:
+                        - generic [ref=e2354]: "10"
+                    - gridcell [ref=e2355]:
+                      - button [ref=e2356]:
+                        - generic [ref=e2357]: "11"
+                  - row [ref=e2358]:
+                    - gridcell [ref=e2359]:
+                      - button [ref=e2360]:
+                        - generic [ref=e2361]: "12"
+                    - gridcell [ref=e2362]:
+                      - button [ref=e2363]:
+                        - generic [ref=e2364]: "13"
+                    - gridcell [ref=e2365]:
+                      - button [ref=e2366]:
+                        - generic [ref=e2367]: "14"
+                    - gridcell [ref=e2368]:
+                      - button [ref=e2369]:
+                        - generic [ref=e2370]: "15"
+                    - gridcell [ref=e2371]:
+                      - button [ref=e2372]:
+                        - generic [ref=e2373]: "16"
+                    - gridcell [ref=e2374]:
+                      - button [ref=e2375]:
+                        - generic [ref=e2376]: "17"
+                    - gridcell [ref=e2377]:
+                      - button [ref=e2378]:
+                        - generic [ref=e2379]: "18"
+                  - row [ref=e2380]:
+                    - gridcell [ref=e2381]:
+                      - button [ref=e2382]:
+                        - generic [ref=e2383]: "19"
+                    - gridcell [ref=e2384]:
+                      - button [ref=e2385]:
+                        - generic [ref=e2386]: "20"
+                    - gridcell [ref=e2387]:
+                      - button [ref=e2388]:
+                        - generic [ref=e2389]: "21"
+                    - gridcell [ref=e2390]:
+                      - button [ref=e2391]:
+                        - generic [ref=e2392]: "22"
+                    - gridcell [ref=e2393]:
+                      - button [ref=e2394]:
+                        - generic [ref=e2395]: "23"
+                    - gridcell [ref=e2396]:
+                      - button [ref=e2397]:
+                        - generic [ref=e2398]: "24"
+                    - gridcell [ref=e2399]:
+                      - button [ref=e2400]:
+                        - generic [ref=e2401]: "25"
+                  - row [ref=e2402]:
+                    - gridcell [ref=e2403]:
+                      - button [ref=e2404]:
+                        - generic [ref=e2405]: "26"
+                    - gridcell [ref=e2406]:
+                      - button [ref=e2407]:
+                        - generic [ref=e2408]: "27"
+                    - gridcell [ref=e2409]:
+                      - button [ref=e2410]:
+                        - generic [ref=e2411]: "28"
+                    - gridcell [ref=e2412]:
+                      - button [ref=e2413]:
+                        - generic [ref=e2414]: "29"
+                    - gridcell [ref=e2415]:
+                      - button [ref=e2416]:
+                        - generic [ref=e2417]: "30"
+                    - gridcell [ref=e2418]:
+                      - button [ref=e2419]:
+                        - generic [ref=e2420]: "31"
+              - rowgroup [ref=e2421]:
+                - generic [ref=e2422]: August
+                - generic [ref=e2423]:
+                  - generic [ref=e2424]: S
+                  - generic [ref=e2425]: M
+                  - generic [ref=e2426]: T
+                  - generic [ref=e2427]: W
+                  - generic [ref=e2428]: T
+                  - generic [ref=e2429]: F
+                  - generic [ref=e2430]: S
+                - generic [ref=e2431]:
+                  - row [ref=e2432]:
+                    - gridcell [ref=e2433]:
+                      - button [ref=e2434]:
+                        - generic [ref=e2435]: "1"
+                  - row [ref=e2436]:
+                    - gridcell [ref=e2437]:
+                      - button [ref=e2438]:
+                        - generic [ref=e2439]: "2"
+                    - gridcell [ref=e2440]:
+                      - button [ref=e2441]:
+                        - generic [ref=e2442]: "3"
+                    - gridcell [ref=e2443]:
+                      - button [ref=e2444]:
+                        - generic [ref=e2445]: "4"
+                    - gridcell [ref=e2446]:
+                      - button [ref=e2447]:
+                        - generic [ref=e2448]: "5"
+                    - gridcell [ref=e2449]:
+                      - button [ref=e2450]:
+                        - generic [ref=e2451]: "6"
+                    - gridcell [ref=e2452]:
+                      - button [ref=e2453]:
+                        - generic [ref=e2454]: "7"
+                    - gridcell [ref=e2455]:
+                      - button [ref=e2456]:
+                        - generic [ref=e2457]: "8"
+                  - row [ref=e2458]:
+                    - gridcell [ref=e2459]:
+                      - button [ref=e2460]:
+                        - generic [ref=e2461]: "9"
+                    - gridcell [ref=e2462]:
+                      - button [ref=e2463]:
+                        - generic [ref=e2464]: "10"
+                    - gridcell [ref=e2465]:
+                      - button [ref=e2466]:
+                        - generic [ref=e2467]: "11"
+                    - gridcell [ref=e2468]:
+                      - button [ref=e2469]:
+                        - generic [ref=e2470]: "12"
+                    - gridcell [ref=e2471]:
+                      - button [ref=e2472]:
+                        - generic [ref=e2473]: "13"
+                    - gridcell [ref=e2474]:
+                      - button [ref=e2475]:
+                        - generic [ref=e2476]: "14"
+                    - gridcell [ref=e2477]:
+                      - button [ref=e2478]:
+                        - generic [ref=e2479]: "15"
+                  - row [ref=e2480]:
+                    - gridcell [ref=e2481]:
+                      - button [ref=e2482]:
+                        - generic [ref=e2483]: "16"
+                    - gridcell [ref=e2484]:
+                      - button [ref=e2485]:
+                        - generic [ref=e2486]: "17"
+                    - gridcell [ref=e2487]:
+                      - button [ref=e2488]:
+                        - generic [ref=e2489]: "18"
+                    - gridcell [ref=e2490]:
+                      - button [ref=e2491]:
+                        - generic [ref=e2492]: "19"
+                    - gridcell [ref=e2493]:
+                      - button [ref=e2494]:
+                        - generic [ref=e2495]: "20"
+                    - gridcell [ref=e2496]:
+                      - button [ref=e2497]:
+                        - generic [ref=e2498]: "21"
+                    - gridcell [ref=e2499]:
+                      - button [ref=e2500]:
+                        - generic [ref=e2501]: "22"
+                  - row [ref=e2502]:
+                    - gridcell [ref=e2503]:
+                      - button [ref=e2504]:
+                        - generic [ref=e2505]: "23"
+                    - gridcell [ref=e2506]:
+                      - button [ref=e2507]:
+                        - generic [ref=e2508]: "24"
+                    - gridcell [ref=e2509]:
+                      - button [ref=e2510]:
+                        - generic [ref=e2511]: "25"
+                    - gridcell [ref=e2512]:
+                      - button [ref=e2513]:
+                        - generic [ref=e2514]: "26"
+                    - gridcell [ref=e2515]:
+                      - button [ref=e2516]:
+                        - generic [ref=e2517]: "27"
+                    - gridcell [ref=e2518]:
+                      - button [ref=e2519]:
+                        - generic [ref=e2520]: "28"
+                    - gridcell [ref=e2521]:
+                      - button [ref=e2522]:
+                        - generic [ref=e2523]: "29"
+                  - row [ref=e2524]:
+                    - gridcell [ref=e2525]:
+                      - button [ref=e2526]:
+                        - generic [ref=e2527]: "30"
+                    - gridcell [ref=e2528]:
+                      - button [ref=e2529]:
+                        - generic [ref=e2530]: "31"
+              - rowgroup [ref=e2531]:
+                - generic [ref=e2532]: September
+                - generic [ref=e2533]:
+                  - generic [ref=e2534]: S
+                  - generic [ref=e2535]: M
+                  - generic [ref=e2536]: T
+                  - generic [ref=e2537]: W
+                  - generic [ref=e2538]: T
+                  - generic [ref=e2539]: F
+                  - generic [ref=e2540]: S
+                - generic [ref=e2541]:
+                  - row [ref=e2542]:
+                    - gridcell [ref=e2543]:
+                      - button [ref=e2544]:
+                        - generic [ref=e2545]: "1"
+                    - gridcell [ref=e2546]:
+                      - button [ref=e2547]:
+                        - generic [ref=e2548]: "2"
+                    - gridcell [ref=e2549]:
+                      - button [ref=e2550]:
+                        - generic [ref=e2551]: "3"
+                    - gridcell [ref=e2552]:
+                      - button [ref=e2553]:
+                        - generic [ref=e2554]: "4"
+                    - gridcell [ref=e2555]:
+                      - button [ref=e2556]:
+                        - generic [ref=e2557]: "5"
+                  - row [ref=e2558]:
+                    - gridcell [ref=e2559]:
+                      - button [ref=e2560]:
+                        - generic [ref=e2561]: "6"
+                    - gridcell [ref=e2562]:
+                      - button [ref=e2563]:
+                        - generic [ref=e2564]: "7"
+                    - gridcell [ref=e2565]:
+                      - button [ref=e2566]:
+                        - generic [ref=e2567]: "8"
+                    - gridcell [ref=e2568]:
+                      - button [ref=e2569]:
+                        - generic [ref=e2570]: "9"
+                    - gridcell [ref=e2571]:
+                      - button [ref=e2572]:
+                        - generic [ref=e2573]: "10"
+                    - gridcell [ref=e2574]:
+                      - button [ref=e2575]:
+                        - generic [ref=e2576]: "11"
+                    - gridcell [ref=e2577]:
+                      - button [ref=e2578]:
+                        - generic [ref=e2579]: "12"
+                  - row [ref=e2580]:
+                    - gridcell [ref=e2581]:
+                      - button [ref=e2582]:
+                        - generic [ref=e2583]: "13"
+                    - gridcell [ref=e2584]:
+                      - button [ref=e2585]:
+                        - generic [ref=e2586]: "14"
+                    - gridcell [ref=e2587]:
+                      - button [ref=e2588]:
+                        - generic [ref=e2589]: "15"
+                    - gridcell [ref=e2590]:
+                      - button [ref=e2591]:
+                        - generic [ref=e2592]: "16"
+                    - gridcell [ref=e2593]:
+                      - button [ref=e2594]:
+                        - generic [ref=e2595]: "17"
+                    - gridcell [ref=e2596]:
+                      - button [ref=e2597]:
+                        - generic [ref=e2598]: "18"
+                    - gridcell [ref=e2599]:
+                      - button [ref=e2600]:
+                        - generic [ref=e2601]: "19"
+                  - row [ref=e2602]:
+                    - gridcell [ref=e2603]:
+                      - button [ref=e2604]:
+                        - generic [ref=e2605]: "20"
+                    - gridcell [ref=e2606]:
+                      - button [ref=e2607]:
+                        - generic [ref=e2608]: "21"
+                    - gridcell [ref=e2609]:
+                      - button [ref=e2610]:
+                        - generic [ref=e2611]: "22"
+                    - gridcell [ref=e2612]:
+                      - button [ref=e2613]:
+                        - generic [ref=e2614]: "23"
+                    - gridcell [ref=e2615]:
+                      - button [ref=e2616]:
+                        - generic [ref=e2617]: "24"
+                    - gridcell [ref=e2618]:
+                      - button [ref=e2619]:
+                        - generic [ref=e2620]: "25"
+                    - gridcell [ref=e2621]:
+                      - button [ref=e2622]:
+                        - generic [ref=e2623]: "26"
+                  - row [ref=e2624]:
+                    - gridcell [ref=e2625]:
+                      - button [ref=e2626]:
+                        - generic [ref=e2627]: "27"
+                    - gridcell [ref=e2628]:
+                      - button [ref=e2629]:
+                        - generic [ref=e2630]: "28"
+                    - gridcell [ref=e2631]:
+                      - button [ref=e2632]:
+                        - generic [ref=e2633]: "29"
+                    - gridcell [ref=e2634]:
+                      - button [ref=e2635]:
+                        - generic [ref=e2636]: "30"
+              - rowgroup [ref=e2637]:
+                - generic [ref=e2638]: October
+                - generic [ref=e2639]:
+                  - generic [ref=e2640]: S
+                  - generic [ref=e2641]: M
+                  - generic [ref=e2642]: T
+                  - generic [ref=e2643]: W
+                  - generic [ref=e2644]: T
+                  - generic [ref=e2645]: F
+                  - generic [ref=e2646]: S
+                - generic [ref=e2647]:
+                  - row [ref=e2648]:
+                    - gridcell [ref=e2649]:
+                      - button [ref=e2650]:
+                        - generic [ref=e2651]: "1"
+                    - gridcell [ref=e2652]:
+                      - button [ref=e2653]:
+                        - generic [ref=e2654]: "2"
+                    - gridcell [ref=e2655]:
+                      - button [ref=e2656]:
+                        - generic [ref=e2657]: "3"
+                  - row [ref=e2658]:
+                    - gridcell [ref=e2659]:
+                      - button [ref=e2660]:
+                        - generic [ref=e2661]: "4"
+                    - gridcell [ref=e2662]:
+                      - button [ref=e2663]:
+                        - generic [ref=e2664]: "5"
+                    - gridcell [ref=e2665]:
+                      - button [ref=e2666]:
+                        - generic [ref=e2667]: "6"
+                    - gridcell [ref=e2668]:
+                      - button [ref=e2669]:
+                        - generic [ref=e2670]: "7"
+                    - gridcell [ref=e2671]:
+                      - button [ref=e2672]:
+                        - generic [ref=e2673]: "8"
+                    - gridcell [ref=e2674]:
+                      - button [ref=e2675]:
+                        - generic [ref=e2676]: "9"
+                    - gridcell [ref=e2677]:
+                      - button [ref=e2678]:
+                        - generic [ref=e2679]: "10"
+                  - row [ref=e2680]:
+                    - gridcell [ref=e2681]:
+                      - button [ref=e2682]:
+                        - generic [ref=e2683]: "11"
+                    - gridcell [ref=e2684]:
+                      - button [ref=e2685]:
+                        - generic [ref=e2686]: "12"
+                    - gridcell [ref=e2687]:
+                      - button [ref=e2688]:
+                        - generic [ref=e2689]: "13"
+                    - gridcell [ref=e2690]:
+                      - button [ref=e2691]:
+                        - generic [ref=e2692]: "14"
+                    - gridcell [ref=e2693]:
+                      - button [ref=e2694]:
+                        - generic [ref=e2695]: "15"
+                    - gridcell [ref=e2696]:
+                      - button [ref=e2697]:
+                        - generic [ref=e2698]: "16"
+                    - gridcell [ref=e2699]:
+                      - button [ref=e2700]:
+                        - generic [ref=e2701]: "17"
+                  - row [ref=e2702]:
+                    - gridcell [ref=e2703]:
+                      - button [ref=e2704]:
+                        - generic [ref=e2705]: "18"
+                    - gridcell [ref=e2706]:
+                      - button [ref=e2707]:
+                        - generic [ref=e2708]: "19"
+                    - gridcell [ref=e2709]:
+                      - button [ref=e2710]:
+                        - generic [ref=e2711]: "20"
+                    - gridcell [ref=e2712]:
+                      - button [ref=e2713]:
+                        - generic [ref=e2714]: "21"
+                    - gridcell [ref=e2715]:
+                      - button [ref=e2716]:
+                        - generic [ref=e2717]: "22"
+                    - gridcell [ref=e2718]:
+                      - button [ref=e2719]:
+                        - generic [ref=e2720]: "23"
+                    - gridcell [ref=e2721]:
+                      - button [ref=e2722]:
+                        - generic [ref=e2723]: "24"
+                  - row [ref=e2724]:
+                    - gridcell [ref=e2725]:
+                      - button [ref=e2726]:
+                        - generic [ref=e2727]: "25"
+                    - gridcell [ref=e2728]:
+                      - button [ref=e2729]:
+                        - generic [ref=e2730]: "26"
+                    - gridcell [ref=e2731]:
+                      - button [ref=e2732]:
+                        - generic [ref=e2733]: "27"
+                    - gridcell [ref=e2734]:
+                      - button [ref=e2735]:
+                        - generic [ref=e2736]: "28"
+                    - gridcell [ref=e2737]:
+                      - button [ref=e2738]:
+                        - generic [ref=e2739]: "29"
+                    - gridcell [ref=e2740]:
+                      - button [ref=e2741]:
+                        - generic [ref=e2742]: "30"
+                    - gridcell [ref=e2743]:
+                      - button [ref=e2744]:
+                        - generic [ref=e2745]: "31"
+              - rowgroup [ref=e2746]:
+                - generic [ref=e2747]: November
+                - generic [ref=e2748]:
+                  - generic [ref=e2749]: S
+                  - generic [ref=e2750]: M
+                  - generic [ref=e2751]: T
+                  - generic [ref=e2752]: W
+                  - generic [ref=e2753]: T
+                  - generic [ref=e2754]: F
+                  - generic [ref=e2755]: S
+                - generic [ref=e2756]:
+                  - row [ref=e2757]:
+                    - gridcell [ref=e2758]:
+                      - button [ref=e2759]:
+                        - generic [ref=e2760]: "1"
+                    - gridcell [ref=e2761]:
+                      - button [ref=e2762]:
+                        - generic [ref=e2763]: "2"
+                    - gridcell [ref=e2764]:
+                      - button [ref=e2765]:
+                        - generic [ref=e2766]: "3"
+                    - gridcell [ref=e2767]:
+                      - button [ref=e2768]:
+                        - generic [ref=e2769]: "4"
+                    - gridcell [ref=e2770]:
+                      - button [ref=e2771]:
+                        - generic [ref=e2772]: "5"
+                    - gridcell [ref=e2773]:
+                      - button [ref=e2774]:
+                        - generic [ref=e2775]: "6"
+                    - gridcell [ref=e2776]:
+                      - button [ref=e2777]:
+                        - generic [ref=e2778]: "7"
+                  - row [ref=e2779]:
+                    - gridcell [ref=e2780]:
+                      - button [ref=e2781]:
+                        - generic [ref=e2782]: "8"
+                    - gridcell [ref=e2783]:
+                      - button [ref=e2784]:
+                        - generic [ref=e2785]: "9"
+                    - gridcell [ref=e2786]:
+                      - button [ref=e2787]:
+                        - generic [ref=e2788]: "10"
+                    - gridcell [ref=e2789]:
+                      - button [ref=e2790]:
+                        - generic [ref=e2791]: "11"
+                    - gridcell [ref=e2792]:
+                      - button [ref=e2793]:
+                        - generic [ref=e2794]: "12"
+                    - gridcell [ref=e2795]:
+                      - button [ref=e2796]:
+                        - generic [ref=e2797]: "13"
+                    - gridcell [ref=e2798]:
+                      - button [ref=e2799]:
+                        - generic [ref=e2800]: "14"
+                  - row [ref=e2801]:
+                    - gridcell [ref=e2802]:
+                      - button [ref=e2803]:
+                        - generic [ref=e2804]: "15"
+                    - gridcell [ref=e2805]:
+                      - button [ref=e2806]:
+                        - generic [ref=e2807]: "16"
+                    - gridcell [ref=e2808]:
+                      - button [ref=e2809]:
+                        - generic [ref=e2810]: "17"
+                    - gridcell [ref=e2811]:
+                      - button [ref=e2812]:
+                        - generic [ref=e2813]: "18"
+                    - gridcell [ref=e2814]:
+                      - button [ref=e2815]:
+                        - generic [ref=e2816]: "19"
+                    - gridcell [ref=e2817]:
+                      - button [ref=e2818]:
+                        - generic [ref=e2819]: "20"
+                    - gridcell [ref=e2820]:
+                      - button [ref=e2821]:
+                        - generic [ref=e2822]: "21"
+                  - row [ref=e2823]:
+                    - gridcell [ref=e2824]:
+                      - button [ref=e2825]:
+                        - generic [ref=e2826]: "22"
+                    - gridcell [ref=e2827]:
+                      - button [ref=e2828]:
+                        - generic [ref=e2829]: "23"
+                    - gridcell [ref=e2830]:
+                      - button [ref=e2831]:
+                        - generic [ref=e2832]: "24"
+                    - gridcell [ref=e2833]:
+                      - button [ref=e2834]:
+                        - generic [ref=e2835]: "25"
+                    - gridcell [ref=e2836]:
+                      - button [ref=e2837]:
+                        - generic [ref=e2838]: "26"
+                    - gridcell [ref=e2839]:
+                      - button [ref=e2840]:
+                        - generic [ref=e2841]: "27"
+                    - gridcell [ref=e2842]:
+                      - button [ref=e2843]:
+                        - generic [ref=e2844]: "28"
+                  - row [ref=e2845]:
+                    - gridcell [ref=e2846]:
+                      - button [ref=e2847]:
+                        - generic [ref=e2848]: "29"
+                    - gridcell [ref=e2849]:
+                      - button [ref=e2850]:
+                        - generic [ref=e2851]: "30"
+              - rowgroup [ref=e2852]:
+                - generic [ref=e2853]: December
+                - generic [ref=e2854]:
+                  - generic [ref=e2855]: S
+                  - generic [ref=e2856]: M
+                  - generic [ref=e2857]: T
+                  - generic [ref=e2858]: W
+                  - generic [ref=e2859]: T
+                  - generic [ref=e2860]: F
+                  - generic [ref=e2861]: S
+                - generic [ref=e2862]:
+                  - row [ref=e2863]:
+                    - gridcell [ref=e2864]:
+                      - button [ref=e2865]:
+                        - generic [ref=e2866]: "1"
+                    - gridcell [ref=e2867]:
+                      - button [ref=e2868]:
+                        - generic [ref=e2869]: "2"
+                    - gridcell [ref=e2870]:
+                      - button [ref=e2871]:
+                        - generic [ref=e2872]: "3"
+                    - gridcell [ref=e2873]:
+                      - button [ref=e2874]:
+                        - generic [ref=e2875]: "4"
+                    - gridcell [ref=e2876]:
+                      - button [ref=e2877]:
+                        - generic [ref=e2878]: "5"
+                  - row [ref=e2879]:
+                    - gridcell [ref=e2880]:
+                      - button [ref=e2881]:
+                        - generic [ref=e2882]: "6"
+                    - gridcell [ref=e2883]:
+                      - button [ref=e2884]:
+                        - generic [ref=e2885]: "7"
+                    - gridcell [ref=e2886]:
+                      - button [ref=e2887]:
+                        - generic [ref=e2888]: "8"
+                    - gridcell [ref=e2889]:
+                      - button [ref=e2890]:
+                        - generic [ref=e2891]: "9"
+                    - gridcell [ref=e2892]:
+                      - button [ref=e2893]:
+                        - generic [ref=e2894]: "10"
+                    - gridcell [ref=e2895]:
+                      - button [ref=e2896]:
+                        - generic [ref=e2897]: "11"
+                    - gridcell [ref=e2898]:
+                      - button [ref=e2899]:
+                        - generic [ref=e2900]: "12"
+                  - row [ref=e2901]:
+                    - gridcell [ref=e2902]:
+                      - button [ref=e2903]:
+                        - generic [ref=e2904]: "13"
+                    - gridcell [ref=e2905]:
+                      - button [ref=e2906]:
+                        - generic [ref=e2907]: "14"
+                    - gridcell [ref=e2908]:
+                      - button [ref=e2909]:
+                        - generic [ref=e2910]: "15"
+                    - gridcell [ref=e2911]:
+                      - button [ref=e2912]:
+                        - generic [ref=e2913]: "16"
+                    - gridcell [ref=e2914]:
+                      - button [ref=e2915]:
+                        - generic [ref=e2916]: "17"
+                    - gridcell [ref=e2917]:
+                      - button [ref=e2918]:
+                        - generic [ref=e2919]: "18"
+                    - gridcell [ref=e2920]:
+                      - button [ref=e2921]:
+                        - generic [ref=e2922]: "19"
+                  - row [ref=e2923]:
+                    - gridcell [ref=e2924]:
+                      - button [ref=e2925]:
+                        - generic [ref=e2926]: "20"
+                    - gridcell [ref=e2927]:
+                      - button [ref=e2928]:
+                        - generic [ref=e2929]: "21"
+                    - gridcell [ref=e2930]:
+                      - button [ref=e2931]:
+                        - generic [ref=e2932]: "22"
+                    - gridcell [ref=e2933]:
+                      - button [ref=e2934]:
+                        - generic [ref=e2935]: "23"
+                    - gridcell [ref=e2936]:
+                      - button [ref=e2937]:
+                        - generic [ref=e2938]: "24"
+                    - gridcell [ref=e2939]:
+                      - button [ref=e2940]:
+                        - generic [ref=e2941]: "25"
+                    - gridcell [ref=e2942]:
+                      - button [ref=e2943]:
+                        - generic [ref=e2944]: "26"
+                  - row [ref=e2945]:
+                    - gridcell [ref=e2946]:
+                      - button [ref=e2947]:
+                        - generic [ref=e2948]: "27"
+                    - gridcell [ref=e2949]:
+                      - button [ref=e2950]:
+                        - generic [ref=e2951]: "28"
+                    - gridcell [ref=e2952]:
+                      - button [ref=e2953]:
+                        - generic [ref=e2954]: "29"
+                    - gridcell [ref=e2955]:
+                      - button [ref=e2956]:
+                        - generic [ref=e2957]: "30"
+                    - gridcell [ref=e2958]:
+                      - button [ref=e2959]:
+                        - generic [ref=e2960]: "31"
+              - rowgroup [ref=e2961]:
+                - generic [ref=e2962]: January 2027
+                - generic [ref=e2963]:
+                  - generic [ref=e2964]: S
+                  - generic [ref=e2965]: M
+                  - generic [ref=e2966]: T
+                  - generic [ref=e2967]: W
+                  - generic [ref=e2968]: T
+                  - generic [ref=e2969]: F
+                  - generic [ref=e2970]: S
+                - generic [ref=e2971]:
+                  - row [ref=e2972]:
+                    - gridcell [ref=e2973]:
+                      - button [ref=e2974]:
+                        - generic [ref=e2975]: "1"
+                    - gridcell [ref=e2976]:
+                      - button [ref=e2977]:
+                        - generic [ref=e2978]: "2"
+                  - row [ref=e2979]:
+                    - gridcell [ref=e2980]:
+                      - button [ref=e2981]:
+                        - generic [ref=e2982]: "3"
+                    - gridcell [ref=e2983]:
+                      - button [ref=e2984]:
+                        - generic [ref=e2985]: "4"
+                    - gridcell [ref=e2986]:
+                      - button [ref=e2987]:
+                        - generic [ref=e2988]: "5"
+                    - gridcell [ref=e2989]:
+                      - button [ref=e2990]:
+                        - generic [ref=e2991]: "6"
+                    - gridcell [ref=e2992]:
+                      - button [ref=e2993]:
+                        - generic [ref=e2994]: "7"
+                    - gridcell [ref=e2995]:
+                      - button [ref=e2996]:
+                        - generic [ref=e2997]: "8"
+                    - gridcell [ref=e2998]:
+                      - button [ref=e2999]:
+                        - generic [ref=e3000]: "9"
+                  - row [ref=e3001]:
+                    - gridcell [ref=e3002]:
+                      - button [ref=e3003]:
+                        - generic [ref=e3004]: "10"
+                    - gridcell [ref=e3005]:
+                      - button [ref=e3006]:
+                        - generic [ref=e3007]: "11"
+                    - gridcell [ref=e3008]:
+                      - button [ref=e3009]:
+                        - generic [ref=e3010]: "12"
+                    - gridcell [ref=e3011]:
+                      - button [ref=e3012]:
+                        - generic [ref=e3013]: "13"
+                    - gridcell [ref=e3014]:
+                      - button [ref=e3015]:
+                        - generic [ref=e3016]: "14"
+                    - gridcell [ref=e3017]:
+                      - button [ref=e3018]:
+                        - generic [ref=e3019]: "15"
+                    - gridcell [ref=e3020]:
+                      - button [ref=e3021]:
+                        - generic [ref=e3022]: "16"
+                  - row [ref=e3023]:
+                    - gridcell [ref=e3024]:
+                      - button [ref=e3025]:
+                        - generic [ref=e3026]: "17"
+                    - gridcell [ref=e3027]:
+                      - button [ref=e3028]:
+                        - generic [ref=e3029]: "18"
+                    - gridcell [ref=e3030]:
+                      - button [ref=e3031]:
+                        - generic [ref=e3032]: "19"
+                    - gridcell [ref=e3033]:
+                      - button [ref=e3034]:
+                        - generic [ref=e3035]: "20"
+                    - gridcell [ref=e3036]:
+                      - button [ref=e3037]:
+                        - generic [ref=e3038]: "21"
+                    - gridcell [ref=e3039]:
+                      - button [ref=e3040]:
+                        - generic [ref=e3041]: "22"
+                    - gridcell [ref=e3042]:
+                      - button [ref=e3043]:
+                        - generic [ref=e3044]: "23"
+                  - row [ref=e3045]:
+                    - gridcell [ref=e3046]:
+                      - button [ref=e3047]:
+                        - generic [ref=e3048]: "24"
+                    - gridcell [ref=e3049]:
+                      - button [ref=e3050]:
+                        - generic [ref=e3051]: "25"
+                    - gridcell [ref=e3052]:
+                      - button [ref=e3053]:
+                        - generic [ref=e3054]: "26"
+                    - gridcell [ref=e3055]:
+                      - button [ref=e3056]:
+                        - generic [ref=e3057]: "27"
+                    - gridcell [ref=e3058]:
+                      - button [ref=e3059]:
+                        - generic [ref=e3060]: "28"
+                    - gridcell [ref=e3061]:
+                      - button [ref=e3062]:
+                        - generic [ref=e3063]: "29"
+                    - gridcell [ref=e3064]:
+                      - button [ref=e3065]:
+                        - generic [ref=e3066]: "30"
+                  - row [ref=e3067]:
+                    - gridcell [ref=e3068]:
+                      - button [ref=e3069]:
+                        - generic [ref=e3070]: "31"
+              - rowgroup [ref=e3071]:
+                - generic [ref=e3072]: February 2027
+                - generic [ref=e3073]:
+                  - generic [ref=e3074]: S
+                  - generic [ref=e3075]: M
+                  - generic [ref=e3076]: T
+                  - generic [ref=e3077]: W
+                  - generic [ref=e3078]: T
+                  - generic [ref=e3079]: F
+                  - generic [ref=e3080]: S
+                - generic [ref=e3081]:
+                  - row [ref=e3082]:
+                    - gridcell [ref=e3083]:
+                      - button [ref=e3084]:
+                        - generic [ref=e3085]: "1"
+                    - gridcell [ref=e3086]:
+                      - button [ref=e3087]:
+                        - generic [ref=e3088]: "2"
+                    - gridcell [ref=e3089]:
+                      - button [ref=e3090]:
+                        - generic [ref=e3091]: "3"
+                    - gridcell [ref=e3092]:
+                      - button [ref=e3093]:
+                        - generic [ref=e3094]: "4"
+                    - gridcell [ref=e3095]:
+                      - button [ref=e3096]:
+                        - generic [ref=e3097]: "5"
+                    - gridcell [ref=e3098]:
+                      - button [ref=e3099]:
+                        - generic [ref=e3100]: "6"
+                  - row [ref=e3101]:
+                    - gridcell [ref=e3102]:
+                      - button [ref=e3103]:
+                        - generic [ref=e3104]: "7"
+                    - gridcell [ref=e3105]:
+                      - button [ref=e3106]:
+                        - generic [ref=e3107]: "8"
+                    - gridcell [ref=e3108]:
+                      - button [ref=e3109]:
+                        - generic [ref=e3110]: "9"
+                    - gridcell [ref=e3111]:
+                      - button [ref=e3112]:
+                        - generic [ref=e3113]: "10"
+                    - gridcell [ref=e3114]:
+                      - button [ref=e3115]:
+                        - generic [ref=e3116]: "11"
+                    - gridcell [ref=e3117]:
+                      - button [ref=e3118]:
+                        - generic [ref=e3119]: "12"
+                    - gridcell [ref=e3120]:
+                      - button [ref=e3121]:
+                        - generic [ref=e3122]: "13"
+                  - row [ref=e3123]:
+                    - gridcell [ref=e3124]:
+                      - button [ref=e3125]:
+                        - generic [ref=e3126]: "14"
+                    - gridcell [ref=e3127]:
+                      - button [ref=e3128]:
+                        - generic [ref=e3129]: "15"
+                    - gridcell [ref=e3130]:
+                      - button [ref=e3131]:
+                        - generic [ref=e3132]: "16"
+                    - gridcell [ref=e3133]:
+                      - button [ref=e3134]:
+                        - generic [ref=e3135]: "17"
+                    - gridcell [ref=e3136]:
+                      - button [ref=e3137]:
+                        - generic [ref=e3138]: "18"
+                    - gridcell [ref=e3139]:
+                      - button [ref=e3140]:
+                        - generic [ref=e3141]: "19"
+                    - gridcell [ref=e3142]:
+                      - button [ref=e3143]:
+                        - generic [ref=e3144]: "20"
+                  - row [ref=e3145]:
+                    - gridcell [ref=e3146]:
+                      - button [ref=e3147]:
+                        - generic [ref=e3148]: "21"
+                    - gridcell [ref=e3149]:
+                      - button [ref=e3150]:
+                        - generic [ref=e3151]: "22"
+                    - gridcell [ref=e3152]:
+                      - button [ref=e3153]:
+                        - generic [ref=e3154]: "23"
+                    - gridcell [ref=e3155]:
+                      - button [ref=e3156]:
+                        - generic [ref=e3157]: "24"
+                    - gridcell [ref=e3158]:
+                      - button [ref=e3159]:
+                        - generic [ref=e3160]: "25"
+                    - gridcell [ref=e3161]:
+                      - button [ref=e3162]:
+                        - generic [ref=e3163]: "26"
+                    - gridcell [ref=e3164]:
+                      - button [ref=e3165]:
+                        - generic [ref=e3166]: "27"
+                  - row [ref=e3167]:
+                    - gridcell [ref=e3168]:
+                      - button [ref=e3169]:
+                        - generic [ref=e3170]: "28"
+              - rowgroup [ref=e3171]:
+                - generic [ref=e3172]: March 2027
+                - generic [ref=e3173]:
+                  - generic [ref=e3174]: S
+                  - generic [ref=e3175]: M
+                  - generic [ref=e3176]: T
+                  - generic [ref=e3177]: W
+                  - generic [ref=e3178]: T
+                  - generic [ref=e3179]: F
+                  - generic [ref=e3180]: S
+                - generic [ref=e3181]:
+                  - row [ref=e3182]:
+                    - gridcell [ref=e3183]:
+                      - button [ref=e3184]:
+                        - generic [ref=e3185]: "1"
+                    - gridcell [ref=e3186]:
+                      - button [ref=e3187]:
+                        - generic [ref=e3188]: "2"
+                    - gridcell [ref=e3189]:
+                      - button [ref=e3190]:
+                        - generic [ref=e3191]: "3"
+                    - gridcell [ref=e3192]:
+                      - button [ref=e3193]:
+                        - generic [ref=e3194]: "4"
+                    - gridcell [ref=e3195]:
+                      - button [ref=e3196]:
+                        - generic [ref=e3197]: "5"
+                    - gridcell [ref=e3198]:
+                      - button [ref=e3199]:
+                        - generic [ref=e3200]: "6"
+                  - row [ref=e3201]:
+                    - gridcell [ref=e3202]:
+                      - button [ref=e3203]:
+                        - generic [ref=e3204]: "7"
+                    - gridcell [ref=e3205]:
+                      - button [ref=e3206]:
+                        - generic [ref=e3207]: "8"
+                    - gridcell [ref=e3208]:
+                      - button [ref=e3209]:
+                        - generic [ref=e3210]: "9"
+                    - gridcell [ref=e3211]:
+                      - button [ref=e3212]:
+                        - generic [ref=e3213]: "10"
+                    - gridcell [ref=e3214]:
+                      - button [ref=e3215]:
+                        - generic [ref=e3216]: "11"
+                    - gridcell [ref=e3217]:
+                      - button [ref=e3218]:
+                        - generic [ref=e3219]: "12"
+                    - gridcell [ref=e3220]:
+                      - button [ref=e3221]:
+                        - generic [ref=e3222]: "13"
+                  - row [ref=e3223]:
+                    - gridcell [ref=e3224]:
+                      - button [ref=e3225]:
+                        - generic [ref=e3226]: "14"
+                    - gridcell [ref=e3227]:
+                      - button [ref=e3228]:
+                        - generic [ref=e3229]: "15"
+                    - gridcell [ref=e3230]:
+                      - button [ref=e3231]:
+                        - generic [ref=e3232]: "16"
+                    - gridcell [ref=e3233]:
+                      - button [ref=e3234]:
+                        - generic [ref=e3235]: "17"
+                    - gridcell [ref=e3236]:
+                      - button [ref=e3237]:
+                        - generic [ref=e3238]: "18"
+                    - gridcell [ref=e3239]:
+                      - button [ref=e3240]:
+                        - generic [ref=e3241]: "19"
+                    - gridcell [ref=e3242]:
+                      - button [ref=e3243]:
+                        - generic [ref=e3244]: "20"
+                  - row [ref=e3245]:
+                    - gridcell [ref=e3246]:
+                      - button [ref=e3247]:
+                        - generic [ref=e3248]: "21"
+                    - gridcell [ref=e3249]:
+                      - button [ref=e3250]:
+                        - generic [ref=e3251]: "22"
+                    - gridcell [ref=e3252]:
+                      - button [ref=e3253]:
+                        - generic [ref=e3254]: "23"
+                    - gridcell [ref=e3255]:
+                      - button [ref=e3256]:
+                        - generic [ref=e3257]: "24"
+                    - gridcell [ref=e3258]:
+                      - button [ref=e3259]:
+                        - generic [ref=e3260]: "25"
+                    - gridcell [ref=e3261]:
+                      - button [ref=e3262]:
+                        - generic [ref=e3263]: "26"
+                    - gridcell [ref=e3264]:
+                      - button [ref=e3265]:
+                        - generic [ref=e3266]: "27"
+                  - row [ref=e3267]:
+                    - gridcell [ref=e3268]:
+                      - button [ref=e3269]:
+                        - generic [ref=e3270]: "28"
+                    - gridcell [ref=e3271]:
+                      - button [ref=e3272]:
+                        - generic [ref=e3273]: "29"
+                    - gridcell [ref=e3274]:
+                      - button [ref=e3275]:
+                        - generic [ref=e3276]: "30"
+                    - gridcell [ref=e3277]:
+                      - button [ref=e3278]:
+                        - generic [ref=e3279]: "31"
+              - rowgroup [ref=e3280]:
+                - generic [ref=e3281]: April 2027
+                - generic [ref=e3282]:
+                  - generic [ref=e3283]: S
+                  - generic [ref=e3284]: M
+                  - generic [ref=e3285]: T
+                  - generic [ref=e3286]: W
+                  - generic [ref=e3287]: T
+                  - generic [ref=e3288]: F
+                  - generic [ref=e3289]: S
+                - generic [ref=e3290]:
+                  - row [ref=e3291]:
+                    - gridcell [ref=e3292]:
+                      - button [ref=e3293]:
+                        - generic [ref=e3294]: "1"
+                    - gridcell [ref=e3295]:
+                      - button [ref=e3296]:
+                        - generic [ref=e3297]: "2"
+                    - gridcell [ref=e3298]:
+                      - button [ref=e3299]:
+                        - generic [ref=e3300]: "3"
+                  - row [ref=e3301]:
+                    - gridcell [ref=e3302]:
+                      - button [ref=e3303]:
+                        - generic [ref=e3304]: "4"
+                    - gridcell [ref=e3305]:
+                      - button [ref=e3306]:
+                        - generic [ref=e3307]: "5"
+                    - gridcell [ref=e3308]:
+                      - button [ref=e3309]:
+                        - generic [ref=e3310]: "6"
+                    - gridcell [ref=e3311]:
+                      - button [ref=e3312]:
+                        - generic [ref=e3313]: "7"
+                    - gridcell [ref=e3314]:
+                      - button [ref=e3315]:
+                        - generic [ref=e3316]: "8"
+                    - gridcell [ref=e3317]:
+                      - button [ref=e3318]:
+                        - generic [ref=e3319]: "9"
+                    - gridcell [ref=e3320]:
+                      - button [ref=e3321]:
+                        - generic [ref=e3322]: "10"
+                  - row [ref=e3323]:
+                    - gridcell [ref=e3324]:
+                      - button [ref=e3325]:
+                        - generic [ref=e3326]: "11"
+                    - gridcell [ref=e3327]:
+                      - button [ref=e3328]:
+                        - generic [ref=e3329]: "12"
+                    - gridcell [ref=e3330]:
+                      - button [ref=e3331]:
+                        - generic [ref=e3332]: "13"
+                    - gridcell [ref=e3333]:
+                      - button [ref=e3334]:
+                        - generic [ref=e3335]: "14"
+                    - gridcell [ref=e3336]:
+                      - button [ref=e3337]:
+                        - generic [ref=e3338]: "15"
+                    - gridcell [ref=e3339]:
+                      - button [ref=e3340]:
+                        - generic [ref=e3341]: "16"
+                    - gridcell [ref=e3342]:
+                      - button [ref=e3343]:
+                        - generic [ref=e3344]: "17"
+                  - row [ref=e3345]:
+                    - gridcell [ref=e3346]:
+                      - button [ref=e3347]:
+                        - generic [ref=e3348]: "18"
+                    - gridcell [ref=e3349]:
+                      - button [ref=e3350]:
+                        - generic [ref=e3351]: "19"
+                    - gridcell [ref=e3352]:
+                      - button [ref=e3353]:
+                        - generic [ref=e3354]: "20"
+                    - gridcell [ref=e3355]:
+                      - button [ref=e3356]:
+                        - generic [ref=e3357]: "21"
+                    - gridcell [ref=e3358]:
+                      - button [ref=e3359]:
+                        - generic [ref=e3360]: "22"
+                    - gridcell [ref=e3361]:
+                      - button [ref=e3362]:
+                        - generic [ref=e3363]: "23"
+                    - gridcell [ref=e3364]:
+                      - button [ref=e3365]:
+                        - generic [ref=e3366]: "24"
+                  - row [ref=e3367]:
+                    - gridcell [ref=e3368]:
+                      - button [ref=e3369]:
+                        - generic [ref=e3370]: "25"
+                    - gridcell [ref=e3371]:
+                      - button [ref=e3372]:
+                        - generic [ref=e3373]: "26"
+                    - gridcell [ref=e3374]:
+                      - button [ref=e3375]:
+                        - generic [ref=e3376]: "27"
+                    - gridcell [ref=e3377]:
+                      - button [ref=e3378]:
+                        - generic [ref=e3379]: "28"
+                    - gridcell [ref=e3380]:
+                      - button [ref=e3381]:
+                        - generic [ref=e3382]: "29"
+                    - gridcell [ref=e3383]:
+                      - button [ref=e3384]:
+                        - generic [ref=e3385]: "30"
+              - rowgroup [ref=e3386]:
+                - generic [ref=e3387]: May 2027
+                - generic [ref=e3388]:
+                  - generic [ref=e3389]: S
+                  - generic [ref=e3390]: M
+                  - generic [ref=e3391]: T
+                  - generic [ref=e3392]: W
+                  - generic [ref=e3393]: T
+                  - generic [ref=e3394]: F
+                  - generic [ref=e3395]: S
+                - generic [ref=e3396]:
+                  - row [ref=e3397]:
+                    - gridcell [ref=e3398]:
+                      - button [ref=e3399]:
+                        - generic [ref=e3400]: "1"
+                  - row [ref=e3401]:
+                    - gridcell [ref=e3402]:
+                      - button [ref=e3403]:
+                        - generic [ref=e3404]: "2"
+                    - gridcell [ref=e3405]:
+                      - button [ref=e3406]:
+                        - generic [ref=e3407]: "3"
+                    - gridcell [ref=e3408]:
+                      - button [ref=e3409]:
+                        - generic [ref=e3410]: "4"
+                    - gridcell [ref=e3411]:
+                      - button [ref=e3412]:
+                        - generic [ref=e3413]: "5"
+                    - gridcell [ref=e3414]:
+                      - button [ref=e3415]:
+                        - generic [ref=e3416]: "6"
+                    - gridcell [ref=e3417]:
+                      - button [ref=e3418]:
+                        - generic [ref=e3419]: "7"
+                    - gridcell [ref=e3420]:
+                      - button [ref=e3421]:
+                        - generic [ref=e3422]: "8"
+                  - row [ref=e3423]:
+                    - gridcell [ref=e3424]:
+                      - button [ref=e3425]:
+                        - generic [ref=e3426]: "9"
+                    - gridcell [ref=e3427]:
+                      - button [ref=e3428]:
+                        - generic [ref=e3429]: "10"
+                    - gridcell [ref=e3430]:
+                      - button [ref=e3431]:
+                        - generic [ref=e3432]: "11"
+                    - gridcell [ref=e3433]:
+                      - button [ref=e3434]:
+                        - generic [ref=e3435]: "12"
+                    - gridcell [ref=e3436]:
+                      - button [ref=e3437]:
+                        - generic [ref=e3438]: "13"
+                    - gridcell [ref=e3439]:
+                      - button [ref=e3440]:
+                        - generic [ref=e3441]: "14"
+                    - gridcell [ref=e3442]:
+                      - button [ref=e3443]:
+                        - generic [ref=e3444]: "15"
+                  - row [ref=e3445]:
+                    - gridcell [ref=e3446]:
+                      - button [ref=e3447]:
+                        - generic [ref=e3448]: "16"
+                    - gridcell [ref=e3449]:
+                      - button [ref=e3450]:
+                        - generic [ref=e3451]: "17"
+                    - gridcell [ref=e3452]:
+                      - button [ref=e3453]:
+                        - generic [ref=e3454]: "18"
+                    - gridcell [ref=e3455]:
+                      - button [ref=e3456]:
+                        - generic [ref=e3457]: "19"
+                    - gridcell [ref=e3458]:
+                      - button [ref=e3459]:
+                        - generic [ref=e3460]: "20"
+                    - gridcell [ref=e3461]:
+                      - button [ref=e3462]:
+                        - generic [ref=e3463]: "21"
+                    - gridcell [ref=e3464]:
+                      - button [ref=e3465]:
+                        - generic [ref=e3466]: "22"
+                  - row [ref=e3467]:
+                    - gridcell [ref=e3468]:
+                      - button [ref=e3469]:
+                        - generic [ref=e3470]: "23"
+                    - gridcell [ref=e3471]:
+                      - button [ref=e3472]:
+                        - generic [ref=e3473]: "24"
+                    - gridcell [ref=e3474]:
+                      - button [ref=e3475]:
+                        - generic [ref=e3476]: "25"
+                    - gridcell [ref=e3477]:
+                      - button [ref=e3478]:
+                        - generic [ref=e3479]: "26"
+                    - gridcell [ref=e3480]:
+                      - button [ref=e3481]:
+                        - generic [ref=e3482]: "27"
+                    - gridcell [ref=e3483]:
+                      - button [ref=e3484]:
+                        - generic [ref=e3485]: "28"
+                    - gridcell [ref=e3486]:
+                      - button [ref=e3487]:
+                        - generic [ref=e3488]: "29"
+                  - row [ref=e3489]:
+                    - gridcell [ref=e3490]:
+                      - button [ref=e3491]:
+                        - generic [ref=e3492]: "30"
+                    - gridcell [ref=e3493]:
+                      - button [ref=e3494]:
+                        - generic [ref=e3495]: "31"
+            - generic [ref=e3497]:
+              - button [ref=e3498]:
+                - generic [ref=e3501]: Reset
+              - button [ref=e3502]:
+                - generic [ref=e3505]: Done
+        - button [ref=e3507] [cursor=pointer]:
+          - img [ref=e164]
+          - generic [ref=e166]: "2"
+          - img [ref=e167]
+      - generic [ref=e172]:
+        - button [ref=e3508]:
+          - img [ref=e178]
+          - generic [ref=e180]: All filters
+        - generic [ref=e183]:
+          - button [ref=e3509]:
+            - img [ref=e189]
+            - generic [ref=e200]: Under ₱2,500
+          - button [ref=e3510]:
+            - img [ref=e206]
+            - generic [ref=e211]: Pool
+          - button [ref=e3511]:
+            - img [ref=e217]
+            - generic [ref=e221]: Spa
+          - button [ref=e3512]:
+            - img [ref=e227]
+            - generic [ref=e231]: 4+ rating
+          - button [ref=e3513]:
+            - img [ref=e237]
+            - generic [ref=e242]: 4- or 5-star
+          - button [ref=e3514]:
+            - img [ref=e248]
+            - generic [ref=e258]:
+              - generic [ref=e259]: Price
+              - img [ref=e260]
+          - button [ref=e3515]:
+            - img [ref=e1012]
+            - generic [ref=e1021]:
+              - generic [ref=e1022]: Property type
+              - img [ref=e1023]
+          - button [ref=e3516]:
+            - img [ref=e267]
+            - generic [ref=e271]:
+              - generic [ref=e272]: Offers
+              - img [ref=e273]
+          - button [ref=e3517]:
+            - img [ref=e280]
+            - generic [ref=e283]:
+              - generic [ref=e284]: Guest rating
+              - img [ref=e285]
+          - button [ref=e3518]:
+            - img [ref=e292]
+            - generic [ref=e296]:
+              - generic [ref=e297]: Hotel class
+              - img [ref=e298]
+          - button [ref=e3519]:
+            - img [ref=e305]
+            - generic [ref=e308]:
+              - generic [ref=e309]: Amenities
+              - img [ref=e310]
+          - button [ref=e3520]:
+            - img [ref=e317]
+            - generic [ref=e320]:
+              - generic [ref=e321]: Brands
+              - img [ref=e322]
+          - button [ref=e3521]:
+            - img [ref=e329]
+            - generic [ref=e334]: Eco-certified
+          - button [ref=e3522]:
+            - img [ref=e340]
+            - generic [ref=e343]:
+              - generic [ref=e344]: Sort by
+              - img [ref=e345]
+    - generic [ref=e348]:
+      - main [ref=e349]:
+        - tabpanel [ref=e1026]:
+          - generic [ref=e1027]:
+            - heading [level=1] [ref=e3523]:
+              - generic [ref=e1030]: Davao City · 3,423 results
+              - button [ref=e3524]:
+                - img
+            - generic [ref=e1039]:
+              - link [ref=e3525] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAQQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Balcony View Studio Mesatierra Garden Residences
+                        - link [ref=e3526] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAYQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1046]: ₱1,525
+                      - link [ref=e3527] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAgQyocGahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQhvdmVydmlldw
+                        - generic [ref=e1051]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Balcony View Studio Mesatierra Garden Residences: Apartment, Sleeps 3, 1 bedroom, 1 bathroom, 2 sq m, Balcony, Elevator, Fitness center, Kitchen,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 3
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 2 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Balcony
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Elevator
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                      - link [ref=e3528] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CAwQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1053]:
+                          - generic [ref=e1055]: View details
+                  - generic [ref=e1056]:
+                    - generic [ref=e1057] [cursor=pointer]:
+                      - link [ref=e3529]:
+                        - /url: /travel/search?qs=CAEyKENob1FyNy1Ydk96ZjNKV21BUm9OTDJjdk1URjVkSEE0TlhkeVpCQUM4AEgA&hl=en&ved=0CA0QyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3530]:
+                        - listitem [ref=e1062]:
+                          - img [ref=e3531]
+                        - listitem [ref=e1064]:
+                          - img [ref=e3532]
+                        - listitem [ref=e1066]
+                        - listitem [ref=e1067]
+                        - listitem [ref=e1068]
+                        - listitem [ref=e1069]
+                    - button [ref=e3533]:
+                      - img
+                    - button [ref=e3534]:
+                      - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1081]:
+              - link [ref=e3535] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CBwQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Crown Regency Residences Davao
+                        - link [ref=e3536] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CB4QrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1087]:
+                            - generic [ref=e1088]: GREAT DEAL
+                            - generic [ref=e1091]: ₱950
+                      - link [ref=e3537] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CCEQwIsFahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1099]:
+                          - generic [ref=e1100]:
+                            - generic [ref=e1101]: "3.5"
+                            - img [ref=e1102]
+                            - generic [ref=e1104]: (339)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Crown Regency Residences Davao, a 3-star hotel.: Breakfast ($), Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Restaurant, Room service, Kitchen in some rooms,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast ($)
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen in some rooms
+                      - link [ref=e3538] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CCQQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1106]:
+                          - generic [ref=e1108]: View prices
+                  - generic [ref=e1109]:
+                    - generic [ref=e1110] [cursor=pointer]:
+                      - link [ref=e3539]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lyYktWa2FxR3NPdVRBUm9NTDJjdk1USnhaalZxZVdoNkVBRTgASAA&hl=en&ved=0CCUQyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3540]:
+                        - listitem [ref=e1115]:
+                          - img [ref=e3541]
+                        - listitem [ref=e1117]:
+                          - img [ref=e3542]
+                        - listitem [ref=e1119]
+                        - listitem [ref=e1120]
+                        - listitem [ref=e1121]
+                        - listitem [ref=e1122]
+                    - button [ref=e3543]:
+                      - img
+                    - button [ref=e3544]:
+                      - img
+                    - generic [ref=e1135]: GREAT DEAL
+            - generic [ref=e1137]:
+              - link [ref=e3545] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CDcQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Sotogrande Davao Hotel
+                        - link [ref=e3546] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CDkQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1144]: ₱2,616
+                      - link [ref=e3547] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CDsQwIsFahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1152]:
+                          - generic [ref=e1153]:
+                            - generic [ref=e1154]: "4.0"
+                            - img [ref=e1155]
+                            - generic [ref=e1157]: (335)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Sotogrande Davao Hotel: Breakfast, Wi-Fi, Free parking, Pool, Air conditioning, Fitness center, Bar, Restaurant, Room service,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                      - link [ref=e3548] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CD4QssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1159]:
+                          - generic [ref=e1161]: View prices
+                  - generic [ref=e1162]:
+                    - generic [ref=e1163] [cursor=pointer]:
+                      - link [ref=e3549]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l6YjM5MXJEZnJxSTFHZzB2Wnk4eE1XSmljbWRpTVhCd0VBRTgASAA&hl=en&ved=0CD8QyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3550]:
+                        - listitem [ref=e1168]:
+                          - img [ref=e3551]
+                        - listitem [ref=e1170]:
+                          - img [ref=e3552]
+                        - listitem [ref=e1172]
+                        - listitem [ref=e1173]
+                        - listitem [ref=e1174]
+                        - listitem [ref=e1175]
+                    - button [ref=e3553]:
+                      - img
+                    - button [ref=e3554]:
+                      - img
+            - generic [ref=e1187]:
+              - link [ref=e3555] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CE8QyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Madayaw Residences- Condo
+                        - link [ref=e3556] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CFEQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1194]: ₱1,256
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Madayaw Residences- Condo: Apartment, Sleeps 4, 1 bedroom, 1 bathroom, 3 sq m, Kitchen, Microwave, Washer, Free parking,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 4
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 3 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Microwave
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Washer
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                      - link [ref=e3557] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CFUQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1196]:
+                          - generic [ref=e1198]: View details
+                  - generic [ref=e1199]:
+                    - generic [ref=e1200] [cursor=pointer]:
+                      - link [ref=e3558]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FfNU9GNC1feXI4aF9HZzB2Wnk4eE1YbHpkMnQyT1hFMkVBSTgASAA&hl=en&ved=0CFYQyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3559]:
+                        - listitem [ref=e1205]:
+                          - img [ref=e3560]
+                        - listitem [ref=e1207]:
+                          - img [ref=e3561]
+                        - listitem [ref=e1209]
+                        - listitem [ref=e1210]
+                        - listitem [ref=e1211]
+                        - listitem [ref=e1212]
+                    - button [ref=e3562]:
+                      - img
+                    - button [ref=e3563]:
+                      - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1224]:
+              - link [ref=e3564] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGUQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Acacia Hotel Davao
+                        - link [ref=e3565] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGcQrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1231]: ₱3,929
+                      - link [ref=e3566] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGkQwIsFahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1239]:
+                          - generic [ref=e1240]:
+                            - generic [ref=e1241]: "4.4"
+                            - img [ref=e1242]
+                            - generic [ref=e1244]: (1.1K)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Acacia Hotel Davao: Breakfast, Wi-Fi, Free parking, Pool, Air conditioning, Bar, Restaurant, Room service, Airport shuttle,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                      - link [ref=e3567] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CGwQssMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1246]:
+                          - generic [ref=e1248]: View prices
+                  - generic [ref=e1249]:
+                    - generic [ref=e1250] [cursor=pointer]:
+                      - link [ref=e3568]:
+                        - /url: /travel/search?qs=CAEyKENob0kwNEQ0ajgyWDlJckNBUm9OTDJjdk1URmtlVzUzZVdzeWFCQUI4AEgA&hl=en&ved=0CG0QyfcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3569]:
+                        - listitem [ref=e1255]:
+                          - img [ref=e3570]
+                        - listitem [ref=e1257]:
+                          - img [ref=e3571]
+                        - listitem [ref=e1259]
+                        - listitem [ref=e1260]
+                        - listitem [ref=e1261]
+                        - listitem [ref=e1262]
+                    - button [ref=e3572]:
+                      - img
+                    - button [ref=e3573]:
+                      - img
+            - generic [ref=e1274]:
+              - link [ref=e3574] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CHwQyvcEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Davao City Condo in Madayaw Residences
+                        - link [ref=e3575] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CH4QrsMEahcKEwigpZCDpsKUAxUAAAAAHQAAAAAQHA&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1281]: ₱1,048
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Davao City Condo in Madayaw Residences: Apartment, Sleeps 4, 1 bedroom, 1 bathroom, 3 beds, 36 sq m, Air conditioning, Kitchen, Microwave,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 4
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 3 beds
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 36 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Microwave
+                      - link [ref=e3576] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CIIBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1283]:
+                          - generic [ref=e1285]: View details
+                  - generic [ref=e1286]:
+                    - generic [ref=e1287] [cursor=pointer]:
+                      - link [ref=e3577]:
+                        - /url: /travel/search?qs=CAEyKENob1E5dHV0clkzWF92N3NBUm9OTDJjdk1URjZhM2R0Tm5ObmFoQUM4AEgA&hl=en&ved=0CIMBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3578]:
+                        - listitem [ref=e1292]:
+                          - img [ref=e3579]
+                        - listitem [ref=e1294]:
+                          - img [ref=e3580]
+                        - listitem [ref=e1296]
+                        - listitem [ref=e1297]
+                        - listitem [ref=e1298]
+                        - listitem [ref=e1299]
+                    - button [ref=e3581]:
+                      - img
+                    - button [ref=e3582]:
+                      - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1311]:
+              - link [ref=e3583] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJIBEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Luxebridge Suites Davao
+                        - link [ref=e3584] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJQBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1318]: ₱1,887
+                      - link [ref=e3585] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJYBEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1326]:
+                          - generic [ref=e1327]:
+                            - generic [ref=e1328]: "4.1"
+                            - img [ref=e1329]
+                            - generic [ref=e1331]: (119)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Luxebridge Suites Davao: Wi-Fi, Free parking, Air conditioning, Restaurant,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link [ref=e3586] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJkBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1333]:
+                          - generic [ref=e1335]: View prices
+                  - generic [ref=e1336]:
+                    - generic [ref=e1337] [cursor=pointer]:
+                      - link [ref=e3587]:
+                        - /url: /travel/search?qs=CAEyKENob0lfNEw1b3Y3SmtxS3dBUm9OTDJjdk1URnVlSFpxTWpFNGJSQUI4AEgA&hl=en&ved=0CJoBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3588]:
+                        - listitem [ref=e1342]:
+                          - img [ref=e3589]
+                        - listitem [ref=e1344]:
+                          - img [ref=e3590]
+                        - listitem [ref=e1346]
+                        - listitem [ref=e1347]
+                        - listitem [ref=e1348]
+                        - listitem [ref=e1349]
+                    - button [ref=e3591]:
+                      - img
+                    - button [ref=e3592]:
+                      - img
+            - generic [ref=e1361]:
+              - link [ref=e3593] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CKkBEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: The Ritz Hotel at Garden Oases
+                        - link [ref=e3594] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CKsBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1368]: ₱2,235
+                      - link [ref=e3595] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CK0BEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1376]:
+                          - generic [ref=e1377]:
+                            - generic [ref=e1378]: "4.0"
+                            - img [ref=e1379]
+                            - generic [ref=e1381]: (963)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for The Ritz Hotel at Garden Oases, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Bar, Restaurant, Room service,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                      - link [ref=e3596] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CLABELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1383]:
+                          - generic [ref=e1385]: View prices
+                  - generic [ref=e1386]:
+                    - generic [ref=e1387] [cursor=pointer]:
+                      - link [ref=e3597]:
+                        - /url: /travel/search?qs=CAEyJkNoZ0lqdHI2MzZmcS1ZUEJBUm9MTDJjdk1YUm1ibkZxYTJvUUFROABIAA&hl=en&ved=0CLEBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3598]:
+                        - listitem [ref=e1392]:
+                          - img [ref=e3599]
+                        - listitem [ref=e1394]:
+                          - img [ref=e3600]
+                        - listitem [ref=e1396]
+                        - listitem [ref=e1397]
+                        - listitem [ref=e1398]
+                        - listitem [ref=e1399]
+                    - button [ref=e3601]:
+                      - img
+                    - button [ref=e3602]:
+                      - img
+            - generic [ref=e1411]:
+              - link [ref=e3603] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMABEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Fully furnished condo
+                        - link [ref=e3604] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMIBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1418]: ₱1,234
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Fully furnished condo: Apartment, Sleeps 3, 1 bedroom, 1 bathroom, 1 bed, 25 sq m, Air conditioning, Kitchen, No crib,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 3
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bed
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 25 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: No crib
+                      - link [ref=e3605] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMYBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1420]:
+                          - generic [ref=e1422]: View details
+                  - generic [ref=e1423]:
+                    - generic [ref=e1424] [cursor=pointer]:
+                      - link [ref=e3606]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1Eydlg3dk1iVXlLQVlHZzB2Wnk4eE1XNW9kemRyZVdwMEVBSTgASAA&hl=en&ved=0CMcBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3607]:
+                        - listitem [ref=e1429]:
+                          - img [ref=e3608]
+                        - listitem [ref=e1431]:
+                          - img [ref=e3609]
+                        - listitem [ref=e1433]
+                        - listitem [ref=e1434]
+                        - listitem [ref=e1435]
+                        - listitem [ref=e1436]
+                    - button [ref=e3610]:
+                      - img
+                    - button [ref=e3611]:
+                      - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1448]:
+              - link [ref=e3612] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CNYBEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: La Couronne de Davao - Inspiria Condo
+                        - link [ref=e3613] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CNgBEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1455]: ₱2,660
+                      - link [ref=e3614] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CNoBEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1463]:
+                          - generic [ref=e1464]:
+                            - generic [ref=e1465]: "5.0"
+                            - img [ref=e1466]
+                            - generic [ref=e1468]: (1)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for La Couronne de Davao - Inspiria Condo: Free Wi-Fi, Parking, Pool, Air conditioning, Fitness center, Kitchen in rooms, Smoke-free property,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen in rooms
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Smoke-free property
+                      - link [ref=e3615] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CN0BELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1470]:
+                          - generic [ref=e1472]: View prices
+                  - generic [ref=e1473]:
+                    - generic [ref=e1474] [cursor=pointer]:
+                      - link [ref=e3616]:
+                        - /url: /travel/search?qs=CAEyKENob0l6WldjNTVUTTlkZkRBUm9OTDJjdk1URjJjVGg0Y0dKM2NoQUI4AEgA&hl=en&ved=0CN4BEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3617]:
+                        - listitem [ref=e1479]:
+                          - img [ref=e3618]
+                        - listitem [ref=e1481]:
+                          - img [ref=e3619]
+                        - listitem [ref=e1483]
+                        - listitem [ref=e1484]
+                        - listitem [ref=e1485]
+                        - listitem [ref=e1486]
+                    - button [ref=e3620]:
+                      - img
+                    - button [ref=e3621]:
+                      - img
+            - generic [ref=e1498]:
+              - link [ref=e3622] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CO0BEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Jade Dragons Suites Davao, Davao City
+                        - link [ref=e3623] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CO8BEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1504]:
+                            - generic [ref=e1505]: GREAT DEAL
+                            - generic [ref=e1508]: ₱825
+                      - link [ref=e3624] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CPIBEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1516]:
+                          - generic [ref=e1517]:
+                            - generic [ref=e1518]: "3.9"
+                            - img [ref=e1519]
+                            - generic [ref=e1521]: (58)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Jade Dragons Suites Davao, Davao City: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Airport shuttle,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                      - link [ref=e3625] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CPUBELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1523]:
+                          - generic [ref=e1525]: View prices
+                  - generic [ref=e1526]:
+                    - generic [ref=e1527] [cursor=pointer]:
+                      - link [ref=e3626]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lpSlA1enEyOWxQaXZBUm9NTDJjdk1USnhaMmRvTjNrM0VBRTgASAA&hl=en&ved=0CPYBEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3627]:
+                        - listitem [ref=e1532]:
+                          - img [ref=e3628]
+                        - listitem [ref=e1534]:
+                          - img [ref=e3629]
+                        - listitem [ref=e1536]
+                        - listitem [ref=e1537]
+                        - listitem [ref=e1538]
+                        - listitem [ref=e1539]
+                    - button [ref=e3630]:
+                      - img
+                    - button [ref=e3631]:
+                      - img
+                    - generic [ref=e1552]: GREAT DEAL
+            - generic [ref=e1554]:
+              - link [ref=e3632] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CIgCEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: The Royal Mandaya Hotel
+                        - link [ref=e3633] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CIoCEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1561]: ₱3,074
+                      - generic:
+                        - generic:
+                          - link [ref=e3634] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CIwCEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                            - img [ref=e1569]:
+                              - generic [ref=e1570]:
+                                - generic [ref=e1571]: "4.3"
+                                - img [ref=e1572]
+                                - generic [ref=e1574]: (1.2K)
+                          - generic: ·
+                          - link [ref=e3635] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CI4CEMqHBmoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQhvdmVydmlldw
+                            - generic [ref=e1579]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for The Royal Mandaya Hotel, a 3-star hotel.: Free breakfast, Free Wi-Fi, Free parking, Pool, Air conditioning, Spa, Bar, Restaurant,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Spa
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link [ref=e3636] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CJECELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1581]:
+                          - generic [ref=e1583]: View prices
+                  - generic [ref=e1584]:
+                    - generic [ref=e1585] [cursor=pointer]:
+                      - link [ref=e3637]:
+                        - /url: /travel/search?qs=CAEyKENob0loUDJnbm9feXV0dWxBUm9OTDJjdk1URmpjM0U0Tm5oNGNSQUI4AEgA&hl=en&ved=0CJICEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3638]:
+                        - listitem [ref=e1590]:
+                          - img [ref=e3639]
+                        - listitem [ref=e1592]:
+                          - img [ref=e3640]
+                        - listitem [ref=e1594]
+                        - listitem [ref=e1595]
+                        - listitem [ref=e1596]
+                        - listitem [ref=e1597]
+                    - button [ref=e3641]:
+                      - img
+                    - button [ref=e3642]:
+                      - img
+            - generic [ref=e1609]:
+              - link [ref=e3643] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKECEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: RedDoorz near G Mall Bajada Davao
+                        - link [ref=e3644] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKMCEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1615]:
+                            - generic [ref=e1616]: GREAT DEAL
+                            - generic [ref=e1619]: ₱817
+                      - link [ref=e3645] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKYCEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1627]:
+                          - generic [ref=e1628]:
+                            - generic [ref=e1629]: "3.8"
+                            - img [ref=e1630]
+                            - generic [ref=e1632]: (146)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for RedDoorz near G Mall Bajada Davao: Free Wi-Fi, Free parking, Air conditioning, Kid-friendly,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link [ref=e3646] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKkCELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1634]:
+                          - generic [ref=e1636]: View prices
+                  - generic [ref=e1637]:
+                    - generic [ref=e1638] [cursor=pointer]:
+                      - link [ref=e3647]:
+                        - /url: /travel/search?qs=CAEyKENob0lpdmV3MS1iUHVfQzhBUm9OTDJjdk1URm9ORFl4TVRCeGVoQUI4AEgA&hl=en&ved=0CKoCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3648]:
+                        - listitem [ref=e1643]:
+                          - img [ref=e3649]
+                        - listitem [ref=e1645]:
+                          - img [ref=e3650]
+                        - listitem [ref=e1647]
+                        - listitem [ref=e1648]
+                        - listitem [ref=e1649]
+                        - listitem [ref=e1650]
+                    - button [ref=e3651]:
+                      - img
+                    - button [ref=e3652]:
+                      - img
+                    - generic [ref=e1663]: GREAT DEAL
+            - generic [ref=e1665]:
+              - link [ref=e3653] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CLwCEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Avida Towers Davao city by darpm
+                        - link [ref=e3654] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CL4CEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1672]: ₱2,782
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - img:
+                                - generic:
+                                  - generic: "4.1"
+                                  - img
+                                  - generic: (48)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Avida Towers Davao city by darpm: Apartment, Sleeps 3, 1 bedroom, 1 bathroom, 2 beds, 2 sq m, Elevator, Ironing board, Kitchen,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Apartment
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Sleeps 3
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bedroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 1 bathroom
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 2 beds
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: 2 sq m
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Elevator
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Ironing board
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kitchen
+                      - link [ref=e3655] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CMICELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                        - button [ref=e1674]:
+                          - generic [ref=e1676]: View details
+                  - generic [ref=e1677]:
+                    - generic [ref=e1678] [cursor=pointer]:
+                      - link [ref=e3656]:
+                        - /url: /travel/search?qs=CAEyJ0Noa1FuOHFqdnFLUTJNZHZHZzB2Wnk4eE1YbHVNWE00YW1aNUVBSTgASAA&hl=en&ved=0CMMCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3657]:
+                        - listitem [ref=e1683]:
+                          - img [ref=e3658]
+                        - listitem [ref=e1685]:
+                          - img [ref=e3659]
+                        - listitem [ref=e1687]
+                        - listitem [ref=e1688]
+                        - listitem [ref=e1689]
+                        - listitem [ref=e1690]
+                    - button [ref=e3660]:
+                      - img
+                    - button [ref=e3661]:
+                      - img
+                    - generic:
+                      - generic: VACATION RENTAL
+            - generic [ref=e1702]:
+              - link [ref=e3662] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNICEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: The Madeline Boutique Hotel and Suites
+                        - link [ref=e3663] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNQCEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1708]:
+                            - generic [ref=e1709]: DEAL
+                            - generic [ref=e1712]: ₱2,351
+                      - link [ref=e3664] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNcCEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1720]:
+                          - generic [ref=e1721]:
+                            - generic [ref=e1722]: "4.2"
+                            - img [ref=e1723]
+                            - generic [ref=e1725]: (172)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for The Madeline Boutique Hotel and Suites: Breakfast, Wi-Fi, Free parking, Air conditioning, Bar, Restaurant, Room service, Airport shuttle, Full-service laundry,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                      - link [ref=e3665] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNoCELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1727]:
+                          - generic [ref=e1729]: View prices
+                  - generic [ref=e1730]:
+                    - generic [ref=e1731] [cursor=pointer]:
+                      - link [ref=e3666]:
+                        - /url: /travel/search?qs=CAEyKENob0l0SlhTMm9XLXE1WFhBUm9OTDJjdk1URm5NSFJ1WWpod014QUI4AEgA&hl=en&ved=0CNsCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3667]:
+                        - listitem [ref=e1736]:
+                          - img [ref=e3668]
+                        - listitem [ref=e1738]:
+                          - img [ref=e3669]
+                        - listitem [ref=e1740]
+                        - listitem [ref=e1741]
+                        - listitem [ref=e1742]
+                        - listitem [ref=e1743]
+                    - button [ref=e3670]:
+                      - img
+                    - button [ref=e3671]:
+                      - img
+                    - generic [ref=e1756]: DEAL
+            - generic [ref=e1758]:
+              - link [ref=e3672] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CO0CEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Snooze Inn and Suites
+                        - link [ref=e3673] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CO8CEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1765]: ₱3,174
+                      - link [ref=e3674] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CPECEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1773]:
+                          - generic [ref=e1774]:
+                            - generic [ref=e1775]: "4.2"
+                            - img [ref=e1776]
+                            - generic [ref=e1778]: (22)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Snooze Inn and Suites: Wi-Fi, Restaurant,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link [ref=e3675] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CPQCELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1780]:
+                          - generic [ref=e1782]: View prices
+                  - generic [ref=e1783]:
+                    - generic [ref=e1784] [cursor=pointer]:
+                      - link [ref=e3676]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0lxYWVlNU5XMF9MbFdHZzB2Wnk4eE1XaDZPV2MwYW1ZeEVBRTgASAA&hl=en&ved=0CPUCEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3677]:
+                        - listitem [ref=e1789]:
+                          - img [ref=e3678]
+                        - listitem [ref=e1791]:
+                          - img [ref=e3679]
+                        - listitem [ref=e1793]
+                        - listitem [ref=e1794]
+                        - listitem [ref=e1795]
+                        - listitem [ref=e1796]
+                    - button [ref=e3680]:
+                      - img
+                    - button [ref=e3681]:
+                      - img
+            - generic [ref=e1808]:
+              - link [ref=e3682] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIQDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Blue Lotus Hotel
+                        - link [ref=e3683] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIYDEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1815]: ₱3,655
+                      - link [ref=e3684] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIgDEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1823]:
+                          - generic [ref=e1824]:
+                            - generic [ref=e1825]: "4.4"
+                            - img [ref=e1826]
+                            - generic [ref=e1828]: (530)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Blue Lotus Hotel: Breakfast, Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Fitness center, Restaurant, Room service, Accessible,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Accessible
+                      - link [ref=e3685] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIsDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1830]:
+                          - generic [ref=e1832]: View prices
+                  - generic [ref=e1833]:
+                    - generic [ref=e1834] [cursor=pointer]:
+                      - link [ref=e3686]:
+                        - /url: /travel/search?qs=CAEyKENob0lvOEQ3c2ViVmdkVFhBUm9OTDJjdk1URm5OR0p0TUdkdGVCQUI4AEgA&hl=en&ved=0CIwDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3687]:
+                        - listitem [ref=e1839]:
+                          - img [ref=e3688]
+                        - listitem [ref=e1841]:
+                          - img [ref=e3689]
+                        - listitem [ref=e1843]
+                        - listitem [ref=e1844]
+                        - listitem [ref=e1845]
+                        - listitem [ref=e1846]
+                    - button [ref=e3690]:
+                      - img
+                    - button [ref=e3691]:
+                      - img
+            - generic [ref=e1858]:
+              - link [ref=e3692] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CJsDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Seda Abreeza
+                        - link [ref=e3693] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CJ0DEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1865]: ₱6,020
+                      - generic:
+                        - generic:
+                          - link [ref=e3694] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CJ8DEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                            - img [ref=e1873]:
+                              - generic [ref=e1874]:
+                                - generic [ref=e1875]: "4.4"
+                                - img [ref=e1876]
+                                - generic [ref=e1878]: (1.4K)
+                          - generic: ·
+                          - link [ref=e3695] [cursor=pointer]:
+                            - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CKEDEMqHBmoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQhvdmVydmlldw
+                            - generic [ref=e1883]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Seda Abreeza, a 4-star hotel.: Breakfast, Free Wi-Fi, Free parking, Pool, Air conditioning, Fitness center, Bar, Restaurant,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 4-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link [ref=e3696] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CKQDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1885]:
+                          - generic [ref=e1887]: View prices
+                  - generic [ref=e1888]:
+                    - generic [ref=e1889] [cursor=pointer]:
+                      - link [ref=e3697]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0l0c2JoMWVqM2ctbmZBUm9NTDJjdk1USm9iR280YkhOeUVBRTgASAA&hl=en&ved=0CKUDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3698]:
+                        - listitem [ref=e1894]:
+                          - img [ref=e3699]
+                        - listitem [ref=e1896]:
+                          - img [ref=e3700]
+                        - listitem [ref=e1898]
+                        - listitem [ref=e1899]
+                        - listitem [ref=e1900]
+                        - listitem [ref=e1901]
+                    - button [ref=e3701]:
+                      - img
+                    - button [ref=e3702]:
+                      - img
+            - generic [ref=e1913]:
+              - link [ref=e3703] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLQDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Domicilio Lorenzo
+                        - link [ref=e3704] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLYDEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1920]: ₱2,073
+                      - link [ref=e3705] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLgDEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1928]:
+                          - generic [ref=e1929]:
+                            - generic [ref=e1930]: "4.4"
+                            - img [ref=e1931]
+                            - generic [ref=e1933]: (309)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Domicilio Lorenzo, a 3-star hotel.: Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Breakfast, Business center, Kid-friendly,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Business center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link [ref=e3706] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLsDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1935]:
+                          - generic [ref=e1937]: View prices
+                  - generic [ref=e1938]:
+                    - generic [ref=e1939] [cursor=pointer]:
+                      - link [ref=e3707]:
+                        - /url: /travel/search?qs=CAEyJ0Noa0kxZmZYekxDU183VENBUm9NTDJjdk1URjRPWFExT1Y5bUVBRTgASAA&hl=en&ved=0CLwDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3708]:
+                        - listitem [ref=e1944]:
+                          - img [ref=e3709]
+                        - listitem [ref=e1946]:
+                          - img [ref=e3710]
+                        - listitem [ref=e1948]
+                        - listitem [ref=e1949]
+                        - listitem [ref=e1950]
+                        - listitem [ref=e1951]
+                    - button [ref=e3711]:
+                      - img
+                    - button [ref=e3712]:
+                      - img
+            - generic [ref=e1963]:
+              - link [ref=e3713] [cursor=pointer]:
+                - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CMsDEMr3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: One Oasis Davao
+                        - link [ref=e3714] [cursor=pointer]:
+                          - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CM0DEK7DBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                          - generic [ref=e1969]:
+                            - generic [ref=e1970]: GREAT DEAL
+                            - generic [ref=e1973]: ₱2,016
+                      - link [ref=e3715] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CNADEMCLBWoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQdyZXZpZXdz
+                        - img [ref=e1981]:
+                          - generic [ref=e1982]:
+                            - generic [ref=e1983]: "4.1"
+                            - img [ref=e1984]
+                            - generic [ref=e1986]: (610)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for One Oasis Davao: Free Wi-Fi, Free parking, Outdoor pool, Air conditioning, Fitness center, Airport shuttle, Full-service laundry, Kid-friendly,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Outdoor pool
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Fitness center
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link [ref=e3716] [cursor=pointer]:
+                        - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CNMDELLDBGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAG6AQZwcmljZXM
+                        - button [ref=e1988]:
+                          - generic [ref=e1990]: View prices
+                  - generic [ref=e1991]:
+                    - generic [ref=e1992] [cursor=pointer]:
+                      - link [ref=e3717]:
+                        - /url: /travel/search?qs=CAEyJENoY0luNHUycGN5dDBQUVFHZ3N2Wnk4eGRIZ3hjWEkwZWhBQjgASAA&hl=en&ved=0CNQDEMn3BGoXChMIoKWQg6bClAMVAAAAAB0AAAAAEBw&ts=CAESCgoCCAMKAggDEAAaLgoQEgw6CkRhdmFvIENpdHkaABIaEhQKBwjqDxAFGBgSBwjqDxAFGBkYATICCAEqCQoFOgNQSFAaAA&ap=MAE
+                      - list [ref=e3718]:
+                        - listitem [ref=e1997]:
+                          - img [ref=e3719]
+                        - listitem [ref=e1999]:
+                          - img [ref=e3720]
+                        - listitem [ref=e2001]
+                        - listitem [ref=e2002]
+                        - listitem [ref=e2003]
+                        - listitem [ref=e2004]
+                    - button [ref=e3721]:
+                      - img
+                    - button [ref=e3722]:
+                      - img
+                    - generic [ref=e2017]: GREAT DEAL
+            - generic [ref=e2018]:
+              - button [ref=e3723]:
+                - generic [ref=e2023]: Next
+                - img [ref=e2024]
+              - generic [ref=e2026]: Showing results 1 - 20 of 3,423
+      - contentinfo [ref=e983]:
+        - button [ref=e3724]:
+          - generic [ref=e988]: Currency·PHP
+          - img [ref=e989]
+        - generic [ref=e991]:
+          - generic [ref=e992]: Buhangin, Davao City, Philippines - From your Internet address
+          - link [ref=e3725] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+            - text: Learn more
+        - generic [ref=e995]:
+          - link [ref=e3726] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link [ref=e3727] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+            - text: Privacy
+          - link [ref=e3728] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+            - text: Terms
+          - link [ref=e3729] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXTX379748&Q_Language=en-US
+            - text: Join user studies
+          - link [ref=e3730] [cursor=pointer]:
+            - /url: ./#0
+            - text: Feedback
+          - link [ref=e3731] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+            - text: Help Center
+        - paragraph [ref=e1003]:
+          - text: Displayed currencies may differ from the currencies used to book properties.
+          - link [ref=e3732] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+            - text: Learn more
+  - generic [ref=e1005]: Page loaded.

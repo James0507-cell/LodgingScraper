@@ -1,0 +1,964 @@
+- generic [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button [ref=e965] [cursor=pointer]:
+          - img [ref=e7]
+        - link [ref=e966] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e15]:
+        - button [ref=e967]
+        - button [ref=e968]
+        - navigation [ref=e23]:
+          - link [ref=e969]:
+            - img [ref=e29]
+          - link [ref=e970]:
+            - img [ref=e38]
+          - link [ref=e971]:
+            - img [ref=e46]
+          - link [ref=e972]:
+            - img [ref=e54]
+          - link [ref=e973]:
+            - img [ref=e65]
+      - generic [ref=e74]:
+        - button [ref=e974] [cursor=pointer]:
+          - img [ref=e79]
+        - link [ref=e975] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fqs%3DOAA%26hl%3Den-US%26ved%3D0CAAQ5JsGahcKEwi48avEpsKUAxUAAAAAHQAAAAAQBQ%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fqs%3DOAA%26hl%3Den-US%26ved%3D0CAAQ5JsGahcKEwi48avEpsKUAxUAAAAAHQAAAAAQBQ%26utm_source%3Dsign_in_ogb&hl=en-US&ec=GAZAlQM
+          - text: Sign in
+  - generic [ref=e89]:
+    - form "Filters" [ref=e95]:
+      - generic [ref=e96]:
+        - generic [ref=e101]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - combobox [ref=e976]: near Buhangin, Davao City
+            - button [ref=e977] [cursor=pointer]:
+              - img [ref=e112]
+          - dialog "Search for places, hotels and more" [ref=e978]:
+            - generic [ref=e980]:
+              - img [ref=e982]
+              - combobox "Search for places, hotels and more" [expanded] [active] [ref=e985]:
+                - text: near Buhangin, Davao City
+                - generic [ref=e986]:
+                  - separator [ref=e987]
+                  - listbox [ref=e988]:
+                    - option "hotel near buhangin davao city" [ref=e989]:
+                      - img [ref=e991]
+                      - generic [ref=e998]: hotel near buhangin davao city
+                    - option "inn near buhangin davao city" [ref=e999]:
+                      - img [ref=e1001]
+                      - generic [ref=e1008]: inn near buhangin davao city
+                    - option "lodge near buhangin davao city" [ref=e1009]:
+                      - img [ref=e1011]
+                      - generic [ref=e1018]: lodge near buhangin davao city
+                    - option "resort near buhangin davao city" [ref=e1019]:
+                      - img [ref=e1021]
+                      - generic [ref=e1028]: resort near buhangin davao city
+                    - option "d morvie near buhangin davao city" [ref=e1029]:
+                      - img [ref=e1031]
+                      - generic [ref=e1038]: d morvie near buhangin davao city
+                    - option "lodging house near buhangin davao city" [ref=e1039]:
+                      - img [ref=e1041]
+                      - generic [ref=e1048]: lodging house near buhangin davao city
+                    - option "cheap inn near buhangin davao city" [ref=e1049]:
+                      - img [ref=e1051]
+                      - generic [ref=e1058]: cheap inn near buhangin davao city
+                    - option "cheap hotels near buhangin davao city" [ref=e1059]:
+                      - img [ref=e1061]
+                      - generic [ref=e1068]: cheap hotels near buhangin davao city
+                    - option "beach resort near buhangin davao city" [ref=e1069]:
+                      - img [ref=e1071]
+                      - generic [ref=e1078]: beach resort near buhangin davao city
+                    - option "travellers inn near buhangin davao city" [ref=e1079]:
+                      - img [ref=e1081]
+                      - generic [ref=e1088]: travellers inn near buhangin davao city
+              - button "Clear" [ref=e1090] [cursor=pointer]:
+                - img [ref=e1091]
+        - generic [ref=e117] [cursor=pointer]:
+          - generic [ref=e119]:
+            - img [ref=e121]
+            - textbox [ref=e1093]:
+              - /placeholder: Check-in
+              - text: Sat, May 23
+            - button [ref=e127]:
+              - img [ref=e130]
+            - button [ref=e134]:
+              - img [ref=e137]
+          - generic [ref=e141]:
+            - textbox [ref=e1094]:
+              - /placeholder: Check-out
+              - text: Sun, May 24
+            - button [ref=e145]:
+              - img [ref=e148]
+            - button [ref=e152]:
+              - img [ref=e155]
+        - button [ref=e1095] [cursor=pointer]:
+          - img [ref=e164]
+          - generic [ref=e166]: "2"
+          - img [ref=e167]
+      - generic [ref=e172]:
+        - button [ref=e1096]:
+          - img [ref=e178]
+          - generic [ref=e180]: All filters
+        - generic [ref=e183]:
+          - button [ref=e1097]:
+            - img [ref=e189]
+            - generic [ref=e200]: Under ₱1,000
+          - button [ref=e1098]:
+            - img [ref=e206]
+            - generic [ref=e211]: Pool
+          - button [ref=e1099]:
+            - img [ref=e217]
+            - generic [ref=e221]: Spa
+          - button [ref=e1100]:
+            - img [ref=e227]
+            - generic [ref=e231]: 4+ rating
+          - button [ref=e1101]:
+            - img [ref=e237]
+            - generic [ref=e242]: 4- or 5-star
+          - button [ref=e1102]:
+            - img [ref=e248]
+            - generic [ref=e258]:
+              - generic [ref=e259]: Price
+              - img [ref=e260]
+          - button [ref=e1103]:
+            - img [ref=e267]
+            - generic [ref=e271]:
+              - generic [ref=e272]: Offers
+              - img [ref=e273]
+          - button [ref=e1104]:
+            - img [ref=e280]
+            - generic [ref=e283]:
+              - generic [ref=e284]: Guest rating
+              - img [ref=e285]
+          - button [ref=e1105]:
+            - img [ref=e292]
+            - generic [ref=e296]:
+              - generic [ref=e297]: Hotel class
+              - img [ref=e298]
+          - button [ref=e1106]:
+            - img [ref=e305]
+            - generic [ref=e308]:
+              - generic [ref=e309]: Amenities
+              - img [ref=e310]
+          - button [ref=e1107]:
+            - img [ref=e317]
+            - generic [ref=e320]:
+              - generic [ref=e321]: Brands
+              - img [ref=e322]
+          - button [ref=e1108]:
+            - img [ref=e329]
+            - generic [ref=e334]: Eco-certified
+          - button [ref=e1109]:
+            - img [ref=e340]
+            - generic [ref=e343]:
+              - generic [ref=e344]: Sort by
+              - img [ref=e345]
+    - generic [ref=e348]:
+      - main [ref=e349]:
+        - tabpanel [ref=e351]:
+          - generic [ref=e352]:
+            - generic [ref=e355]:
+              - heading [level=1] [ref=e1110]: Suggested destinations
+              - generic [ref=e357]: Based on your location
+              - generic [ref=e360]:
+                - link [ref=e1111] [cursor=pointer]:
+                  - generic [ref=e363]: City of Mati
+                - link [ref=e1112] [cursor=pointer]:
+                  - generic [ref=e366]: Baganga
+            - heading [level=1] [ref=e1113]:
+              - generic [ref=e369]: near Buhangin, Davao City · 357 results
+              - button [ref=e1114]:
+                - img
+            - generic [ref=e378]:
+              - link [ref=e1115] [cursor=pointer]:
+                - /url: /travel/search?qs=MidDaGtJNjZXTzJmYmI2Nng5R2cwdlp5OHhNV2d3ZERSb2VqYzRFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegQIAxAh&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Napsule Suites
+                        - link [ref=e1116] [cursor=pointer]:
+                          - /url: /travel/search?qs=MidDaGtJNjZXTzJmYmI2Nng5R2cwdlp5OHhNV2d3ZERSb2VqYzRFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQrsMEegQIAxAj&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                          - generic [ref=e385]: ₱1,285
+                      - link [ref=e1117] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJNjZXTzJmYmI2Nng5R2cwdlp5OHhNV2d3ZERSb2VqYzRFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegQIAxAl&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e393]:
+                          - generic [ref=e394]:
+                            - generic [ref=e395]: "4.0"
+                            - img [ref=e396]
+                            - generic [ref=e398]: (189)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Napsule Suites, a 2-star hotel.: Free Wi-Fi, Free parking, Air conditioning, Restaurant,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 2-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link [ref=e1118] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJNjZXTzJmYmI2Nng5R2cwdlp5OHhNV2d3ZERSb2VqYzRFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegQIAxAo&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEGcHJpY2Vz
+                        - button [ref=e400]:
+                          - generic [ref=e402]: View prices
+                  - generic [ref=e403]:
+                    - generic [ref=e404] [cursor=pointer]:
+                      - link [ref=e1119]:
+                        - /url: /travel/search?qs=MidDaGtJNjZXTzJmYmI2Nng5R2cwdlp5OHhNV2d3ZERSb2VqYzRFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegQIAxAp&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1120]:
+                        - listitem [ref=e409]:
+                          - img [ref=e1121]
+                        - listitem [ref=e411]:
+                          - img [ref=e1122]
+                        - listitem [ref=e413]
+                        - listitem [ref=e414]
+                        - listitem [ref=e415]
+                        - listitem [ref=e416]
+                    - button [ref=e1123]:
+                      - img
+                    - button [ref=e1124]:
+                      - img
+            - generic [ref=e428]:
+              - link [ref=e1125] [cursor=pointer]:
+                - /url: /travel/search?qs=MidDaGtJdzhPajFMeVNfTHZaQVJvTUwyY3ZNVEY0YTJ4b056SXlFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegQIAxA4&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Hotel Emilia
+                        - link [ref=e1126] [cursor=pointer]:
+                          - /url: /travel/search?qs=MidDaGtJdzhPajFMeVNfTHZaQVJvTUwyY3ZNVEY0YTJ4b056SXlFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQrsMEegQIAxA6&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                          - generic [ref=e435]: ₱2,447
+                      - generic:
+                        - generic:
+                          - link [ref=e1127] [cursor=pointer]:
+                            - /url: /travel/search?qs=MidDaGtJdzhPajFMeVNfTHZaQVJvTUwyY3ZNVEY0YTJ4b056SXlFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegQIAxA8&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                            - img [ref=e443]:
+                              - generic [ref=e444]:
+                                - generic [ref=e445]: "4.2"
+                                - img [ref=e446]
+                                - generic [ref=e448]: (175)
+                          - generic: ·
+                          - link [ref=e1128] [cursor=pointer]:
+                            - /url: /travel/search?qs=MidDaGtJdzhPajFMeVNfTHZaQVJvTUwyY3ZNVEY0YTJ4b056SXlFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyocGegQIAxA-&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEIb3ZlcnZpZXc
+                            - generic [ref=e453]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Hotel Emilia, a 3-star hotel.: Free breakfast, Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Full-service laundry, Business center,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Business center
+                      - link [ref=e1129] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJdzhPajFMeVNfTHZaQVJvTUwyY3ZNVEY0YTJ4b056SXlFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegQIAxBB&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEGcHJpY2Vz
+                        - button [ref=e455]:
+                          - generic [ref=e457]: View prices
+                  - generic [ref=e458]:
+                    - generic [ref=e459] [cursor=pointer]:
+                      - link [ref=e1130]:
+                        - /url: /travel/search?qs=MidDaGtJdzhPajFMeVNfTHZaQVJvTUwyY3ZNVEY0YTJ4b056SXlFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegQIAxBC&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1131]:
+                        - listitem [ref=e464]:
+                          - img [ref=e1132]
+                        - listitem [ref=e466]:
+                          - img [ref=e1133]
+                        - listitem [ref=e468]
+                        - listitem [ref=e469]
+                        - listitem [ref=e470]
+                        - listitem [ref=e471]
+                    - button [ref=e1134]:
+                      - img
+                    - button [ref=e1135]:
+                      - img
+            - generic [ref=e483]:
+              - link [ref=e1136] [cursor=pointer]:
+                - /url: /travel/search?qs=MihDaG9JczVuRG9jbjdsLUxDQVJvTkwyY3ZNVEZqTlRaeVkyYzBOUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegQIAxBR&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: RedDoorz near Victoria Mall Davao
+                      - generic:
+                        - generic:
+                          - link [ref=e1137] [cursor=pointer]:
+                            - /url: /travel/search?qs=MihDaG9JczVuRG9jbjdsLUxDQVJvTkwyY3ZNVEZqTlRaeVkyYzBOUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegQIAxBT&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                            - img [ref=e492]:
+                              - generic [ref=e493]:
+                                - generic [ref=e494]: "3.8"
+                                - img [ref=e495]
+                                - generic [ref=e497]: (136)
+                          - generic: ·
+                          - link [ref=e1138] [cursor=pointer]:
+                            - /url: /travel/search?qs=MihDaG9JczVuRG9jbjdsLUxDQVJvTkwyY3ZNVEZqTlRaeVkyYzBOUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyocGegQIAxBV&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEIb3ZlcnZpZXc
+                            - generic [ref=e502]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for RedDoorz near Victoria Mall Davao: Wi-Fi, Free parking, Air conditioning, Kid-friendly,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link [ref=e1139] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JczVuRG9jbjdsLUxDQVJvTkwyY3ZNVEZqTlRaeVkyYzBOUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegQIAxBY&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e504]:
+                          - generic [ref=e506]: View details
+                  - generic [ref=e507]:
+                    - generic [ref=e508] [cursor=pointer]:
+                      - link [ref=e1140]:
+                        - /url: /travel/search?qs=MihDaG9JczVuRG9jbjdsLUxDQVJvTkwyY3ZNVEZqTlRaeVkyYzBOUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegQIAxBZ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1141]:
+                        - listitem [ref=e513]:
+                          - img [ref=e1142]
+                        - listitem [ref=e515]:
+                          - img [ref=e1143]
+                        - listitem [ref=e517]
+                        - listitem [ref=e518]
+                        - listitem [ref=e519]
+                        - listitem [ref=e520]
+                    - button [ref=e1144]:
+                      - img
+                    - button [ref=e1145]:
+                      - img
+            - generic [ref=e532]:
+              - link [ref=e1146] [cursor=pointer]:
+                - /url: /travel/search?qs=MiZDaGdJdjdMenRfX3R2dll5R2d3dlp5OHhjSEF5ZEhod2JISVFBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegQIAxBn&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: RedDoorz @ Traveler's Inn Bajada Davao
+                        - link [ref=e1147] [cursor=pointer]:
+                          - /url: /travel/search?qs=MiZDaGdJdjdMenRfX3R2dll5R2d3dlp5OHhjSEF5ZEhod2JISVFBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQrsMEegQIAxBp&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                          - generic [ref=e539]: ₱1,727
+                      - link [ref=e1148] [cursor=pointer]:
+                        - /url: /travel/search?qs=MiZDaGdJdjdMenRfX3R2dll5R2d3dlp5OHhjSEF5ZEhod2JISVFBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegQIAxBr&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e547]:
+                          - generic [ref=e548]:
+                            - generic [ref=e549]: "3.5"
+                            - img [ref=e550]
+                            - generic [ref=e552]: (213)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for RedDoorz @ Traveler's Inn Bajada Davao, a 3-star hotel.: Free Wi-Fi, Free parking, Air conditioning, Kid-friendly,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link [ref=e1149] [cursor=pointer]:
+                        - /url: /travel/search?qs=MiZDaGdJdjdMenRfX3R2dll5R2d3dlp5OHhjSEF5ZEhod2JISVFBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegQIAxBu&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEGcHJpY2Vz
+                        - button [ref=e554]:
+                          - generic [ref=e556]: View prices
+                  - generic [ref=e557]:
+                    - generic [ref=e558] [cursor=pointer]:
+                      - link [ref=e1150]:
+                        - /url: /travel/search?qs=MiZDaGdJdjdMenRfX3R2dll5R2d3dlp5OHhjSEF5ZEhod2JISVFBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegQIAxBv&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1151]:
+                        - listitem [ref=e563]:
+                          - img [ref=e1152]
+                        - listitem [ref=e565]:
+                          - img [ref=e1153]
+                        - listitem [ref=e567]
+                        - listitem [ref=e568]
+                        - listitem [ref=e569]
+                        - listitem [ref=e570]
+                    - button [ref=e1154]:
+                      - img
+                    - button [ref=e1155]:
+                      - img
+            - generic [ref=e582]:
+              - link [ref=e1156] [cursor=pointer]:
+                - /url: /travel/search?qs=MihDaG9JcmJXcHBJaXZob3lfQVJvTkwyY3ZNVEZpZW5aNWVXaHhheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegQIAxB-&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Star Hotel
+                        - link [ref=e1157] [cursor=pointer]:
+                          - /url: /travel/search?qs=MihDaG9JcmJXcHBJaXZob3lfQVJvTkwyY3ZNVEZpZW5aNWVXaHhheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQrsMEegUIAxCAAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                          - generic [ref=e589]: ₱2,439
+                      - generic:
+                        - generic:
+                          - link [ref=e1158] [cursor=pointer]:
+                            - /url: /travel/search?qs=MihDaG9JcmJXcHBJaXZob3lfQVJvTkwyY3ZNVEZpZW5aNWVXaHhheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxCCAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                            - img [ref=e597]:
+                              - generic [ref=e598]:
+                                - generic [ref=e599]: "4.1"
+                                - img [ref=e600]
+                                - generic [ref=e602]: (242)
+                          - generic: ·
+                          - link [ref=e1159] [cursor=pointer]:
+                            - /url: /travel/search?qs=MihDaG9JcmJXcHBJaXZob3lfQVJvTkwyY3ZNVEZpZW5aNWVXaHhheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyocGegUIAxCEAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEIb3ZlcnZpZXc
+                            - generic [ref=e607]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Star Hotel, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Pet-friendly, Bar, Restaurant, Full-service laundry,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Pet-friendly
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Bar
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                      - link [ref=e1160] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JcmJXcHBJaXZob3lfQVJvTkwyY3ZNVEZpZW5aNWVXaHhheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxCHAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEGcHJpY2Vz
+                        - button [ref=e609]:
+                          - generic [ref=e611]: View prices
+                  - generic [ref=e612]:
+                    - generic [ref=e613] [cursor=pointer]:
+                      - link [ref=e1161]:
+                        - /url: /travel/search?qs=MihDaG9JcmJXcHBJaXZob3lfQVJvTkwyY3ZNVEZpZW5aNWVXaHhheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxCIAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1162]:
+                        - listitem [ref=e618]:
+                          - img [ref=e1163]
+                        - listitem [ref=e620]:
+                          - img [ref=e1164]
+                        - listitem [ref=e622]
+                        - listitem [ref=e623]
+                        - listitem [ref=e624]
+                        - listitem [ref=e625]
+                    - button [ref=e1165]:
+                      - img
+                    - button [ref=e1166]:
+                      - img
+            - generic [ref=e637]:
+              - link [ref=e1167] [cursor=pointer]:
+                - /url: /travel/search?qs=MiZDaGdJX2RfTm9xUHYzZDZ5QVJvTEwyY3ZNWFJrWjNoMGRHZ1FBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxCXAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Anisabel Suites
+                      - link [ref=e1168] [cursor=pointer]:
+                        - /url: /travel/search?qs=MiZDaGdJX2RfTm9xUHYzZDZ5QVJvTEwyY3ZNWFJrWjNoMGRHZ1FBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxCZAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e646]:
+                          - generic [ref=e647]:
+                            - generic [ref=e648]: "4.3"
+                            - img [ref=e649]
+                            - generic [ref=e651]: (86)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Anisabel Suites, a 3-star hotel.: Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Full-service laundry, Kid-friendly, Smoke-free property,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Smoke-free property
+                      - link [ref=e1169] [cursor=pointer]:
+                        - /url: /travel/search?qs=MiZDaGdJX2RfTm9xUHYzZDZ5QVJvTEwyY3ZNWFJrWjNoMGRHZ1FBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxCcAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e653]:
+                          - generic [ref=e655]: View details
+                  - generic [ref=e656]:
+                    - generic [ref=e657] [cursor=pointer]:
+                      - link [ref=e1170]:
+                        - /url: /travel/search?qs=MiZDaGdJX2RfTm9xUHYzZDZ5QVJvTEwyY3ZNWFJrWjNoMGRHZ1FBUTgA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxCdAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1171]:
+                        - listitem [ref=e662]:
+                          - img [ref=e1172]
+                        - listitem [ref=e664]:
+                          - img [ref=e1173]
+                        - listitem [ref=e666]
+                        - listitem [ref=e667]
+                        - listitem [ref=e668]
+                        - listitem [ref=e669]
+                    - button [ref=e1174]:
+                      - img
+                    - button [ref=e1175]:
+                      - img
+            - generic [ref=e681]:
+              - link [ref=e1176] [cursor=pointer]:
+                - /url: /travel/search?qs=MihDaG9JN1l5RTNmcmZtNi1GQVJvTkwyY3ZNVEZxTjJoc016TjBNeEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxCqAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Sun My Hotel
+                      - link [ref=e1177] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JN1l5RTNmcmZtNi1GQVJvTkwyY3ZNVEZxTjJoc016TjBNeEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxCsAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e690]:
+                          - generic [ref=e691]:
+                            - generic [ref=e692]: "4.3"
+                            - img [ref=e693]
+                            - generic [ref=e695]: (110)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for Sun My Hotel: Wi-Fi, Free parking, Air conditioning, Restaurant,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                      - link [ref=e1178] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JN1l5RTNmcmZtNi1GQVJvTkwyY3ZNVEZxTjJoc016TjBNeEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxCvAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e697]:
+                          - generic [ref=e699]: View details
+                  - generic [ref=e700]:
+                    - generic [ref=e701] [cursor=pointer]:
+                      - link [ref=e1179]:
+                        - /url: /travel/search?qs=MihDaG9JN1l5RTNmcmZtNi1GQVJvTkwyY3ZNVEZxTjJoc016TjBNeEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxCwAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1180]:
+                        - listitem [ref=e706]:
+                          - img [ref=e1181]
+                        - listitem [ref=e708]:
+                          - img [ref=e1182]
+                        - listitem [ref=e710]
+                        - listitem [ref=e711]
+                        - listitem [ref=e712]
+                        - listitem [ref=e713]
+                    - button [ref=e1183]:
+                      - img
+                    - button [ref=e1184]:
+                      - img
+            - generic [ref=e725]:
+              - link [ref=e1185] [cursor=pointer]:
+                - /url: /travel/search?qs=MihDaG9Jc2ZHX2d1bTktWnFXQVJvTkwyY3ZNVEZtTld4NU4zcG1OaEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxC9AQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: D Leonor Hotel
+                      - generic:
+                        - generic:
+                          - link [ref=e1186] [cursor=pointer]:
+                            - /url: /travel/search?qs=MihDaG9Jc2ZHX2d1bTktWnFXQVJvTkwyY3ZNVEZtTld4NU4zcG1OaEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxC_AQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                            - img [ref=e734]:
+                              - generic [ref=e735]:
+                                - generic [ref=e736]: "4.1"
+                                - img [ref=e737]
+                                - generic [ref=e739]: (123)
+                          - generic: ·
+                          - link [ref=e1187] [cursor=pointer]:
+                            - /url: /travel/search?qs=MihDaG9Jc2ZHX2d1bTktWnFXQVJvTkwyY3ZNVEZtTld4NU4zcG1OaEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyocGegUIAxDBAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEIb3ZlcnZpZXc
+                            - generic [ref=e744]: Excellent location
+                      - generic:
+                        - generic:
+                          - document: "Amenities for D Leonor Hotel, a 3-star hotel.: Breakfast, Free Wi-Fi, Free parking, Air conditioning, Restaurant, Room service, Airport shuttle, Full-service laundry,"
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                              - generic: 3-star hotel
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Breakfast
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free Wi-Fi
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Free parking
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Air conditioning
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Restaurant
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Room service
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Airport shuttle
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Full-service laundry
+                      - link [ref=e1188] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9Jc2ZHX2d1bTktWnFXQVJvTkwyY3ZNVEZtTld4NU4zcG1OaEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxDEAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e746]:
+                          - generic [ref=e748]: View details
+                  - generic [ref=e749]:
+                    - generic [ref=e750] [cursor=pointer]:
+                      - link [ref=e1189]:
+                        - /url: /travel/search?qs=MihDaG9Jc2ZHX2d1bTktWnFXQVJvTkwyY3ZNVEZtTld4NU4zcG1OaEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxDFAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1190]:
+                        - listitem [ref=e755]:
+                          - img [ref=e1191]
+                        - listitem [ref=e757]:
+                          - img [ref=e1192]
+                        - listitem [ref=e759]
+                        - listitem [ref=e760]
+                        - listitem [ref=e761]
+                        - listitem [ref=e762]
+                    - button [ref=e1193]:
+                      - img
+                    - button [ref=e1194]:
+                      - img
+            - generic [ref=e774]:
+              - link [ref=e1195] [cursor=pointer]:
+                - /url: /travel/search?qs=MihDaG9JbFBLSGlzU0dxOXF2QVJvTkwyY3ZNVEZ6T0Rab2EzbHVheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxDSAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: LG Hotel
+                      - link [ref=e1196] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JbFBLSGlzU0dxOXF2QVJvTkwyY3ZNVEZ6T0Rab2EzbHVheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxDUAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e783]:
+                          - generic [ref=e784]:
+                            - generic [ref=e785]: "4.7"
+                            - img [ref=e786]
+                            - generic [ref=e788]: (16)
+                      - link [ref=e1197] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JbFBLSGlzU0dxOXF2QVJvTkwyY3ZNVEZ6T0Rab2EzbHVheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxDWAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e790]:
+                          - generic [ref=e792]: View details
+                  - generic [ref=e793]:
+                    - generic [ref=e794] [cursor=pointer]:
+                      - link [ref=e1198]:
+                        - /url: /travel/search?qs=MihDaG9JbFBLSGlzU0dxOXF2QVJvTkwyY3ZNVEZ6T0Rab2EzbHVheEFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxDXAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1199]:
+                        - listitem [ref=e799]:
+                          - img [ref=e1200]
+                        - listitem [ref=e801]:
+                          - img [ref=e1201]
+                        - listitem [ref=e803]
+                        - listitem [ref=e804]
+                        - listitem [ref=e805]
+                        - listitem [ref=e806]
+                    - button [ref=e1202]:
+                      - img
+                    - button [ref=e1203]:
+                      - img
+            - generic [ref=e818]:
+              - link [ref=e1204] [cursor=pointer]:
+                - /url: /travel/search?qs=MihDaG9JaHVPRWs1RGVrZWpvQVJvTkwyY3ZNVEZvTUhsMFpIZ3piUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxDkAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: ZEN Rooms Orchard Davao
+                      - link [ref=e1205] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JaHVPRWs1RGVrZWpvQVJvTkwyY3ZNVEZvTUhsMFpIZ3piUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxDmAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e827]:
+                          - generic [ref=e828]:
+                            - generic [ref=e829]: "3.7"
+                            - img [ref=e830]
+                            - generic [ref=e832]: (7)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for ZEN Rooms Orchard Davao: Kid-friendly,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Kid-friendly
+                      - link [ref=e1206] [cursor=pointer]:
+                        - /url: /travel/search?qs=MihDaG9JaHVPRWs1RGVrZWpvQVJvTkwyY3ZNVEZvTUhsMFpIZ3piUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxDpAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e834]:
+                          - generic [ref=e836]: View details
+                  - generic [ref=e837]:
+                    - generic [ref=e838] [cursor=pointer]:
+                      - link [ref=e1207]:
+                        - /url: /travel/search?qs=MihDaG9JaHVPRWs1RGVrZWpvQVJvTkwyY3ZNVEZvTUhsMFpIZ3piUkFCOAA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxDqAQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1208]:
+                        - listitem [ref=e843]:
+                          - img [ref=e1209]
+                        - listitem [ref=e845]:
+                          - img [ref=e1210]
+                        - listitem [ref=e847]
+                        - listitem [ref=e848]
+                    - button [ref=e1211]:
+                      - img
+                    - button [ref=e1212]:
+                      - img
+            - generic [ref=e860]:
+              - link [ref=e1213] [cursor=pointer]:
+                - /url: /travel/search?qs=MidDaGtJcTVXNm91bndwX3ZfQVJvTUwyY3ZNV2hqTXpCdWFuSTJFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxD1AQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: Mirage Family Hotel
+                      - link [ref=e1214] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJcTVXNm91bndwX3ZfQVJvTUwyY3ZNV2hqTXpCdWFuSTJFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxD3AQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e869]:
+                          - generic [ref=e870]:
+                            - generic [ref=e871]: "5.0"
+                            - img [ref=e872]
+                            - generic [ref=e874]: (2)
+                      - link [ref=e1215] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJcTVXNm91bndwX3ZfQVJvTUwyY3ZNV2hqTXpCdWFuSTJFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxD5AQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e876]:
+                          - generic [ref=e878]: View details
+                  - generic [ref=e880] [cursor=pointer]:
+                    - link [ref=e1216]:
+                      - /url: /travel/search?qs=MidDaGtJcTVXNm91bndwX3ZfQVJvTUwyY3ZNV2hqTXpCdWFuSTJFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxD6AQ&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                    - list [ref=e1217]:
+                      - listitem [ref=e885]:
+                        - img [ref=e1218]
+            - generic [ref=e888]:
+              - link [ref=e1219] [cursor=pointer]:
+                - /url: /travel/search?qs=MidDaGtJd1pDUHE2SFE5NVlYR2cwdlp5OHhNV3AwZVhOdGRtSTVFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyvcEegUIAxCAAg&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+              - generic:
+                - generic:
+                  - generic:
+                    - generic:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - heading [level=2]: OYO 833 Ln Apartelle
+                      - link [ref=e1220] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJd1pDUHE2SFE5NVlYR2cwdlp5OHhNV3AwZVhOdGRtSTVFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQwIsFegUIAxCCAg&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA&ap=ugEHcmV2aWV3cw
+                        - img [ref=e897]:
+                          - generic [ref=e898]:
+                            - generic [ref=e899]: "3.9"
+                            - img [ref=e900]
+                            - generic [ref=e902]: (7)
+                      - generic:
+                        - generic:
+                          - document: "Amenities for OYO 833 Ln Apartelle: Wi-Fi,"
+                          - generic:
+                            - listitem:
+                              - generic:
+                                - img
+                              - generic: Wi-Fi
+                      - link [ref=e1221] [cursor=pointer]:
+                        - /url: /travel/search?qs=MidDaGtJd1pDUHE2SFE5NVlYR2cwdlp5OHhNV3AwZVhOdGRtSTVFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQssMEegUIAxCFAg&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                        - button [ref=e904]:
+                          - generic [ref=e906]: View details
+                  - generic [ref=e907]:
+                    - generic [ref=e908] [cursor=pointer]:
+                      - link [ref=e1222]:
+                        - /url: /travel/search?qs=MidDaGtJd1pDUHE2SFE5NVlYR2cwdlp5OHhNV3AwZVhOdGRtSTVFQUU4AA&hl=en-US&ved=2ahUKEwjSqqnCpsKUAxXdrGYCHdK5FMMQyfcEegUIAxCGAg&ts=CAEaHgoAEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA
+                      - list [ref=e1223]:
+                        - listitem [ref=e913]:
+                          - img [ref=e1224]
+                        - listitem [ref=e915]:
+                          - img [ref=e1225]
+                        - listitem [ref=e917]
+                        - listitem [ref=e918]
+                    - button [ref=e1226]:
+                      - img
+                    - button [ref=e1227]:
+                      - img
+            - generic [ref=e929]:
+              - button [ref=e1228]:
+                - generic [ref=e934]: Next
+                - img [ref=e935]
+              - generic [ref=e937]: Showing results 1 - 12 of 357
+      - contentinfo [ref=e942]:
+        - button [ref=e1229]:
+          - generic [ref=e947]: Currency·PHP
+          - img [ref=e948]
+        - generic [ref=e950]:
+          - generic [ref=e951]: Buhangin, Davao City, Philippines - From your Internet address
+          - link [ref=e1230] [cursor=pointer]:
+            - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+            - text: Learn more
+        - generic [ref=e954]:
+          - link [ref=e1231] [cursor=pointer]:
+            - /url: https://about.google/?hl=en-US
+            - text: About
+          - link [ref=e1232] [cursor=pointer]:
+            - /url: https://policies.google.com/privacy?hl=en-US
+            - text: Privacy
+          - link [ref=e1233] [cursor=pointer]:
+            - /url: https://policies.google.com/terms?hl=en-US
+            - text: Terms
+          - link [ref=e1234] [cursor=pointer]:
+            - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXTX379748&Q_Language=en-US
+            - text: Join user studies
+          - link [ref=e1235] [cursor=pointer]:
+            - /url: ./#0
+            - text: Feedback
+          - link [ref=e1236] [cursor=pointer]:
+            - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+            - text: Help Center
+        - paragraph [ref=e962]:
+          - text: Displayed currencies may differ from the currencies used to book properties.
+          - link [ref=e1237] [cursor=pointer]:
+            - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+            - text: Learn more

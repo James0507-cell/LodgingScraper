@@ -1,0 +1,2256 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e3]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - button "Main menu" [ref=e6] [cursor=pointer]:
+          - img [ref=e7]
+        - link "Google" [ref=e11] [cursor=pointer]:
+          - /url: /
+      - generic [ref=e1680]:
+        - generic:
+          - button "Skip to main content" [ref=e1681]:
+            - generic: Skip to main content
+          - button "Accessibility feedback" [ref=e1684]:
+            - generic: Accessibility feedback
+        - navigation [ref=e1688]:
+          - link "Travel" [ref=e1691]:
+            - img [ref=e1694]
+            - generic: Travel
+          - link "Explore" [ref=e1700]:
+            - img [ref=e1703]
+            - generic: Explore
+          - link "Flights" [ref=e1708]:
+            - img [ref=e1711]
+            - generic: Flights
+          - link "Hotels" [ref=e1716]:
+            - img [ref=e1719]
+            - generic: Hotels
+          - link "Vacation rentals" [ref=e1727]:
+            - img [ref=e1730]
+            - generic: Vacation rentals
+      - generic [ref=e74]:
+        - button "Google apps" [ref=e78] [cursor=pointer]:
+          - img [ref=e79]
+        - link "Sign in" [ref=e82] [cursor=pointer]:
+          - /url: https://accounts.google.com/ServiceLogin?service=searchandassistant&passive=1209600&continue=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DManila%26qs%3DMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA%26hl%3Den%26checkin%3D2026-06-10%26checkout%3D2026-06-11%26adults%3D2%26rooms%3D1%26ved%3D0CAAQ5JsGahcKEwigqYinpMKUAxUAAAAAHQAAAAAQJg%26ts%3DCAESCgoCCAMKAggDEAAaWgo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA%26ap%3DMAA%26utm_source%3Dsign_in_ogb&followup=https%3A%2F%2Fwww.google.com%2Ftravel%2Fsearch%3Fq%3DManila%26qs%3DMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOAA%26hl%3Den%26checkin%3D2026-06-10%26checkout%3D2026-06-11%26adults%3D2%26rooms%3D1%26ved%3D0CAAQ5JsGahcKEwigqYinpMKUAxUAAAAAHQAAAAAQJg%26ts%3DCAESCgoCCAMKAggDEAAaWgo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhoSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgIQACoHCgU6A1BIUA%26ap%3DMAA%26utm_source%3Dsign_in_ogb&hl=en&ec=GAZAlQM
+  - generic [ref=e88]:
+    - generic [ref=e89]:
+      - form [ref=e1738]:
+        - generic [ref=e96]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - combobox [ref=e1739]: Manila
+            - button [ref=e1740] [cursor=pointer]:
+              - img [ref=e112]
+          - generic [ref=e117] [cursor=pointer]:
+            - generic [ref=e119]:
+              - img [ref=e121]
+              - textbox [ref=e1741]:
+                - /placeholder: Check-in
+                - text: Sat, May 23
+              - button [ref=e127]:
+                - img [ref=e130]
+              - button [ref=e134]:
+                - img [ref=e137]
+            - generic [ref=e141]:
+              - textbox [ref=e1742]:
+                - /placeholder: Check-out
+                - text: Sun, May 24
+              - button [ref=e145]:
+                - img [ref=e148]
+              - button [ref=e152]:
+                - img [ref=e155]
+          - button [ref=e1743] [cursor=pointer]:
+            - img [ref=e164]
+            - generic [ref=e166]: "2"
+            - img [ref=e167]
+        - generic [ref=e172]:
+          - button [ref=e1744]:
+            - img [ref=e178]
+            - generic [ref=e180]: All filters
+          - generic [ref=e183]:
+            - button [ref=e1745]:
+              - img [ref=e189]
+              - generic [ref=e193]: 4+ rating
+            - button [ref=e1746]:
+              - img [ref=e199]
+              - generic [ref=e210]: Under ₱2,500
+            - button [ref=e1747]:
+              - img [ref=e216]
+              - generic [ref=e221]: Pool
+            - button [ref=e1748]:
+              - img [ref=e227]
+              - generic [ref=e232]: 4- or 5-star
+            - button [ref=e1749]:
+              - img [ref=e238]
+              - generic [ref=e242]: Spa
+            - button [ref=e1750]:
+              - img [ref=e248]
+              - generic [ref=e258]:
+                - generic [ref=e259]: Price
+                - img [ref=e260]
+            - button [ref=e1751]:
+              - img [ref=e267]
+              - generic [ref=e276]:
+                - generic [ref=e277]: Property type
+                - img [ref=e278]
+            - button [ref=e1752]:
+              - img [ref=e285]
+              - generic [ref=e289]:
+                - generic [ref=e290]: Offers
+                - img [ref=e291]
+            - button [ref=e1753]:
+              - img [ref=e298]
+              - generic [ref=e301]:
+                - generic [ref=e302]: Guest rating
+                - img [ref=e303]
+            - button [ref=e1754]:
+              - img [ref=e310]
+              - generic [ref=e314]:
+                - generic [ref=e315]: Hotel class
+                - img [ref=e316]
+            - button [ref=e1755]:
+              - img [ref=e323]
+              - generic [ref=e326]:
+                - generic [ref=e327]: Amenities
+                - img [ref=e328]
+            - button [ref=e1756]:
+              - img [ref=e335]
+              - generic [ref=e338]:
+                - generic [ref=e339]: Brands
+                - img [ref=e340]
+            - button [ref=e1757]:
+              - img [ref=e347]
+              - generic [ref=e352]: Eco-certified
+            - button [ref=e1758]:
+              - img [ref=e358]
+              - generic [ref=e361]:
+                - generic [ref=e362]: Sort by
+                - img [ref=e363]
+      - generic [ref=e366]:
+        - main [ref=e367]
+        - contentinfo [ref=e1656]:
+          - button [ref=e1759]:
+            - generic [ref=e1661]: Currency·PHP
+            - img [ref=e1662]
+          - generic [ref=e1664]:
+            - generic [ref=e1665]: Talomo, Davao City, Philippines - From your Internet address
+            - link [ref=e1760] [cursor=pointer]:
+              - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+              - text: Learn more
+          - generic [ref=e1668]:
+            - link [ref=e1761] [cursor=pointer]:
+              - /url: https://about.google/?hl=en-US
+              - text: About
+            - link [ref=e1762] [cursor=pointer]:
+              - /url: https://policies.google.com/privacy?hl=en-US
+              - text: Privacy
+            - link [ref=e1763] [cursor=pointer]:
+              - /url: https://policies.google.com/terms?hl=en-US
+              - text: Terms
+            - link [ref=e1764] [cursor=pointer]:
+              - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXTX379748&Q_Language=en-US
+              - text: Join user studies
+            - link [ref=e1765] [cursor=pointer]:
+              - /url: ./#0
+              - text: Feedback
+            - link [ref=e1766] [cursor=pointer]:
+              - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+              - text: Help Center
+          - paragraph [ref=e1676]:
+            - text: Displayed currencies may differ from the currencies used to book properties.
+            - link [ref=e1767] [cursor=pointer]:
+              - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+              - text: Learn more
+    - generic [ref=e1768]:
+      - generic [ref=e1773]:
+        - generic [ref=e1774]:
+          - generic [ref=e1781]:
+            - img [ref=e1783]
+            - combobox "Search for places, hotels and more" [ref=e1786]: Manila
+            - button "Clear" [ref=e1788] [cursor=pointer]:
+              - img [ref=e1789]
+          - button "Skip to main content":
+            - generic: Skip to main content
+          - generic [ref=e1791]:
+            - button "All filters" [ref=e1793]:
+              - img [ref=e1796]
+              - generic [ref=e1798]: All filters
+            - button "Expand" [ref=e1800]:
+              - generic [ref=e1803]:
+                - text: Expand
+                - img [ref=e1804]
+        - generic [ref=e1807]:
+          - generic [ref=e1808]:
+            - img [ref=e1810]
+            - heading "Manila · 2,138 results" [level=1] [ref=e1816]
+          - generic [ref=e1817]:
+            - generic [ref=e1818] [cursor=pointer]:
+              - link "Sponsored Booking.com Booking.com My Ad Center Red Planet Manila Malate Mabini ₱1,867 · 3.9 out of 5 stars from 1,658 reviews 3-star hotel · Parking" [ref=e1819]:
+                - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQBxoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YASABEgKgofD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_2XcsyJ3BoT8Vz1XKdYSBgLVTWkTA&adurl=
+                - generic [ref=e1820]:
+                  - generic [ref=e1821]:
+                    - generic [ref=e1822]: Sponsored·
+                    - generic [ref=e1823]:
+                      - img "Booking.com" [ref=e1824]
+                      - text: Booking.com
+                  - button "My Ad Center" [ref=e1827]:
+                    - img [ref=e1828]
+                - generic [ref=e1831]:
+                  - heading "Red Planet Manila Malate Mabini" [level=2] [ref=e1832]
+                  - generic [ref=e1834]: ₱1,867 ·
+                  - img "3.9 out of 5 stars from 1,658 reviews" [ref=e1835]:
+                    - generic [ref=e1836]:
+                      - generic [ref=e1837]: "3.9"
+                      - img [ref=e1838]
+                      - generic [ref=e1840]: (1.7K)
+                  - list [ref=e1841]: 3-star hotel · Parking
+              - generic:
+                - link "Visit Booking.com":
+                  - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQBxoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YASABEgKgofD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_2XcsyJ3BoT8Vz1XKdYSBgLVTWkTA&adurl=
+                  - button "Visit Booking.com" [ref=e1844]:
+                    - generic [ref=e1847]: Visit Booking.com
+            - generic [ref=e1848] [cursor=pointer]:
+              - link "Sponsored Agoda Agoda My Ad Center Makati Palace Hotel ₱1,887 · 3.9 out of 5 stars from 1,464 reviews 3-star hotel · Free cancellation" [ref=e1849]:
+                - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQCxoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YAiABEgJNfPD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_0KsqBT3dVYzZ8ypYrw3e1xrGWgSA&adurl=
+                - generic [ref=e1850]:
+                  - generic [ref=e1851]:
+                    - generic [ref=e1852]: Sponsored·
+                    - generic [ref=e1853]:
+                      - img "Agoda" [ref=e1854]
+                      - text: Agoda
+                  - button "My Ad Center" [ref=e1857]:
+                    - img [ref=e1858]
+                - generic [ref=e1861]:
+                  - heading "Makati Palace Hotel" [level=2] [ref=e1862]
+                  - generic [ref=e1864]: ₱1,887 ·
+                  - img "3.9 out of 5 stars from 1,464 reviews" [ref=e1865]:
+                    - generic [ref=e1866]:
+                      - generic [ref=e1867]: "3.9"
+                      - img [ref=e1868]
+                      - generic [ref=e1870]: (1.5K)
+                  - list [ref=e1871]: 3-star hotel · Free cancellation
+              - generic:
+                - link "Visit Agoda":
+                  - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQCxoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YAiABEgJNfPD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_0KsqBT3dVYzZ8ypYrw3e1xrGWgSA&adurl=
+                  - button "Visit Agoda" [ref=e1874]:
+                    - generic [ref=e1877]: Visit Agoda
+            - generic [ref=e1878] [cursor=pointer]:
+              - link "Airo Hotel Manila ₱1,036 · 4 out of 5 stars from 249 reviews Breakfast ($) · Free Wi-Fi GREAT DEAL 26% less than usual" [ref=e1879]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CA0Qh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e1880]:
+                  - heading "Airo Hotel Manila" [level=2] [ref=e1881]
+                  - generic [ref=e1883]: ₱1,036 ·
+                  - img "4 out of 5 stars from 249 reviews" [ref=e1884]:
+                    - generic [ref=e1885]:
+                      - generic [ref=e1886]: "4.0"
+                      - img [ref=e1887]
+                      - generic [ref=e1889]: (249)
+                  - list [ref=e1890]:
+                    - listitem [ref=e1891]:
+                      - img [ref=e1893]
+                      - generic [ref=e1895]: Breakfast ($)
+                    - text: ·
+                    - listitem [ref=e1896]:
+                      - img [ref=e1898]
+                      - generic [ref=e1900]: Free Wi-Fi
+                  - generic [ref=e1901]: GREAT DEAL 26% less than usual
+              - generic:
+                - link "View prices for Airo Hotel Manila":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CA8Q35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e1904]:
+                    - generic [ref=e1907]: View prices
+            - generic [ref=e1908] [cursor=pointer]:
+              - link "RedDoorz @ V Plaza Hotel Manila ₱774 · 3.1 out of 5 stars from 125 reviews 3-star hotel · Wi-Fi" [ref=e1909]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtJaXBMbHV2ZVM3b3hsR2cwdlp5OHhNV2c0YW5jMWJXZGpFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBAQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e1910]:
+                  - heading "RedDoorz @ V Plaza Hotel Manila" [level=2] [ref=e1911]
+                  - generic [ref=e1913]: ₱774 ·
+                  - img "3.1 out of 5 stars from 125 reviews" [ref=e1914]:
+                    - generic [ref=e1915]:
+                      - generic [ref=e1916]: "3.1"
+                      - img [ref=e1917]
+                      - generic [ref=e1919]: (125)
+                  - list [ref=e1920]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e1921]:
+                      - img [ref=e1923]
+                      - generic [ref=e1925]: Wi-Fi
+              - generic:
+                - link "View prices for RedDoorz @ V Plaza Hotel Manila":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtJaXBMbHV2ZVM3b3hsR2cwdlp5OHhNV2c0YW5jMWJXZGpFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBEQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e1928]:
+                    - generic [ref=e1931]: View prices
+            - generic [ref=e1932] [cursor=pointer]:
+              - link "Astrotel Divisoria ₱859 · 4.3 out of 5 stars from 366 reviews Wi-Fi · Free parking DEAL 16% less than usual" [ref=e1933]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9Jc2JHZm5xV212TkdXQVJvTkwyY3ZNVEZ4YURCemNqVmlheEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBIQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e1934]:
+                  - heading "Astrotel Divisoria" [level=2] [ref=e1935]
+                  - generic [ref=e1937]: ₱859 ·
+                  - img "4.3 out of 5 stars from 366 reviews" [ref=e1938]:
+                    - generic [ref=e1939]:
+                      - generic [ref=e1940]: "4.3"
+                      - img [ref=e1941]
+                      - generic [ref=e1943]: (366)
+                  - list [ref=e1944]:
+                    - listitem [ref=e1945]:
+                      - img [ref=e1947]
+                      - generic [ref=e1949]: Wi-Fi
+                    - text: ·
+                    - listitem [ref=e1950]:
+                      - img [ref=e1952]
+                      - generic [ref=e1954]: Free parking
+                  - generic [ref=e1955]: DEAL 16% less than usual
+              - generic:
+                - link "View prices for Astrotel Divisoria":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9Jc2JHZm5xV212TkdXQVJvTkwyY3ZNVEZ4YURCemNqVmlheEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBQQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e1958]:
+                    - generic [ref=e1961]: View prices
+            - generic [ref=e1962] [cursor=pointer]:
+              - link "The New Aussie Slouch Hat ₱793 · 3.9 out of 5 stars from 139 reviews 2-star hotel · Wi-Fi DEAL 20% less than usual" [ref=e1963]:
+                - /url: /travel/search?q=Manila&qs=MiRDaGNJNi1MWjdhdjF6dnBGR2dzdlp5OHhkSHBuYkhKMk9CQUI4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBUQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e1964]:
+                  - heading "The New Aussie Slouch Hat" [level=2] [ref=e1965]
+                  - generic [ref=e1967]: ₱793 ·
+                  - img "3.9 out of 5 stars from 139 reviews" [ref=e1968]:
+                    - generic [ref=e1969]:
+                      - generic [ref=e1970]: "3.9"
+                      - img [ref=e1971]
+                      - generic [ref=e1973]: (139)
+                  - list [ref=e1974]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e1975]:
+                      - img [ref=e1977]
+                      - generic [ref=e1979]: Wi-Fi
+                  - generic [ref=e1980]: DEAL 20% less than usual
+              - generic:
+                - link "View prices for The New Aussie Slouch Hat":
+                  - /url: /travel/search?q=Manila&qs=MiRDaGNJNi1MWjdhdjF6dnBGR2dzdlp5OHhkSHBuYkhKMk9CQUI4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBcQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e1983]:
+                    - generic [ref=e1986]: View prices
+            - generic [ref=e1987] [cursor=pointer]:
+              - link "Aden Hotel ₱863 · 3.4 out of 5 stars from 82 reviews Wi-Fi · Air conditioning" [ref=e1988]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9JdGJiSG5haTRpSTdxQVJvTkwyY3ZNVEZyYlc1d09XMDVOeEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBgQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e1989]:
+                  - heading "Aden Hotel" [level=2] [ref=e1990]
+                  - generic [ref=e1992]: ₱863 ·
+                  - img "3.4 out of 5 stars from 82 reviews" [ref=e1993]:
+                    - generic [ref=e1994]:
+                      - generic [ref=e1995]: "3.4"
+                      - img [ref=e1996]
+                      - generic [ref=e1998]: (82)
+                  - list [ref=e1999]:
+                    - listitem [ref=e2000]:
+                      - img [ref=e2002]
+                      - generic [ref=e2004]: Wi-Fi
+                    - text: ·
+                    - listitem [ref=e2005]:
+                      - img [ref=e2007]
+                      - generic [ref=e2009]: Air conditioning
+              - generic:
+                - link "View prices for Aden Hotel":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9JdGJiSG5haTRpSTdxQVJvTkwyY3ZNVEZyYlc1d09XMDVOeEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBkQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2012]:
+                    - generic [ref=e2015]: View prices
+            - generic [ref=e2016] [cursor=pointer]:
+              - link "1775 Adriatico Suites Manila ₱1,703 · 4.1 out of 5 stars from 332 reviews 3-star hotel · Breakfast DEAL 23% less than usual" [ref=e2017]:
+                - /url: /travel/search?q=Manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBoQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2018]:
+                  - heading "1775 Adriatico Suites Manila" [level=2] [ref=e2019]
+                  - generic [ref=e2021]: ₱1,703 ·
+                  - img "4.1 out of 5 stars from 332 reviews" [ref=e2022]:
+                    - generic [ref=e2023]:
+                      - generic [ref=e2024]: "4.1"
+                      - img [ref=e2025]
+                      - generic [ref=e2027]: (332)
+                  - list [ref=e2028]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e2029]:
+                      - img [ref=e2031]
+                      - generic [ref=e2033]: Breakfast
+                  - generic [ref=e2034]: DEAL 23% less than usual
+              - generic:
+                - link "View prices for 1775 Adriatico Suites Manila":
+                  - /url: /travel/search?q=Manila&qs=MiRDaGNJOHJ1a21QUzBpTFFSR2dzdlp5OHhkR042TlhaNGF4QUI4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CBwQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2037]:
+                    - generic [ref=e2040]: View prices
+            - generic [ref=e2041] [cursor=pointer]:
+              - link "GERI'S- malate bayview mansion comfort studio ₱1,786 Vacation rental · Balcony" [ref=e2042]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtReFBINHRmYnpnOHNlR2cwdlp5OHhNWGx6ZDJ3eVpqTmlFQUk4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CB0Qh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2043]:
+                  - heading "GERI'S- malate bayview mansion comfort studio" [level=2] [ref=e2044]
+                  - generic [ref=e2046]: ₱1,786
+                  - list [ref=e2047]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e2048]:
+                      - img [ref=e2050]
+                      - generic [ref=e2052]: Balcony
+              - generic:
+                - link "View prices for GERI'S- malate bayview mansion comfort studio":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtReFBINHRmYnpnOHNlR2cwdlp5OHhNWGx6ZDJ3eVpqTmlFQUk4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CB4Q35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                  - button "View details" [ref=e2055]:
+                    - generic [ref=e2058]: View details
+            - generic [ref=e2059] [cursor=pointer]:
+              - link "Manila Manor Hotel ₱1,150 · 3.1 out of 5 stars from 766 reviews 3-star hotel · Breakfast" [ref=e2060]:
+                - /url: /travel/search?q=Manila&qs=MiNDaFlJZzRfSjd0Mk03V1lhQ3k5bkx6RjBaRFpqWDI1aUVBRTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CB8Qh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2061]:
+                  - heading "Manila Manor Hotel" [level=2] [ref=e2062]
+                  - generic [ref=e2064]: ₱1,150 ·
+                  - img "3.1 out of 5 stars from 766 reviews" [ref=e2065]:
+                    - generic [ref=e2066]:
+                      - generic [ref=e2067]: "3.1"
+                      - img [ref=e2068]
+                      - generic [ref=e2070]: (766)
+                  - list [ref=e2071]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e2072]:
+                      - img [ref=e2074]
+                      - generic [ref=e2076]: Breakfast
+              - generic:
+                - link "View prices for Manila Manor Hotel":
+                  - /url: /travel/search?q=Manila&qs=MiNDaFlJZzRfSjd0Mk03V1lhQ3k5bkx6RjBaRFpqWDI1aUVBRTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCAQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2079]:
+                    - generic [ref=e2082]: View prices
+            - generic [ref=e2083] [cursor=pointer]:
+              - link "Sponsored Skyscanner Skyscanner My Ad Center Leez Inn Manila ₱1,149 · 3.9 out of 5 stars from 552 reviews 3-star hotel · Parking" [ref=e2084]:
+                - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQDxoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YAyABEgIdKvD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_28Xzr10V3RW5ipEJo_vSFQYwqhsw&adurl=
+                - generic [ref=e2085]:
+                  - generic [ref=e2086]:
+                    - generic [ref=e2087]: Sponsored·
+                    - generic [ref=e2088]:
+                      - img "Skyscanner" [ref=e2089]
+                      - text: Skyscanner
+                  - button "My Ad Center" [ref=e2092]:
+                    - img [ref=e2093]
+                - generic [ref=e2096]:
+                  - heading "Leez Inn Manila" [level=2] [ref=e2097]
+                  - generic [ref=e2099]: ₱1,149 ·
+                  - img "3.9 out of 5 stars from 552 reviews" [ref=e2100]:
+                    - generic [ref=e2101]:
+                      - generic [ref=e2102]: "3.9"
+                      - img [ref=e2103]
+                      - generic [ref=e2105]: (552)
+                  - list [ref=e2106]: 3-star hotel · Parking
+              - generic:
+                - link "Visit Skyscanner":
+                  - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQDxoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YAyABEgIdKvD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_28Xzr10V3RW5ipEJo_vSFQYwqhsw&adurl=
+                  - button "Visit Skyscanner" [ref=e2109]:
+                    - generic [ref=e2112]: Visit Skyscanner
+            - generic [ref=e2113] [cursor=pointer]:
+              - link "Victoria Mansions ₱924 · 3.5 out of 5 stars from 45 reviews 3-star hotel · Free Wi-Fi" [ref=e2114]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtJLThESXlyRDA5NTBkR2cwdlp5OHhNV0ozTW1jMGQzZHFFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCQQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2115]:
+                  - heading "Victoria Mansions" [level=2] [ref=e2116]
+                  - generic [ref=e2118]: ₱924 ·
+                  - img "3.5 out of 5 stars from 45 reviews" [ref=e2119]:
+                    - generic [ref=e2120]:
+                      - generic [ref=e2121]: "3.5"
+                      - img [ref=e2122]
+                      - generic [ref=e2124]: (45)
+                  - list [ref=e2125]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e2126]:
+                      - img [ref=e2128]
+                      - generic [ref=e2130]: Free Wi-Fi
+              - generic:
+                - link "View prices for Victoria Mansions":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtJLThESXlyRDA5NTBkR2cwdlp5OHhNV0ozTW1jMGQzZHFFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCUQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2133]:
+                    - generic [ref=e2136]: View prices
+            - generic [ref=e2137] [cursor=pointer]:
+              - link "Privato Hotel Makati ₱1,496 · 4.1 out of 5 stars from 304 reviews 3-star hotel · Breakfast" [ref=e2138]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtJeFlpVG5zeTVyN0kwR2cwdlp5OHhNV2czWnpSelgyUmtFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCYQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2139]:
+                  - heading "Privato Hotel Makati" [level=2] [ref=e2140]
+                  - generic [ref=e2142]: ₱1,496 ·
+                  - img "4.1 out of 5 stars from 304 reviews" [ref=e2143]:
+                    - generic [ref=e2144]:
+                      - generic [ref=e2145]: "4.1"
+                      - img [ref=e2146]
+                      - generic [ref=e2148]: (304)
+                  - list [ref=e2149]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e2150]:
+                      - img [ref=e2152]
+                      - generic [ref=e2154]: Breakfast
+              - generic:
+                - link "View prices for Privato Hotel Makati":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtJeFlpVG5zeTVyN0kwR2cwdlp5OHhNV2czWnpSelgyUmtFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCcQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2157]:
+                    - generic [ref=e2160]: View prices
+            - generic [ref=e2161] [cursor=pointer]:
+              - link "RedDoorz Plus @ San Marcelino Malate ₱947 · 3 out of 5 stars from 115 reviews Free Wi-Fi · Air conditioning" [ref=e2162]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9JNExINDk4V1p4ZDIyQVJvTkwyY3ZNVEZyZVcxNmEzbzFhaEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCgQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2163]:
+                  - heading "RedDoorz Plus @ San Marcelino Malate" [level=2] [ref=e2164]
+                  - generic [ref=e2166]: ₱947 ·
+                  - img "3 out of 5 stars from 115 reviews" [ref=e2167]:
+                    - generic [ref=e2168]:
+                      - generic [ref=e2169]: "3.0"
+                      - img [ref=e2170]
+                      - generic [ref=e2172]: (115)
+                  - list [ref=e2173]:
+                    - listitem [ref=e2174]:
+                      - img [ref=e2176]
+                      - generic [ref=e2178]: Free Wi-Fi
+                    - text: ·
+                    - listitem [ref=e2179]:
+                      - img [ref=e2181]
+                      - generic [ref=e2183]: Air conditioning
+              - generic:
+                - link "View prices for RedDoorz Plus @ San Marcelino Malate":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9JNExINDk4V1p4ZDIyQVJvTkwyY3ZNVEZyZVcxNmEzbzFhaEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCkQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2186]:
+                    - generic [ref=e2189]: View prices
+            - generic [ref=e2190] [cursor=pointer]:
+              - link "OYO 1175 Casa Ana ₱288 · 1 out of 5 stars from 2 reviews" [ref=e2191]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtJbVAydXdvQ0hfSjFCR2cwdlp5OHhNWHBxZW5oNU1ERTRFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCoQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2192]:
+                  - heading "OYO 1175 Casa Ana" [level=2] [ref=e2193]
+                  - generic [ref=e2195]: ₱288 ·
+                  - img "1 out of 5 stars from 2 reviews" [ref=e2196]:
+                    - generic [ref=e2197]:
+                      - generic [ref=e2198]: "1.0"
+                      - img [ref=e2199]
+                      - generic [ref=e2201]: (2)
+              - generic:
+                - link "View prices for OYO 1175 Casa Ana":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtJbVAydXdvQ0hfSjFCR2cwdlp5OHhNWHBxZW5oNU1ERTRFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCsQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2204]:
+                    - generic [ref=e2207]: View prices
+            - generic [ref=e2208] [cursor=pointer]:
+              - link "Diamond Hotel Philippines ₱6,772 · 4.5 out of 5 stars from 4,947 reviews 5-star hotel · Free breakfast" [ref=e2209]:
+                - /url: /travel/search?q=Manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CCwQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2210]:
+                  - heading "Diamond Hotel Philippines" [level=2] [ref=e2211]
+                  - generic [ref=e2213]: ₱6,772 ·
+                  - img "4.5 out of 5 stars from 4,947 reviews" [ref=e2214]:
+                    - generic [ref=e2215]:
+                      - generic [ref=e2216]: "4.5"
+                      - img [ref=e2217]
+                      - generic [ref=e2219]: (4.9K)
+                  - list [ref=e2220]:
+                    - text: 5-star hotel ·
+                    - listitem [ref=e2221]:
+                      - img [ref=e2223]
+                      - generic [ref=e2225]: Free breakfast
+              - generic:
+                - link "View prices for Diamond Hotel Philippines":
+                  - /url: /travel/search?q=Manila&qs=MiZDaGdJOF9fcGotdnZob0hIQVJvTEwyY3ZNWFJrYlRWMmREWVFBUTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CC0Q35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2228]:
+                    - generic [ref=e2231]: View prices
+            - generic [ref=e2232] [cursor=pointer]:
+              - link "EL GRANDE INN ₱754 · 3.7 out of 5 stars from 18 reviews 2-star hotel · Air conditioning" [ref=e2233]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9JbXFybTVjT1IwNFR1QVJvTkwyY3ZNVEZyTm5KaU5ESnhaeEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CC4Qh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2234]:
+                  - heading "EL GRANDE INN" [level=2] [ref=e2235]
+                  - generic [ref=e2237]: ₱754 ·
+                  - img "3.7 out of 5 stars from 18 reviews" [ref=e2238]:
+                    - generic [ref=e2239]:
+                      - generic [ref=e2240]: "3.7"
+                      - img [ref=e2241]
+                      - generic [ref=e2243]: (18)
+                  - list [ref=e2244]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e2245]:
+                      - img [ref=e2247]
+                      - generic [ref=e2249]: Air conditioning
+              - generic:
+                - link "View prices for EL GRANDE INN":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9JbXFybTVjT1IwNFR1QVJvTkwyY3ZNVEZyTm5KaU5ESnhaeEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CC8Q35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2252]:
+                    - generic [ref=e2255]: View prices
+            - generic [ref=e2256] [cursor=pointer]:
+              - link "ERVORUTO HOSTEL MAKATI ₱735 · 4.1 out of 5 stars from 113 reviews 2-star hotel · Free Wi-Fi" [ref=e2257]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9JbEtLd2lZX3JnSWYwQVJvTkwyY3ZNVEZrWm1kelh6bDJiaEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDAQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2258]:
+                  - heading "ERVORUTO HOSTEL MAKATI" [level=2] [ref=e2259]
+                  - generic [ref=e2261]: ₱735 ·
+                  - img "4.1 out of 5 stars from 113 reviews" [ref=e2262]:
+                    - generic [ref=e2263]:
+                      - generic [ref=e2264]: "4.1"
+                      - img [ref=e2265]
+                      - generic [ref=e2267]: (113)
+                  - list [ref=e2268]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e2269]:
+                      - img [ref=e2271]
+                      - generic [ref=e2273]: Free Wi-Fi
+              - generic:
+                - link "View prices for ERVORUTO HOSTEL MAKATI":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9JbEtLd2lZX3JnSWYwQVJvTkwyY3ZNVEZrWm1kelh6bDJiaEFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDEQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2276]:
+                    - generic [ref=e2279]: View prices
+            - generic [ref=e2280] [cursor=pointer]:
+              - link "airobedz Manila ₱852 · 4.2 out of 5 stars from 116 reviews 2-star hotel · Free Wi-Fi GREAT DEAL 25% less than usual" [ref=e2281]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtJenZIWXpOQ0p1S0l4R2cwdlp5OHhNWEpmWmpKZk1UTnRFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDIQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2282]:
+                  - heading "airobedz Manila" [level=2] [ref=e2283]
+                  - generic [ref=e2285]: ₱852 ·
+                  - img "4.2 out of 5 stars from 116 reviews" [ref=e2286]:
+                    - generic [ref=e2287]:
+                      - generic [ref=e2288]: "4.2"
+                      - img [ref=e2289]
+                      - generic [ref=e2291]: (116)
+                  - list [ref=e2292]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e2293]:
+                      - img [ref=e2295]
+                      - generic [ref=e2297]: Free Wi-Fi
+                  - generic [ref=e2298]: GREAT DEAL 25% less than usual
+              - generic:
+                - link "View prices for airobedz Manila":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtJenZIWXpOQ0p1S0l4R2cwdlp5OHhNWEpmWmpKZk1UTnRFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDQQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2301]:
+                    - generic [ref=e2304]: View prices
+            - generic [ref=e2305] [cursor=pointer]:
+              - link "Sponsored klook klook My Ad Center RedDoorz @ V Plaza Hotel Manila ₱855 · 3.1 out of 5 stars from 125 reviews 3-star hotel · Free parking" [ref=e2306]:
+                - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQDRoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YBCABEgJ18PD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_1YM68r86U_BoCePDjuQZiv5ZcwIw&adurl=
+                - generic [ref=e2307]:
+                  - generic [ref=e2308]:
+                    - generic [ref=e2309]: Sponsored·
+                    - generic [ref=e2310]:
+                      - img "klook" [ref=e2311]
+                      - text: klook
+                  - button "My Ad Center" [ref=e2314]:
+                    - img [ref=e2315]
+                - generic [ref=e2318]:
+                  - heading "RedDoorz @ V Plaza Hotel Manila" [level=2] [ref=e2319]
+                  - generic [ref=e2321]: ₱855 ·
+                  - img "3.1 out of 5 stars from 125 reviews" [ref=e2322]:
+                    - generic [ref=e2323]:
+                      - generic [ref=e2324]: "3.1"
+                      - img [ref=e2325]
+                      - generic [ref=e2327]: (125)
+                  - list [ref=e2328]: 3-star hotel · Free parking
+              - generic:
+                - link "Visit klook":
+                  - /url: /aclk?sa=l&ai=DChsSEwj396OmpMKUAxXHrWYCHR-CDoEYACICCAEQDRoCc20&co=1&ase=2&gclid=EAIaIQobChMI9_ejpqTClAMVx61mAh0fgg6BEA0YBCABEgJ18PD_BwE&cid=CAASuwHkaB-kbz0YZJpzzvERGpTmn7nJXtT-GBELb8-UJcTr9wTrjZdnRvI7bes8vQ1V57RkzW4RcY4SIWrDZcqm9WRjqIvCuGl4cv7XqTb1MUCJmaTM_sA5vhkAsxW1YIZfpLBj4SajSDVRv50a5TYcvEefDbq2T699CBdRfxLfMG6HR0U8AG2iJ1Q5ssnAvJ_TB-R34NOAxcp_82fpJExXsVFzDw2v6WVynhtQ9ShKiF4oy0tisnCH1BDgLu3j&category=acrcp_v1_48&sig=AOD64_1YM68r86U_BoCePDjuQZiv5ZcwIw&adurl=
+                  - button "Visit klook" [ref=e2331]:
+                    - generic [ref=e2334]: Visit klook
+            - generic [ref=e2335] [cursor=pointer]:
+              - link "Go Hotels Ermita-Manila ₱1,321 · 3.8 out of 5 stars from 1,024 reviews 3-star hotel · Breakfast ($)" [ref=e2336]:
+                - /url: /travel/search?q=Manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDgQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2337]:
+                  - heading "Go Hotels Ermita-Manila" [level=2] [ref=e2338]
+                  - generic [ref=e2340]: ₱1,321 ·
+                  - img "3.8 out of 5 stars from 1,024 reviews" [ref=e2341]:
+                    - generic [ref=e2342]:
+                      - generic [ref=e2343]: "3.8"
+                      - img [ref=e2344]
+                      - generic [ref=e2346]: (1.0K)
+                  - list [ref=e2347]:
+                    - text: 3-star hotel ·
+                    - listitem [ref=e2348]:
+                      - img [ref=e2350]
+                      - generic [ref=e2352]: Breakfast ($)
+              - generic:
+                - link "View prices for Go Hotels Ermita-Manila":
+                  - /url: /travel/search?q=Manila&qs=MidDaGtJOGMyVTRKemlqckU4R2cwdlp5OHhNV00zZERKeU9Hc3lFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDkQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2355]:
+                    - generic [ref=e2358]: View prices
+            - generic [ref=e2359] [cursor=pointer]:
+              - link "Collection O Metro Manila near University Belt formerly 1318 Residences ₱806 · 3.9 out of 5 stars from 25 reviews 2-star hotel · Free Wi-Fi GREAT DEAL 68% less than usual" [ref=e2360]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9JMlozMGdNLVg3clBBQVJvTkwyY3ZNVEZ1TWpSalpuQjZNUkFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDoQh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2361]:
+                  - heading "Collection O Metro Manila near University Belt formerly 1318 Residences" [level=2] [ref=e2362]
+                  - generic [ref=e2364]: ₱806 ·
+                  - img "3.9 out of 5 stars from 25 reviews" [ref=e2365]:
+                    - generic [ref=e2366]:
+                      - generic [ref=e2367]: "3.9"
+                      - img [ref=e2368]
+                      - generic [ref=e2370]: (25)
+                  - list [ref=e2371]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e2372]:
+                      - img [ref=e2374]
+                      - generic [ref=e2376]: Free Wi-Fi
+                  - generic [ref=e2377]: GREAT DEAL 68% less than usual
+              - generic:
+                - link "View prices for Collection O Metro Manila near University Belt formerly 1318 Residences":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9JMlozMGdNLVg3clBBQVJvTkwyY3ZNVEZ1TWpSalpuQjZNUkFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CDwQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2380]:
+                    - generic [ref=e2383]: View prices
+            - generic [ref=e2384] [cursor=pointer]:
+              - link "1812 Vc Lodge ₱1,086 Vacation rental · Air conditioning" [ref=e2385]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9RbXJMLXM1YWYxOC1FQVJvTkwyY3ZNVEY1ZWpaek1UVnNhaEFDOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CD0Qh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2386]:
+                  - heading "1812 Vc Lodge" [level=2] [ref=e2387]
+                  - generic [ref=e2389]: ₱1,086
+                  - list [ref=e2390]:
+                    - text: Vacation rental ·
+                    - listitem [ref=e2391]:
+                      - img [ref=e2393]
+                      - generic [ref=e2395]: Air conditioning
+              - generic:
+                - link "View prices for 1812 Vc Lodge":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9RbXJMLXM1YWYxOC1FQVJvTkwyY3ZNVEY1ZWpaek1UVnNhaEFDOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CD4Q35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                  - button "View details" [ref=e2398]:
+                    - generic [ref=e2401]: View details
+            - generic [ref=e2402] [cursor=pointer]:
+              - link "Eight HOSTEL ₱759 · 4 out of 5 stars from 176 reviews 2-star hotel · Free Wi-Fi" [ref=e2403]:
+                - /url: /travel/search?q=Manila&qs=MihDaG9Jd01mZndQS00tLXlyQVJvTkwyY3ZNVEZqTlRnMk9HMTRjQkFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CD8Qh-kJahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                - generic [ref=e2404]:
+                  - heading "Eight HOSTEL" [level=2] [ref=e2405]
+                  - generic [ref=e2407]: ₱759 ·
+                  - img "4 out of 5 stars from 176 reviews" [ref=e2408]:
+                    - generic [ref=e2409]:
+                      - generic [ref=e2410]: "4.0"
+                      - img [ref=e2411]
+                      - generic [ref=e2413]: (176)
+                  - list [ref=e2414]:
+                    - text: 2-star hotel ·
+                    - listitem [ref=e2415]:
+                      - img [ref=e2417]
+                      - generic [ref=e2419]: Free Wi-Fi
+              - generic:
+                - link "View prices for Eight HOSTEL":
+                  - /url: /travel/search?q=Manila&qs=MihDaG9Jd01mZndQS00tLXlyQVJvTkwyY3ZNVEZqTlRnMk9HMTRjQkFCOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CEAQ35UKahcKEwigqYinpMKUAxUAAAAAHQAAAAAQHw&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAC6AQZwcmljZXM
+                  - button "View prices" [ref=e2422]:
+                    - generic [ref=e2425]: View prices
+          - button "More results" [ref=e2426]:
+            - generic [ref=e2429]: More results
+            - img [ref=e2430]
+      - generic [ref=e2432]:
+        - generic [ref=e2433]:
+          - heading "Airo Hotel Manila" [level=1] [ref=e2437]
+          - generic [ref=e2439]:
+            - generic:
+              - button "Back to list of all results":
+                - generic: Back to list of all results
+            - link "Open Airo Hotel Manila in a new tab." [ref=e2440] [cursor=pointer]:
+              - /url: /travel/hotels/entity/ChoIoKz0-qyipbXjARoNL2cvMTFoX2swNTBsehAB?q=Manila&qs=OAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CAAQvukIahcKEwigqYinpMKUAxUAAAAAHQAAAAAQGg&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+              - generic [ref=e2441]:
+                - button "Open in new tab" [ref=e2442]:
+                  - img [ref=e2443]
+                - tooltip [ref=e2445]: Open in new tab
+            - button "Close" [ref=e2449]:
+              - generic [ref=e2453]:
+                - img [ref=e2455]
+                - generic [ref=e2458]: Close
+        - generic [ref=e2462]:
+          - generic [ref=e2463]:
+            - tablist [ref=e2465]:
+              - tab "Overview" [selected] [ref=e2466] [cursor=pointer]:
+                - generic [ref=e2467]: Overview
+              - tab "Prices" [ref=e2469] [cursor=pointer]:
+                - generic [ref=e2470]: Prices
+              - tab "Reviews" [ref=e2471] [cursor=pointer]:
+                - generic [ref=e2472]: Reviews
+              - tab "Photos" [ref=e2473] [cursor=pointer]:
+                - generic [ref=e2474]: Photos
+              - tab "About" [ref=e2475] [cursor=pointer]:
+                - generic [ref=e2476]: About
+            - generic [ref=e2478]:
+              - tabpanel [ref=e2479]:
+                - generic [ref=e2480]:
+                  - generic [ref=e2483]:
+                    - generic [ref=e2484]:
+                      - generic [ref=e2486]:
+                        - img "4 out of 5 stars from 249 reviews" [ref=e2488]:
+                          - generic [ref=e2489]:
+                            - generic [ref=e2490]: "4.0"
+                            - generic [ref=e2491]:
+                              - generic [ref=e2492]:
+                                - img [ref=e2494]
+                                - img [ref=e2497]
+                                - img [ref=e2500]
+                                - img [ref=e2503]
+                                - img [ref=e2506]
+                              - generic [ref=e2508]:
+                                - img [ref=e2510]
+                                - img [ref=e2513]
+                                - img [ref=e2516]
+                                - img [ref=e2519]
+                            - generic [ref=e2521]: (249)
+                        - generic [ref=e2522]: 427 Antonio Flores, corner L Guerrero St, Ermita, Manila, 1000 Metro Manila•0945 259 6433
+                      - button "₱1,036 for dates May 23 – 24, Airo Hotel Manila GREAT DEAL 26% less than usual" [ref=e2528]:
+                        - generic [ref=e2530]:
+                          - generic [ref=e2531]:
+                            - generic [ref=e2532]: GREAT DEAL
+                            - generic [ref=e2533]: ₱1,036
+                          - generic [ref=e2534]: 26% less than usual
+                    - generic [ref=e2535]:
+                      - generic [ref=e2537]:
+                        - img [ref=e2539]
+                        - generic [ref=e2541]: Website
+                        - link "Visit site for Airo Hotel Manila" [ref=e2542] [cursor=pointer]:
+                          - /url: http://www.airohotelmanila.com/
+                      - generic [ref=e2544]:
+                        - img [ref=e2546]
+                        - link "Directions" [ref=e2553] [cursor=pointer]:
+                          - /url: https://maps.google.com/maps?hl=en&gl=PH&um=1&ie=UTF-8&fb=1&sa=X&geocode=KRmUND9Yy5czMSAWXc8SlWrj&daddr=Airo+Hotel+Manila,+427+Antonio+Flores,+corner+L+Guerrero+St,+Ermita,+Manila,+1000+Metro+Manila
+                      - button "Check availability" [ref=e2556]:
+                        - generic [ref=e2559]: Check availability
+                  - generic [ref=e2563]:
+                    - list "Photos" [ref=e2567]:
+                      - listitem "Photo 0" [ref=e2568] [cursor=pointer]:
+                        - img "Photo 1" [ref=e2569]
+                      - listitem "Photo 1" [ref=e2570] [cursor=pointer]:
+                        - img "Photo 2" [ref=e2571]
+                        - generic:
+                          - generic:
+                            - img
+                          - generic: ... not too small and not too big and there's a hot and cold shower.
+                      - listitem "Photo 2" [ref=e2572] [cursor=pointer]:
+                        - img "Photo 3" [ref=e2573]
+                        - generic:
+                          - generic:
+                            - img
+                          - generic: Finally, the hotel's amenities were top-notch.
+                    - button "View more photos" [ref=e2574]:
+                      - img [ref=e2577]
+                      - text: View more photos
+                  - generic [ref=e2581]:
+                    - generic [ref=e2582]:
+                      - generic [ref=e2585]:
+                        - generic [ref=e2586]: Check-in
+                        - generic [ref=e2588]:
+                          - textbox "Check-in" [ref=e2589]: Sat, May 23
+                          - button [ref=e2592]:
+                            - img [ref=e2595]
+                          - button [ref=e2599]:
+                            - img [ref=e2602]
+                        - generic [ref=e2605]: Check-out
+                        - generic [ref=e2607]:
+                          - textbox "Check-out" [ref=e2608]: Sun, May 24
+                          - button [ref=e2611]:
+                            - img [ref=e2614]
+                          - button [ref=e2618]:
+                            - img [ref=e2621]
+                      - button "Number of travelers. Current number of travelers is 2." [ref=e2628] [cursor=pointer]:
+                        - img [ref=e2629]
+                        - generic [ref=e2631]: "2"
+                        - img [ref=e2632]
+                      - generic [ref=e2634]:
+                        - button "Price displayedNightly total" [ref=e2638]:
+                          - generic [ref=e2641]: Nightly total
+                          - img [ref=e2643]
+                        - generic [ref=e2645]:
+                          - generic [ref=e2646]: Free cancellation only
+                          - switch "Free cancellation only" [ref=e2647] [cursor=pointer]:
+                            - generic [ref=e2652]:
+                              - img [ref=e2653]
+                              - img [ref=e2655]
+                    - generic [ref=e2659]:
+                      - generic [ref=e2661]:
+                        - generic [ref=e2662]:
+                          - generic [ref=e2663]:
+                            - heading "Sponsored Featured options" [level=2] [ref=e2664]:
+                              - generic [ref=e2665]: Sponsored·
+                              - text: Featured options
+                            - button "My Ad Center" [ref=e2667] [cursor=pointer]:
+                              - img [ref=e2668]
+                          - generic [ref=e2672]:
+                            - generic [ref=e2676]:
+                              - link "Booking.com ₱5,443 Visit site for Booking.com Read Real Guest Reviews · 24/7 Customer service" [ref=e2677] [cursor=pointer]:
+                                - /url: /aclk?sa=l&ai=DChsSEwjE1M3LpMKUAxW8hGYCHbb1LeYYACICCAEQCBoCc20&co=1&ase=2&gclid=EAIaIQobChMIxNTNy6TClAMVvIRmAh229S3mEAoYASABEgKfcPD_BwE&cid=CAASuwHkaJ-sov6_RU_w0duFaz8G3DxlsCag_wZlnIhUydq4ONm-ViJyUSxhHvyXZqTro31H-6cyGMtR8Sa2v9mNNQfvVP4Di6pQy9ax4qhGnWNAU5oVBps6fyZM03rhhT333wDLqYvE1pdgiCnZE0cb9uU4qr58lxTGwmJYlgbDggP9c6wUmheRKhhkjvQ1XtXrrmiPVtrNE_VaD4UbKDzTpHvGifISmy317KXxs3sqB7NFyt4P7_0hfQuKsVE0&category=acrcp_v1_48&sig=AOD64_1elCWeKSbADUmmoupaA0IweM_7Rg&adurl=
+                                - generic [ref=e2678]:
+                                  - generic [ref=e2679]:
+                                    - heading "Booking.com" [level=3] [ref=e2684]
+                                    - generic [ref=e2685]:
+                                      - generic [ref=e2686]: ₱5,443
+                                      - link "Visit site for Booking.com" [ref=e2688]:
+                                        - generic [ref=e2690]: Visit site
+                                  - generic [ref=e2692]:
+                                    - img [ref=e2694]
+                                    - generic [ref=e2696]: Read Real Guest Reviews · 24/7 Customer service
+                              - generic [ref=e2697]:
+                                - link "Economy Double Room without Window 1 double bed ₱5,443 Visit site for Booking.com" [ref=e2698] [cursor=pointer]:
+                                  - /url: /aclk?sa=l&ai=DChsSEwjE1M3LpMKUAxW8hGYCHbb1LeYYACICCAEQCxoCc20&co=1&ase=2&gclid=EAIaIQobChMIxNTNy6TClAMVvIRmAh229S3mEAoYASAEEgKdavD_BwE&cid=CAASuwHkaJ-sov6_RU_w0duFaz8G3DxlsCag_wZlnIhUydq4ONm-ViJyUSxhHvyXZqTro31H-6cyGMtR8Sa2v9mNNQfvVP4Di6pQy9ax4qhGnWNAU5oVBps6fyZM03rhhT333wDLqYvE1pdgiCnZE0cb9uU4qr58lxTGwmJYlgbDggP9c6wUmheRKhhkjvQ1XtXrrmiPVtrNE_VaD4UbKDzTpHvGifISmy317KXxs3sqB7NFyt4P7_0hfQuKsVE0&category=acrcp_v1_48&sig=AOD64_2QKobDnwepUJ4VpXZODEc6Tn5J2g&adurl=
+                                  - generic [ref=e2699]:
+                                    - generic [ref=e2700]:
+                                      - heading "Economy Double Room without Window" [level=4] [ref=e2702]
+                                      - generic [ref=e2703]: 1 double bed
+                                    - generic [ref=e2705]:
+                                      - generic [ref=e2706]: ₱5,443
+                                      - link "Visit site for Booking.com" [ref=e2708]:
+                                        - generic [ref=e2710]: Visit site
+                                - link "Standard Double Room 1 double bed · Free cancellation until May 21 ₱6,451 Visit site for Booking.com" [ref=e2711] [cursor=pointer]:
+                                  - /url: /aclk?sa=l&ai=DChsSEwjE1M3LpMKUAxW8hGYCHbb1LeYYACICCAEQDBoCc20&co=1&ase=2&gclid=EAIaIQobChMIxNTNy6TClAMVvIRmAh229S3mEAoYASAFEgKQ__D_BwE&cid=CAASuwHkaJ-sov6_RU_w0duFaz8G3DxlsCag_wZlnIhUydq4ONm-ViJyUSxhHvyXZqTro31H-6cyGMtR8Sa2v9mNNQfvVP4Di6pQy9ax4qhGnWNAU5oVBps6fyZM03rhhT333wDLqYvE1pdgiCnZE0cb9uU4qr58lxTGwmJYlgbDggP9c6wUmheRKhhkjvQ1XtXrrmiPVtrNE_VaD4UbKDzTpHvGifISmy317KXxs3sqB7NFyt4P7_0hfQuKsVE0&category=acrcp_v1_48&sig=AOD64_2msuetXOk5l2h9DteaFzZjIDE1Qg&adurl=
+                                  - generic [ref=e2712]:
+                                    - generic [ref=e2713]:
+                                      - heading "Standard Double Room" [level=4] [ref=e2715]
+                                      - generic [ref=e2716]: 1 double bed · Free cancellation until May 21
+                                    - generic [ref=e2718]:
+                                      - generic [ref=e2719]: ₱6,451
+                                      - link "Visit site for Booking.com" [ref=e2721]:
+                                        - generic [ref=e2723]: Visit site
+                            - link "Agoda Free cancellation until May 22 ₱1,817 Visit site for Agoda" [ref=e2728] [cursor=pointer]:
+                              - /url: /aclk?sa=l&ai=DChsSEwjE1M3LpMKUAxW8hGYCHbb1LeYYACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMIxNTNy6TClAMVvIRmAh229S3mEAoYAiABEgJB6vD_BwE&cid=CAASuwHkaJ-sov6_RU_w0duFaz8G3DxlsCag_wZlnIhUydq4ONm-ViJyUSxhHvyXZqTro31H-6cyGMtR8Sa2v9mNNQfvVP4Di6pQy9ax4qhGnWNAU5oVBps6fyZM03rhhT333wDLqYvE1pdgiCnZE0cb9uU4qr58lxTGwmJYlgbDggP9c6wUmheRKhhkjvQ1XtXrrmiPVtrNE_VaD4UbKDzTpHvGifISmy317KXxs3sqB7NFyt4P7_0hfQuKsVE0&category=acrcp_v1_48&sig=AOD64_3ilHgZX3V3JTpwVGCjCB3brijuDg&adurl=
+                              - generic [ref=e2730]:
+                                - generic [ref=e2732]:
+                                  - heading "Agoda" [level=3] [ref=e2735]
+                                  - generic [ref=e2737]: Free cancellation until May 22
+                                - generic [ref=e2738]:
+                                  - generic [ref=e2739]: ₱1,817
+                                  - link "Visit site for Agoda" [ref=e2741]:
+                                    - generic [ref=e2743]: Visit site
+                        - generic [ref=e2744]:
+                          - heading "All options" [level=2] [ref=e2748]
+                          - generic [ref=e2750]:
+                            - link "Priceline Free cancellation until May 22 , 2 guests , ₱1,036 Visit site for Priceline" [ref=e2756] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OsxFmDQEp3FCpVKqee-mQO_gPL2cJHtyqok7jKyM5a6-YVcucq8iLc3A5_OiQ6g4BVzUg2PkHxO6quKkIs48_ix36mmy1ZlLlOvq8Lo6H5YdgF9XJRtOvPJSH_uXc4rRPeSjhGlLdx6t2QOmUbWTia76UIF4WvNA45E4d5rWqjZ-5_bXuuWdDU54Nj2MAZdMH9I&pcurl=https://www.priceline.com/r/?channel%3Dmeta%26product%3Dhotel%26theme%3Dghalistings%26refid%3DPLGOOGLEMSS%26refclickid%3DPH_HP%257C122349705_localuniversal_1%257C20260523%257Cdesktop%257Cdefaultdate%7Cpublic%7C%7C%7C5%257C2%257C0%7C0%7CEN%26hotelid%3D122349705%26checkin%3D20260523%26checkout%3D20260524%26rooms%3D1%26currency%3DPHP%26displayedCurr%3DPHP%26POSCountryCode%3DPH%26taxDisplayMode%3DBP%26cityID%3D3000040031%26adults%3D2%26land%3DL%26metaid%3DRglHGeyCTzUMgosckYD6vxSRJ8c_a_YCrnPCB-i00V5I04Z0um5eMG4Xu6CRBrOkIt-kT7R1u-8XQSyOrDa6-3yY9zqC8J3FL2jzCJOsVnSuKxV4zdNNeZb-xpbDiH-z3dPJRVbFiYIL_Am4vOmxfx4ueq6KyTD4FWzT_yMjGkgmf6ul-tiqwKXL0uUAcPuHj1GiB56QRsC6FuyLHZQYQ7kiHuB6NDz8Ebuigl6FjyHN33asrGYr6xXmObDNBqOUeQ1-AdtJ9D3u7_rsU-avXxN2Dgh4A_pPWY4Y6RnwRyH9uPbyUkJcVCEbuGcsVhIB2grBOpo6uljPvWpo_4WOJTAeYIMeJtBM276Yg6hNHGj1c2qRq338uzMvVbGIgVtXjbyIonlOcDtZsfJ3RPy9xlKmeS2UyNPO6eOf81H-d9U%26dblcnt%3Dtrue%26user_num_adults%3D2%26hc%3D1%26pdtax%3D135.16%26pdf%3D26.54%26pdt%3D1036.19%26locale%3Den-us%26ad-src%3D%26numChild%3D0&s=AD1XQnno_sS3H2jx99892gN-cGaI
+                              - generic [ref=e2757]:
+                                - generic [ref=e2759]:
+                                  - generic [ref=e2760]: Priceline
+                                  - generic [ref=e2762]:
+                                    - generic [ref=e2763]:
+                                      - generic [ref=e2764]:
+                                        - text: Free cancellation until May 22
+                                        - generic: ","
+                                      - text: ·
+                                    - generic [ref=e2766]:
+                                      - text: 2 guests
+                                      - generic: ","
+                                - generic [ref=e2770]: ₱1,036
+                                - button "Visit site for Priceline" [ref=e2772]:
+                                  - generic [ref=e2774]: Visit site
+                            - link "Trip.com 2 guests , ₱1,511 Visit site for Trip.com" [ref=e2780] [cursor=pointer]:
+                              - /url: /travel/clk?pc=AA80OszTeR2Z7c7nNAY53nRIDUk6GLkiX83kxsVz6_GxRRfhYByhX3J3ge7FRFR5gkCSEqfFBVVw-gLx5IGxqdkhGHdRJKiYz-chkJw-bVzMfD6oc2C_-AERXp9A-HuiVC4D6PbmPgMtf_Z-HucqKE3_iN9mljOP-zUPSTPt32D4Ps8TRFl__0g&pcurl=https://ph.trip.com/hotels/redirect?hotelid%3D78141837%26city%3D364%26shoppingid%3DM73CUO-dKLqo%26adult%3D2%26children%3D0%26ages%3D%26checkin%3D2026-05-23%26checkout%3D2026-05-24%26curr%3DPHP%26Allianceid%3D15214%26Sid%3D1349480%26prid%3DLANG_PH%26trip_sub1%3D23_05_2026_1_localuniversal_78141837_PH_desktop_default___0_0-LANG_PH-landing%26hpaopts%3Dstand%5BH4sIAAAAAAAA_-MK5WKSYBJi4mCU8uY4v3bXdVaL34IBHDMYezcvVN3ByHSRcUmBLdd1kakODxmB9OKCOdMdXjAefTX7PuMCFqZVLDwct_gFg3bItb4-me6wkFVknfvDqjnlDlI8vubGzqH-uinePoX5Cowar56susDmwRjEZuLm5GppFCXDxRzgESD4RET25FP7PfZSIJ4ijJfEmpqnG-CR0S3axcjkwbiKkZ2L2cDISIDpEyM_srnxxgYA54IJBMAAAAA%5Dfgt%5B1%5D%26br%3D1511.11%26tf%3D161.90%26display%3Dincavg%26locale%3Den_ph%26crn%3D1%26is_sp%3DQ2%26roomid%3D1525585615&s=AD1XQnlOjMlz0SkFJ-WfGOlyBKlJ
+                              - generic [ref=e2781]:
+                                - generic [ref=e2783]:
+                                  - generic [ref=e2784]: Trip.com
+                                  - generic [ref=e2788]:
+                                    - text: 2 guests
+                                    - generic: ","
+                                - generic [ref=e2792]: ₱1,511
+                                - button "Visit site for Trip.com" [ref=e2794]:
+                                  - generic [ref=e2796]: Visit site
+                      - button "View more options from ₱1,452" [ref=e2799]:
+                        - generic [ref=e2801]: View more options from ₱1,452
+                  - generic [ref=e2806]:
+                    - generic [ref=e2807]:
+                      - img [ref=e2809]
+                      - generic [ref=e2811]:
+                        - link "Track this hotel" [ref=e2813] [cursor=pointer]:
+                          - /url: ./travel/subscriptions/list/hotels
+                        - button "More info about price tracking" [ref=e2818]:
+                          - img
+                        - generic [ref=e2821]: Get emails about price changes
+                    - switch "Track this hotel" [ref=e2824] [cursor=pointer]:
+                      - generic [ref=e2829]:
+                        - img [ref=e2830]
+                        - img [ref=e2832]
+                  - button "7 top things to knowWalking distance to the Rizal Park and the Rizal Monument+6 more" [ref=e2840] [cursor=pointer]:
+                    - generic [ref=e2841]:
+                      - img [ref=e2845]
+                      - generic [ref=e2848]: 7 top things to know·Walking distance to the Rizal Park and the Rizal Monument+6 more
+                      - img [ref=e2849]
+                  - generic [ref=e2855] [cursor=pointer]:
+                    - generic [ref=e2856]: Prices are currently low for your trip.
+                    - button "Show price range" [ref=e2860]:
+                      - generic [ref=e2863]: Show price range
+                      - img [ref=e2864]
+                  - generic [ref=e2867]:
+                    - img [ref=e2869]
+                    - generic [ref=e2872]: "Sustainability: Energy efficiency"
+                    - button "View details about this hotel's sustainable practices" [ref=e2874]:
+                      - generic [ref=e2877]: View details
+                  - generic [ref=e2880]:
+                    - generic [ref=e2881]:
+                      - heading "Sponsored Similar hotels" [level=2] [ref=e2882]:
+                        - generic [ref=e2883]: Sponsored·
+                        - text: Similar hotels
+                      - button "My Ad Center" [ref=e2885] [cursor=pointer]:
+                        - img [ref=e2886]
+                    - list [ref=e2892]:
+                      - listitem [ref=e2893]:
+                        - link "Hotel101-Manila ₱3,150 Booking.com Booking.com 4.4 out of 5 stars from 7,600 reviews3-star hotel Free cancellationPool Visit Booking.com":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQAxoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYASABEgLxkvD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_1G1kdz0UYajuruF__OTDU7vdNPsQ&adurl=
+                          - generic [ref=e2894] [cursor=pointer]:
+                            - img [ref=e2896]
+                            - generic [ref=e2898]:
+                              - generic [ref=e2899]: Hotel101-Manila
+                              - generic [ref=e2900]: ₱3,150
+                              - generic [ref=e2902]:
+                                - img "Booking.com" [ref=e2903]
+                                - text: Booking.com
+                              - generic [ref=e2904]:
+                                - img "4.4 out of 5 stars from 7,600 reviews" [ref=e2905]:
+                                  - generic [ref=e2906]:
+                                    - generic [ref=e2907]: 4.4/5
+                                    - img [ref=e2908]
+                                    - generic [ref=e2910]: (7.6K)
+                                - generic [ref=e2911]: · 3-star hotel
+                              - generic [ref=e2912]: Free cancellation · Pool
+                              - generic [ref=e2914]: Visit Booking.com
+                      - listitem [ref=e2915]:
+                        - link "New Coast Hotel Manila ₱6,367 Agoda Agoda 4.3 out of 5 stars from 3,439 reviews5-star hotel Hot tubSpa Visit Agoda":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQDRoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYAiABEgIs7vD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_0_IhcrNW__xMZ8bf5U9xVwk8cynQ&adurl=
+                          - generic [ref=e2916] [cursor=pointer]:
+                            - img [ref=e2918]
+                            - generic [ref=e2920]:
+                              - generic [ref=e2921]: New Coast Hotel Manila
+                              - generic [ref=e2922]: ₱6,367
+                              - generic [ref=e2924]:
+                                - img "Agoda" [ref=e2925]
+                                - text: Agoda
+                              - generic [ref=e2926]:
+                                - img "4.3 out of 5 stars from 3,439 reviews" [ref=e2927]:
+                                  - generic [ref=e2928]:
+                                    - generic [ref=e2929]: 4.3/5
+                                    - img [ref=e2930]
+                                    - generic [ref=e2932]: (3.4K)
+                                - generic [ref=e2933]: · 5-star hotel
+                              - generic [ref=e2934]: Hot tub · Spa
+                              - generic [ref=e2936]: Visit Agoda
+                      - listitem [ref=e2937]:
+                        - link "I'M Hotel Makati ₱4,480 Skyscanner Skyscanner 4.6 out of 5 stars from 8,708 reviews5-star hotel Hot tubSpa Visit Skyscanner":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQERoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYAyABEgI5QPD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_1UTJvcUhbtQ6orsfo-QvXxcY5LUg&adurl=
+                          - generic [ref=e2938] [cursor=pointer]:
+                            - img [ref=e2940]
+                            - generic [ref=e2942]:
+                              - generic [ref=e2943]: I'M Hotel Makati
+                              - generic [ref=e2944]: ₱4,480
+                              - generic [ref=e2946]:
+                                - img "Skyscanner" [ref=e2947]
+                                - text: Skyscanner
+                              - generic [ref=e2948]:
+                                - img "4.6 out of 5 stars from 8,708 reviews" [ref=e2949]:
+                                  - generic [ref=e2950]:
+                                    - generic [ref=e2951]: 4.6/5
+                                    - img [ref=e2952]
+                                    - generic [ref=e2954]: (8.7K)
+                                - generic [ref=e2955]: · 5-star hotel
+                              - generic [ref=e2956]: Hot tub · Spa
+                              - generic [ref=e2958]: Visit Skyscanner
+                      - listitem [ref=e2959]:
+                        - link "RedDoorz @ V Plaza Hotel Manila ₱855 klook klook 3.1 out of 5 stars from 125 reviews3-star hotel Free parkingParking Visit klook":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQDxoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYBCABEgK3FvD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_3dytC4bdJYDF6YGOy2PnokFKbVQg&adurl=
+                          - generic [ref=e2960] [cursor=pointer]:
+                            - img [ref=e2962]
+                            - generic [ref=e2964]:
+                              - generic [ref=e2965]: RedDoorz @ V Plaza Hotel Manila
+                              - generic [ref=e2966]: ₱855
+                              - generic [ref=e2968]:
+                                - img "klook" [ref=e2969]
+                                - text: klook
+                              - generic [ref=e2970]:
+                                - img "3.1 out of 5 stars from 125 reviews" [ref=e2971]:
+                                  - generic [ref=e2972]:
+                                    - generic [ref=e2973]: 3.1/5
+                                    - img [ref=e2974]
+                                    - generic [ref=e2976]: (125)
+                                - generic [ref=e2977]: · 3-star hotel
+                              - generic [ref=e2978]: Free parking · Parking
+                              - generic [ref=e2980]: Visit klook
+                      - listitem [ref=e2981]:
+                        - link "Hop Inn Hotel Ermita Manila ₱1,808 Booking.com Booking.com 4.1 out of 5 stars from 1,602 reviews3-star hotel Free cancellationFree parking Visit Booking.com":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQARoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYBSABEgI_KPD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_3YO4WswkEoa1tPcymCv1gfBvayaQ&adurl=
+                          - generic [ref=e2982] [cursor=pointer]:
+                            - img [ref=e2984]
+                            - generic [ref=e2986]:
+                              - generic [ref=e2987]: Hop Inn Hotel Ermita Manila
+                              - generic [ref=e2988]: ₱1,808
+                              - generic [ref=e2990]:
+                                - img "Booking.com" [ref=e2991]
+                                - text: Booking.com
+                              - generic [ref=e2992]:
+                                - img "4.1 out of 5 stars from 1,602 reviews" [ref=e2993]:
+                                  - generic [ref=e2994]:
+                                    - generic [ref=e2995]: 4.1/5
+                                    - img [ref=e2996]
+                                    - generic [ref=e2998]: (1.6K)
+                                - generic [ref=e2999]: · 3-star hotel
+                              - generic [ref=e3000]: Free cancellation · Free parking
+                              - generic [ref=e3002]: Visit Booking.com
+                      - listitem [ref=e3003]:
+                        - link "Manila Lotus Hotel ₱1,986 Booking.com Booking.com 4.2 out of 5 stars from 1,121 reviews3-star hotel Free cancellationHot tub Visit Booking.com":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQBRoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYBiABEgJsz_D_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_3QW2L7mgbxgBnOujUSpJoi6Hnjww&adurl=
+                          - generic [ref=e3004] [cursor=pointer]:
+                            - img [ref=e3006]
+                            - generic [ref=e3008]:
+                              - generic [ref=e3009]: Manila Lotus Hotel
+                              - generic [ref=e3010]: ₱1,986
+                              - generic [ref=e3012]:
+                                - img "Booking.com" [ref=e3013]
+                                - text: Booking.com
+                              - generic [ref=e3014]:
+                                - img "4.2 out of 5 stars from 1,121 reviews" [ref=e3015]:
+                                  - generic [ref=e3016]:
+                                    - generic [ref=e3017]: 4.2/5
+                                    - img [ref=e3018]
+                                    - generic [ref=e3020]: (1.1K)
+                                - generic [ref=e3021]: · 3-star hotel
+                              - generic [ref=e3022]: Free cancellation · Hot tub
+                              - generic [ref=e3024]: Visit Booking.com
+                      - listitem [ref=e3025]:
+                        - link "lyf Malate Manila - Managed by The Ascott Limited ₱3,095 Agoda Agoda 4.4 out of 5 stars from 156 reviews3-star hotel Pet-friendlyFree parking Visit Agoda":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQCxoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYByABEgIPf_D_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_3Fbc5_TjjVK-x51hxJqZqwCpbK9Q&adurl=
+                          - generic [ref=e3026] [cursor=pointer]:
+                            - img [ref=e3028]
+                            - generic [ref=e3030]:
+                              - generic [ref=e3031]: lyf Malate Manila - Managed by The Ascott Limited
+                              - generic [ref=e3032]: ₱3,095
+                              - generic [ref=e3034]:
+                                - img "Agoda" [ref=e3035]
+                                - text: Agoda
+                              - generic [ref=e3036]:
+                                - img "4.4 out of 5 stars from 156 reviews" [ref=e3037]:
+                                  - generic [ref=e3038]:
+                                    - generic [ref=e3039]: 4.4/5
+                                    - img [ref=e3040]
+                                    - generic [ref=e3042]: (156)
+                                - generic [ref=e3043]: · 3-star hotel
+                              - generic [ref=e3044]: Pet-friendly · Free parking
+                              - generic [ref=e3046]: Visit Agoda
+                      - listitem [ref=e3047]:
+                        - link "Manila Manor Hotel ₱1,322 Booking.com Booking.com 3.1 out of 5 stars from 766 reviews3-star hotel Free parkingParking Visit Booking.com":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQBxoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYCCABEgKpcPD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_3RAY-YSxoZ9p3R1fAwrC7b02Rvfw&adurl=
+                          - generic [ref=e3048] [cursor=pointer]:
+                            - img [ref=e3050]
+                            - generic [ref=e3052]:
+                              - generic [ref=e3053]: Manila Manor Hotel
+                              - generic [ref=e3054]: ₱1,322
+                              - generic [ref=e3056]:
+                                - img "Booking.com" [ref=e3057]
+                                - text: Booking.com
+                              - generic [ref=e3058]:
+                                - img "3.1 out of 5 stars from 766 reviews" [ref=e3059]:
+                                  - generic [ref=e3060]:
+                                    - generic [ref=e3061]: 3.1/5
+                                    - img [ref=e3062]
+                                    - generic [ref=e3064]: (766)
+                                - generic [ref=e3065]: · 3-star hotel
+                              - generic [ref=e3066]: Free parking · Parking
+                              - generic [ref=e3068]: Visit Booking.com
+                      - listitem [ref=e3069]:
+                        - link "Hotel H2O ₱3,538 Agoda Agoda 4.1 out of 5 stars from 2,256 reviews4-star hotel Hot tubSpa Visit Agoda":
+                          - /url: /aclk?sa=l&ai=DChsSEwjgn83LpMKUAxUemWYCHRh-HC0YACICCAEQCRoCc20&co=1&ase=2&gclid=EAIaIQobChMI4J_Ny6TClAMVHplmAh0YfhwtECQYCSABEgLTZPD_BwE&cid=CAASuwHkaF2xxEnkst_tvgkOKkHYj5XSbl9sSw93i6yAWpxmHU0mzA9SQzFsTfY_xs4ylanIwHexwNYYRCHvSIksE_VVZgN7Romf9_f9fRwRBIO4ZUmbMdRo_nu0c7AkHJzaD2Kg0gRLY3SdkhWPom-CMFoIn8ZFP2B-C7xqX_AL7RNADhpCk02nnmQ-ZoGFH8jrJIoX6LYDv6iONEuEWmd9meJNs3nyVVC3b79Vj4s_3L3dYju3_kGpxRc1MrcQ&category=acrcp_v1_48&sig=AOD64_1aoIWmHNQP58ONf59rN6lcXfbJxg&adurl=
+                          - generic [ref=e3070] [cursor=pointer]:
+                            - img [ref=e3072]
+                            - generic [ref=e3074]:
+                              - generic [ref=e3075]: Hotel H2O
+                              - generic [ref=e3076]: ₱3,538
+                              - generic [ref=e3078]:
+                                - img "Agoda" [ref=e3079]
+                                - text: Agoda
+                              - generic [ref=e3080]:
+                                - img "4.1 out of 5 stars from 2,256 reviews" [ref=e3081]:
+                                  - generic [ref=e3082]:
+                                    - generic [ref=e3083]: 4.1/5
+                                    - img [ref=e3084]
+                                    - generic [ref=e3086]: (2.3K)
+                                - generic [ref=e3087]: · 4-star hotel
+                              - generic [ref=e3088]: Hot tub · Spa
+                              - generic [ref=e3090]: Visit Agoda
+                  - generic [ref=e3092]:
+                    - heading "At this hotel" [level=2] [ref=e3094]
+                    - generic [ref=e3097]:
+                      - generic [ref=e3098]:
+                        - generic [ref=e3099]: OZClean Laundry Services- Manila
+                        - generic [ref=e3100]:
+                          - img "3.7 out of 5 stars from 23 reviews" [ref=e3102]:
+                            - generic [ref=e3103]:
+                              - generic [ref=e3104]: "3.7"
+                              - img [ref=e3105]
+                              - generic [ref=e3107]: (23)
+                          - text: Laundry service
+                        - generic [ref=e3108]:
+                          - generic "Phone number" [ref=e3109]:
+                            - img [ref=e3112]
+                            - generic [ref=e3114]: 0945 982 6014
+                          - generic "Opening hours" [ref=e3115]:
+                            - img [ref=e3118]
+                            - button "Open · Closes 9 PM" [ref=e3121] [cursor=pointer]:
+                              - generic [ref=e3122]:
+                                - generic [ref=e3123]: Open
+                                - generic [ref=e3124]: · Closes 9 PM
+                                - img [ref=e3127]
+                          - generic [ref=e3129]:
+                            - img [ref=e3132]
+                            - link "Web results about this place" [ref=e3136] [cursor=pointer]:
+                              - /url: https://search.google.com/local/places/hotel/navigational?placeid=ChIJMZyhsTfLlzMR8YWzktMoU6w&gl=PH&hl=en-US
+                      - menubar "Photos" [ref=e3142]:
+                        - menuitem "Establishment Photo 0" [ref=e3143] [cursor=pointer]:
+                          - img "Photo 1" [ref=e3144]
+                        - menuitem "Establishment Photo 1" [ref=e3145] [cursor=pointer]:
+                          - img "Photo 2" [ref=e3146]
+                        - menuitem "Establishment Photo 2" [ref=e3147] [cursor=pointer]:
+                          - img "Photo 3" [ref=e3148]
+                        - menuitem "Establishment Photo 3" [ref=e3149] [cursor=pointer]:
+                          - img "Photo 4" [ref=e3150]
+                        - menuitem "Establishment Photo 4" [ref=e3151] [cursor=pointer]:
+                          - img "Photo 5" [ref=e3152]
+                  - generic [ref=e3154]:
+                    - heading "Nearby places" [level=2] [ref=e3156]
+                    - generic [ref=e3157]:
+                      - generic [ref=e3158]:
+                        - img "4.6 out of 5" [ref=e3161] [cursor=pointer]:
+                          - generic [ref=e3162]: "4.6"
+                        - generic [ref=e3169]:
+                          - generic [ref=e3170]: "Neighborhood: Ermita"
+                          - generic [ref=e3172]: Excellent for visitors
+                          - text: Bayside cultural district with the large Rizal Park, the National Museum & casual student cafes.
+                      - generic [ref=e3174]:
+                        - tablist [ref=e3176]:
+                          - generic [ref=e3177]:
+                            - tab "Top sights" [selected] [ref=e3178] [cursor=pointer]:
+                              - generic [ref=e3179]: Top sights
+                            - tab "Airports" [ref=e3180] [cursor=pointer]:
+                              - generic [ref=e3181]: Airports
+                            - tab "Transit" [ref=e3182] [cursor=pointer]:
+                              - generic [ref=e3183]: Transit
+                        - tabpanel [ref=e3185]:
+                          - list [ref=e3190]:
+                            - listitem "Rizal Park , 4.5 out of 5 stars from 30,213 reviews , Grand 57-hectare park featuring lawns, gardens, outdoor events & a monument to hero José Rizal., 4 min walking" [ref=e3191]:
+                              - link "Rizal Park 4.5 out of 5 stars from 30,213 reviews Grand 57-hectare park featuring lawns, gardens, outdoor events & a monument to hero José Rizal. 4 min walking":
+                                - /url: /search?q=Rizal+Park&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TcwLagyNdRSzE620s_JT04syczPgzOsEktKihKTQcxiAAtkirwyAAAA#fpstate=trskp&trifp=kpq%253DRizal%252BPark%2526skpm%253D/m/05pz51%2526t%253Dd
+                                - generic [ref=e3193] [cursor=pointer]:
+                                  - generic [ref=e3194]: Rizal Park
+                                  - generic [ref=e3195]:
+                                    - img "4.5 out of 5 stars from 30,213 reviews" [ref=e3197]:
+                                      - generic [ref=e3198]:
+                                        - generic [ref=e3199]: "4.5"
+                                        - generic [ref=e3200]:
+                                          - generic [ref=e3201]:
+                                            - img [ref=e3203]
+                                            - img [ref=e3206]
+                                            - img [ref=e3209]
+                                            - img [ref=e3212]
+                                            - img [ref=e3215]
+                                          - generic [ref=e3217]:
+                                            - img [ref=e3219]
+                                            - img [ref=e3222]
+                                            - img [ref=e3225]
+                                            - img [ref=e3228]
+                                            - img [ref=e3231]
+                                        - generic [ref=e3233]: (30.2K)
+                                    - generic [ref=e3234]: Grand 57-hectare park featuring lawns, gardens, outdoor events & a monument to hero José Rizal.
+                                    - generic "4 min walking" [ref=e3236]:
+                                      - img [ref=e3238]
+                                      - generic [ref=e3240]: 4 min
+                            - listitem "National Museum of Fine Arts , 4.7 out of 5 stars from 9,182 reviews , Massive museum with collections of Filipino fine art, archaeology, botany, natural history & more., 19 min by bus" [ref=e3241]:
+                              - link "National Museum of Fine Arts 4.7 out of 5 stars from 9,182 reviews Massive museum with collections of Filipino fine art, archaeology, botany, natural history & more. 19 min by bus":
+                                - /url: /search?q=National+Museum+of+Fine+Arts&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TdIsUxPKdBSzE620s_JT04syczPgzOsEktKihKTQcxiAJBx79gyAAAA#fpstate=trskp&trifp=kpq%253DNational%252BMuseum%252Bof%252BFine%252BArts%2526skpm%253D/m/0d9gdp%2526t%253Dd
+                                - generic [ref=e3243] [cursor=pointer]:
+                                  - generic [ref=e3244]: National Museum of Fine Arts
+                                  - generic [ref=e3245]:
+                                    - img "4.7 out of 5 stars from 9,182 reviews" [ref=e3247]:
+                                      - generic [ref=e3248]:
+                                        - generic [ref=e3249]: "4.7"
+                                        - generic [ref=e3250]:
+                                          - generic [ref=e3251]:
+                                            - img [ref=e3253]
+                                            - img [ref=e3256]
+                                            - img [ref=e3259]
+                                            - img [ref=e3262]
+                                            - img [ref=e3265]
+                                          - generic [ref=e3267]:
+                                            - img [ref=e3269]
+                                            - img [ref=e3272]
+                                            - img [ref=e3275]
+                                            - img [ref=e3278]
+                                            - img [ref=e3281]
+                                        - generic [ref=e3283]: (9.2K)
+                                    - generic [ref=e3284]: Massive museum with collections of Filipino fine art, archaeology, botany, natural history & more.
+                                    - generic "19 min by bus" [ref=e3286]:
+                                      - img [ref=e3288]
+                                      - generic [ref=e3290]: 19 min
+                            - listitem "San Agustin Church , 4.6 out of 5 stars from 5,331 reviews , Historic church constructed starting in the 16th century with vaulted ceilings & detailed frescoes., 10 min by taxi" [ref=e3291]:
+                              - link "San Agustin Church 4.6 out of 5 stars from 5,331 reviews Historic church constructed starting in the 16th century with vaulted ceilings & detailed frescoes. 10 min by taxi":
+                                - /url: /search?q=San+Agustin+Church&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TcwKYjPytNSzE620s_JT04syczPgzOsEktKihKTQcxiAD6PfFIyAAAA#fpstate=trskp&trifp=kpq%253DSan%252BAgustin%252BChurch%2526skpm%253D/m/04p_jn%2526t%253Dd
+                                - generic [ref=e3293] [cursor=pointer]:
+                                  - generic [ref=e3294]: San Agustin Church
+                                  - generic [ref=e3295]:
+                                    - img "4.6 out of 5 stars from 5,331 reviews" [ref=e3297]:
+                                      - generic [ref=e3298]:
+                                        - generic [ref=e3299]: "4.6"
+                                        - generic [ref=e3300]:
+                                          - generic [ref=e3301]:
+                                            - img [ref=e3303]
+                                            - img [ref=e3306]
+                                            - img [ref=e3309]
+                                            - img [ref=e3312]
+                                            - img [ref=e3315]
+                                          - generic [ref=e3317]:
+                                            - img [ref=e3319]
+                                            - img [ref=e3322]
+                                            - img [ref=e3325]
+                                            - img [ref=e3328]
+                                            - img [ref=e3331]
+                                        - generic [ref=e3333]: (5.3K)
+                                    - generic [ref=e3334]: Historic church constructed starting in the 16th century with vaulted ceilings & detailed frescoes.
+                                    - generic "10 min by taxi" [ref=e3336]:
+                                      - img [ref=e3338]
+                                      - generic [ref=e3340]: 10 min
+                            - listitem "Minor Basilica and Metropolitan Cathedral of the Immaculate Conception - The Manila Cathedral , 4.7 out of 5 stars from 7,506 reviews , Built in 1571, this historic church is known for its ornate architecture & visits by several popes., 9 min by taxi" [ref=e3341]:
+                              - link "Minor Basilica and Metropolitan Cathedral of the Immaculate Conception - The Manila Cathedral 4.7 out of 5 stars from 7,506 reviews Built in 1571, this historic church is known for its ornate architecture & visits by several popes. 9 min by taxi":
+                                - /url: /search?q=Minor+Basilica+and+Metropolitan+Cathedral+of+the+Immaculate+Conception+-+The+Manila+Cathedral&stick=H4sIAAAAAAAAAONgFmJQ4tLP1TcwMTQ0yCrQUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgCD8jFGMwAAAA#fpstate=trskp&trifp=kpq%253DMinor%252BBasilica%252Band%252BMetropolitan%252BCathedral%252Bof%252Bthe%252BImmaculate%252BConception%252B-%252BThe%252BManila%252BCathedral%2526skpm%253D/m/04110jp%2526t%253Dd
+                                - generic [ref=e3343] [cursor=pointer]:
+                                  - generic [ref=e3344]: Minor Basilica and Metropolitan Cathedral of the Immaculate Conception - The Manila Cathedral
+                                  - generic [ref=e3345]:
+                                    - img "4.7 out of 5 stars from 7,506 reviews" [ref=e3347]:
+                                      - generic [ref=e3348]:
+                                        - generic [ref=e3349]: "4.7"
+                                        - generic [ref=e3350]:
+                                          - generic [ref=e3351]:
+                                            - img [ref=e3353]
+                                            - img [ref=e3356]
+                                            - img [ref=e3359]
+                                            - img [ref=e3362]
+                                            - img [ref=e3365]
+                                          - generic [ref=e3367]:
+                                            - img [ref=e3369]
+                                            - img [ref=e3372]
+                                            - img [ref=e3375]
+                                            - img [ref=e3378]
+                                            - img [ref=e3381]
+                                        - generic [ref=e3383]: (7.5K)
+                                    - generic [ref=e3384]: Built in 1571, this historic church is known for its ornate architecture & visits by several popes.
+                                    - generic "9 min by taxi" [ref=e3386]:
+                                      - img [ref=e3388]
+                                      - generic [ref=e3390]: 9 min
+                            - listitem "Fort Santiago , 4.5 out of 5 stars from 12,281 reviews , This landmark defensive fortress features a museum commemorating the national hero José Rizal., 7 min by taxi" [ref=e3391]:
+                              - link "Fort Santiago 4.5 out of 5 stars from 12,281 reviews This landmark defensive fortress features a museum commemorating the national hero José Rizal. 7 min by taxi":
+                                - /url: /search?q=Fort+Santiago&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TcwrkpLN9VSzE620s_JT04syczPgzOsEktKihKTQcxiAJLpJOcyAAAA#fpstate=trskp&trifp=kpq%253DFort%252BSantiago%2526skpm%253D/m/03zfg5%2526t%253Dd
+                                - generic [ref=e3393] [cursor=pointer]:
+                                  - generic [ref=e3394]: Fort Santiago
+                                  - generic [ref=e3395]:
+                                    - img "4.5 out of 5 stars from 12,281 reviews" [ref=e3397]:
+                                      - generic [ref=e3398]:
+                                        - generic [ref=e3399]: "4.5"
+                                        - generic [ref=e3400]:
+                                          - generic [ref=e3401]:
+                                            - img [ref=e3403]
+                                            - img [ref=e3406]
+                                            - img [ref=e3409]
+                                            - img [ref=e3412]
+                                            - img [ref=e3415]
+                                          - generic [ref=e3417]:
+                                            - img [ref=e3419]
+                                            - img [ref=e3422]
+                                            - img [ref=e3425]
+                                            - img [ref=e3428]
+                                            - img [ref=e3431]
+                                        - generic [ref=e3433]: (12.3K)
+                                    - generic [ref=e3434]: This landmark defensive fortress features a museum commemorating the national hero José Rizal.
+                                    - generic "7 min by taxi" [ref=e3436]:
+                                      - img [ref=e3438]
+                                      - generic [ref=e3440]: 7 min
+                            - listitem "Manila Ocean Park , 4.2 out of 5 stars from 17,812 reviews , Aquatic theme park & educational facility featuring hands-on activities, an oceanarium & live shows., 12 min walking" [ref=e3441]:
+                              - link "Manila Ocean Park 4.2 out of 5 stars from 17,812 reviews Aquatic theme park & educational facility featuring hands-on activities, an oceanarium & live shows. 12 min walking":
+                                - /url: /search?q=Manila+Ocean+Park&stick=H4sIAAAAAAAAAONgFmJQ4tLP1TcwTi4wSkrXUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgBTj8GGMwAAAA#fpstate=trskp&trifp=kpq%253DManila%252BOcean%252BPark%2526skpm%253D/m/03cp2bg%2526t%253Dd
+                                - generic [ref=e3443] [cursor=pointer]:
+                                  - generic [ref=e3444]: Manila Ocean Park
+                                  - generic [ref=e3445]:
+                                    - img "4.2 out of 5 stars from 17,812 reviews" [ref=e3447]:
+                                      - generic [ref=e3448]:
+                                        - generic [ref=e3449]: "4.2"
+                                        - generic [ref=e3450]:
+                                          - generic [ref=e3451]:
+                                            - img [ref=e3453]
+                                            - img [ref=e3456]
+                                            - img [ref=e3459]
+                                            - img [ref=e3462]
+                                            - img [ref=e3465]
+                                          - generic [ref=e3467]:
+                                            - img [ref=e3469]
+                                            - img [ref=e3472]
+                                            - img [ref=e3475]
+                                            - img [ref=e3478]
+                                            - img [ref=e3481]
+                                        - generic [ref=e3483]: (17.8K)
+                                    - generic [ref=e3484]: Aquatic theme park & educational facility featuring hands-on activities, an oceanarium & live shows.
+                                    - generic "12 min walking" [ref=e3486]:
+                                      - img [ref=e3488]
+                                      - generic [ref=e3490]: 12 min
+                            - listitem "SM Mall of Asia , 4.5 out of 5 stars from 62,111 reviews , Massive bayfront shopping mall with an amusement park, theater, restaurants & convention center., 18 min by taxi" [ref=e3491]:
+                              - link "SM Mall of Asia 4.5 out of 5 stars from 62,111 reviews Massive bayfront shopping mall with an amusement park, theater, restaurants & convention center. 18 min by taxi":
+                                - /url: /search?q=SM+Mall+of+Asia&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TewzDMrqdRSzE620s_JT04syczPgzOsEktKihKTQcxiAN327IcyAAAA#fpstate=trskp&trifp=kpq%253DSM%252BMall%252Bof%252BAsia%2526skpm%253D/m/09n6ty%2526t%253Dd
+                                - generic [ref=e3493] [cursor=pointer]:
+                                  - generic [ref=e3494]: SM Mall of Asia
+                                  - generic [ref=e3495]:
+                                    - img "4.5 out of 5 stars from 62,111 reviews" [ref=e3497]:
+                                      - generic [ref=e3498]:
+                                        - generic [ref=e3499]: "4.5"
+                                        - generic [ref=e3500]:
+                                          - generic [ref=e3501]:
+                                            - img [ref=e3503]
+                                            - img [ref=e3506]
+                                            - img [ref=e3509]
+                                            - img [ref=e3512]
+                                            - img [ref=e3515]
+                                          - generic [ref=e3517]:
+                                            - img [ref=e3519]
+                                            - img [ref=e3522]
+                                            - img [ref=e3525]
+                                            - img [ref=e3528]
+                                            - img [ref=e3531]
+                                        - generic [ref=e3533]: (62.1K)
+                                    - generic [ref=e3534]: Massive bayfront shopping mall with an amusement park, theater, restaurants & convention center.
+                                    - generic "18 min by taxi" [ref=e3536]:
+                                      - img [ref=e3538]
+                                      - generic [ref=e3540]: 18 min
+                            - listitem "Casa Manila , 4.6 out of 5 stars from 947 reviews , This restored 1850s house is now a museum displaying Spanish colonial furniture, art & architecture., 10 min by taxi" [ref=e3541]:
+                              - link "Casa Manila 4.6 out of 5 stars from 947 reviews This restored 1850s house is now a museum displaying Spanish colonial furniture, art & architecture. 10 min by taxi":
+                                - /url: /search?q=Casa+Manila&stick=H4sIAAAAAAAAAONgFmJQ4tLP1TfIMMxIyzHUUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgCvquC6MwAAAA#fpstate=trskp&trifp=kpq%253DCasa%252BManila%2526skpm%253D/m/0h1hfl1%2526t%253Dd
+                                - generic [ref=e3543] [cursor=pointer]:
+                                  - generic [ref=e3544]: Casa Manila
+                                  - generic [ref=e3545]:
+                                    - img "4.6 out of 5 stars from 947 reviews" [ref=e3547]:
+                                      - generic [ref=e3548]:
+                                        - generic [ref=e3549]: "4.6"
+                                        - generic [ref=e3550]:
+                                          - generic [ref=e3551]:
+                                            - img [ref=e3553]
+                                            - img [ref=e3556]
+                                            - img [ref=e3559]
+                                            - img [ref=e3562]
+                                            - img [ref=e3565]
+                                          - generic [ref=e3567]:
+                                            - img [ref=e3569]
+                                            - img [ref=e3572]
+                                            - img [ref=e3575]
+                                            - img [ref=e3578]
+                                            - img [ref=e3581]
+                                        - generic [ref=e3583]: (947)
+                                    - generic [ref=e3584]: This restored 1850s house is now a museum displaying Spanish colonial furniture, art & architecture.
+                                    - generic "10 min by taxi" [ref=e3586]:
+                                      - img [ref=e3588]
+                                      - generic [ref=e3590]: 10 min
+                            - listitem "Minor Basilica & National Shrine of Jesus Nazareno / Quiapo Church (Archdiocese of Manila) , 4.7 out of 5 stars from 12,450 reviews , Catholic church containing a revered 17th-century statue of Jesus called the Black Nazarene., 12 min by taxi" [ref=e3591]:
+                              - link "Minor Basilica & National Shrine of Jesus Nazareno / Quiapo Church (Archdiocese of Manila) 4.7 out of 5 stars from 12,450 reviews Catholic church containing a revered 17th-century statue of Jesus called the Black Nazarene. 12 min by taxi":
+                                - /url: /search?q=Minor+Basilica+%26+National+Shrine+of+Jesus+Nazareno+/+Quiapo+Church+%28Archdiocese+of+Manila%29&stick=H4sIAAAAAAAAAONgFmJQ4tLP1TcwKkqryCvQUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgB6ZNm5MwAAAA#fpstate=trskp&trifp=kpq%253DMinor%252BBasilica%252B%252526%252BNational%252BShrine%252Bof%252BJesus%252BNazareno%252B/%252BQuiapo%252BChurch%252B%28Archdiocese%252Bof%252BManila%29%2526skpm%253D/m/02rfxnp%2526t%253Dd
+                                - generic [ref=e3593] [cursor=pointer]:
+                                  - generic [ref=e3594]: Minor Basilica & National Shrine of Jesus Nazareno / Quiapo Church (Archdiocese of Manila)
+                                  - generic [ref=e3595]:
+                                    - img "4.7 out of 5 stars from 12,450 reviews" [ref=e3597]:
+                                      - generic [ref=e3598]:
+                                        - generic [ref=e3599]: "4.7"
+                                        - generic [ref=e3600]:
+                                          - generic [ref=e3601]:
+                                            - img [ref=e3603]
+                                            - img [ref=e3606]
+                                            - img [ref=e3609]
+                                            - img [ref=e3612]
+                                            - img [ref=e3615]
+                                          - generic [ref=e3617]:
+                                            - img [ref=e3619]
+                                            - img [ref=e3622]
+                                            - img [ref=e3625]
+                                            - img [ref=e3628]
+                                            - img [ref=e3631]
+                                        - generic [ref=e3633]: (12.5K)
+                                    - generic [ref=e3634]: Catholic church containing a revered 17th-century statue of Jesus called the Black Nazarene.
+                                    - generic "12 min by taxi" [ref=e3636]:
+                                      - img [ref=e3638]
+                                      - generic [ref=e3640]: 12 min
+                            - listitem "National Museum of Natural History , 4.7 out of 5 stars from 5,897 reviews , Zoological, botanical & geological specimens displayed in an elegant venue with a soaring atrium., 10 min walking" [ref=e3641]:
+                              - link "National Museum of Natural History 4.7 out of 5 stars from 5,897 reviews Zoological, botanical & geological specimens displayed in an elegant venue with a soaring atrium. 10 min walking":
+                                - /url: /search?q=National+Museum+of+Natural+History&stick=H4sIAAAAAAAAAONgFmJQ4tVP1zc0TDaxNC0qMbDUUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgD2fmnANgAAAA#fpstate=trskp&trifp=kpq%253DNational%252BMuseum%252Bof%252BNatural%252BHistory%2526skpm%253D/g/11c495rt09%2526t%253Dd
+                                - generic [ref=e3643] [cursor=pointer]:
+                                  - generic [ref=e3644]: National Museum of Natural History
+                                  - generic [ref=e3645]:
+                                    - img "4.7 out of 5 stars from 5,897 reviews" [ref=e3647]:
+                                      - generic [ref=e3648]:
+                                        - generic [ref=e3649]: "4.7"
+                                        - generic [ref=e3650]:
+                                          - generic [ref=e3651]:
+                                            - img [ref=e3653]
+                                            - img [ref=e3656]
+                                            - img [ref=e3659]
+                                            - img [ref=e3662]
+                                            - img [ref=e3665]
+                                          - generic [ref=e3667]:
+                                            - img [ref=e3669]
+                                            - img [ref=e3672]
+                                            - img [ref=e3675]
+                                            - img [ref=e3678]
+                                            - img [ref=e3681]
+                                        - generic [ref=e3683]: (5.9K)
+                                    - generic [ref=e3684]: Zoological, botanical & geological specimens displayed in an elegant venue with a soaring atrium.
+                                    - generic "10 min walking" [ref=e3686]:
+                                      - img [ref=e3688]
+                                      - generic [ref=e3690]: 10 min
+                            - listitem "Malacañang Palace , 4.5 out of 5 stars from 1,140 reviews , Presidential museum & library showcasing Philippine politics, culture & history, with tours., 19 min by taxi" [ref=e3691]:
+                              - link "Malacañang Palace 4.5 out of 5 stars from 1,140 reviews Presidential museum & library showcasing Philippine politics, culture & history, with tours. 19 min by taxi":
+                                - /url: /search?q=Malaca%C3%B1ang+Palace&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TcwLCiqiNdSzE620s_JT04syczPgzOsEktKihKTQcxiAPBEmykyAAAA#fpstate=trskp&trifp=kpq%253DMalaca%2525C3%2525B1ang%252BPalace%2526skpm%253D/m/01prx_%2526t%253Dd
+                                - generic [ref=e3693] [cursor=pointer]:
+                                  - generic [ref=e3694]: Malacañang Palace
+                                  - generic [ref=e3695]:
+                                    - img "4.5 out of 5 stars from 1,140 reviews" [ref=e3697]:
+                                      - generic [ref=e3698]:
+                                        - generic [ref=e3699]: "4.5"
+                                        - generic [ref=e3700]:
+                                          - generic [ref=e3701]:
+                                            - img [ref=e3703]
+                                            - img [ref=e3706]
+                                            - img [ref=e3709]
+                                            - img [ref=e3712]
+                                            - img [ref=e3715]
+                                          - generic [ref=e3717]:
+                                            - img [ref=e3719]
+                                            - img [ref=e3722]
+                                            - img [ref=e3725]
+                                            - img [ref=e3728]
+                                            - img [ref=e3731]
+                                        - generic [ref=e3733]: (1.1K)
+                                    - generic [ref=e3734]: Presidential museum & library showcasing Philippine politics, culture & history, with tours.
+                                    - generic "19 min by taxi" [ref=e3736]:
+                                      - img [ref=e3738]
+                                      - generic [ref=e3740]: 19 min
+                            - listitem "National Museum of Anthropology , 4.6 out of 5 stars from 1,746 reviews , Stately, neoclassical museum housing a broad collection of Filipino cultural materials & artifacts., 14 min walking" [ref=e3741]:
+                              - link "National Museum of Anthropology 4.6 out of 5 stars from 1,746 reviews Stately, neoclassical museum housing a broad collection of Filipino cultural materials & artifacts. 14 min walking":
+                                - /url: /search?q=National+Museum+of+Anthropology&stick=H4sIAAAAAAAAAONgFmJQ4tLP1TcwLzYpTzHQUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgDPK6EcMwAAAA#fpstate=trskp&trifp=kpq%253DNational%252BMuseum%252Bof%252BAnthropology%2526skpm%253D/m/07s4wd0%2526t%253Dd
+                                - generic [ref=e3743] [cursor=pointer]:
+                                  - generic [ref=e3744]: National Museum of Anthropology
+                                  - generic [ref=e3745]:
+                                    - img "4.6 out of 5 stars from 1,746 reviews" [ref=e3747]:
+                                      - generic [ref=e3748]:
+                                        - generic [ref=e3749]: "4.6"
+                                        - generic [ref=e3750]:
+                                          - generic [ref=e3751]:
+                                            - img [ref=e3753]
+                                            - img [ref=e3756]
+                                            - img [ref=e3759]
+                                            - img [ref=e3762]
+                                            - img [ref=e3765]
+                                          - generic [ref=e3767]:
+                                            - img [ref=e3769]
+                                            - img [ref=e3772]
+                                            - img [ref=e3775]
+                                            - img [ref=e3778]
+                                            - img [ref=e3781]
+                                        - generic [ref=e3783]: (1.7K)
+                                    - generic [ref=e3784]: Stately, neoclassical museum housing a broad collection of Filipino cultural materials & artifacts.
+                                    - generic "14 min walking" [ref=e3786]:
+                                      - img [ref=e3788]
+                                      - generic [ref=e3790]: 14 min
+                            - listitem "Okada Manila , 4.6 out of 5 stars from 31,249 reviews , Stylish quarters in a cosmopolitan luxury resort offering a casino, multiple restaurants & a mall., 21 min by taxi" [ref=e3791]:
+                              - link "Okada Manila 4.6 out of 5 stars from 31,249 reviews Stylish quarters in a cosmopolitan luxury resort offering a casino, multiple restaurants & a mall. 21 min by taxi":
+                                - /url: /search?q=Okada+Manila&stick=H4sIAAAAAAAAAONgFmJQ4tVP1zc0TDaorDLPyE7RUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgBO-6H8NgAAAA#fpstate=trskp&trifp=kpq%253DOkada%252BManila%2526skpm%253D/g/11c0yz7hkd%2526t%253Dd
+                                - generic [ref=e3793] [cursor=pointer]:
+                                  - generic [ref=e3794]: Okada Manila
+                                  - generic [ref=e3795]:
+                                    - img "4.6 out of 5 stars from 31,249 reviews" [ref=e3797]:
+                                      - generic [ref=e3798]:
+                                        - generic [ref=e3799]: "4.6"
+                                        - generic [ref=e3800]:
+                                          - generic [ref=e3801]:
+                                            - img [ref=e3803]
+                                            - img [ref=e3806]
+                                            - img [ref=e3809]
+                                            - img [ref=e3812]
+                                            - img [ref=e3815]
+                                          - generic [ref=e3817]:
+                                            - img [ref=e3819]
+                                            - img [ref=e3822]
+                                            - img [ref=e3825]
+                                            - img [ref=e3828]
+                                            - img [ref=e3831]
+                                        - generic [ref=e3833]: (31.2K)
+                                    - generic [ref=e3834]: Stylish quarters in a cosmopolitan luxury resort offering a casino, multiple restaurants & a mall.
+                                    - generic "21 min by taxi" [ref=e3836]:
+                                      - img [ref=e3838]
+                                      - generic [ref=e3840]: 21 min
+                            - listitem "Solaire Resort , 4.6 out of 5 stars from 15,087 reviews , Plush quarters in a swanky lodging featuring a casino, dining & bars, plus a spa & an outdoor pool., 19 min by taxi" [ref=e3841]:
+                              - link "Solaire Resort 4.6 out of 5 stars from 15,087 reviews Plush quarters in a swanky lodging featuring a casino, dining & bars, plus a spa & an outdoor pool. 19 min by taxi":
+                                - /url: /search?q=Solaire+Resort&stick=H4sIAAAAAAAAAONgFmJQ4tLP1TfINijLqSjWUsxOttLPyU9OLMnMz4MzrBJLSooSk0HMYgDob94ZMwAAAA#fpstate=trskp&trifp=kpq%253DSolaire%252BResort%2526skpm%253D/m/0k0vlxs%2526t%253Dd
+                                - generic [ref=e3843] [cursor=pointer]:
+                                  - generic [ref=e3844]: Solaire Resort
+                                  - generic [ref=e3845]:
+                                    - img "4.6 out of 5 stars from 15,087 reviews" [ref=e3847]:
+                                      - generic [ref=e3848]:
+                                        - generic [ref=e3849]: "4.6"
+                                        - generic [ref=e3850]:
+                                          - generic [ref=e3851]:
+                                            - img [ref=e3853]
+                                            - img [ref=e3856]
+                                            - img [ref=e3859]
+                                            - img [ref=e3862]
+                                            - img [ref=e3865]
+                                          - generic [ref=e3867]:
+                                            - img [ref=e3869]
+                                            - img [ref=e3872]
+                                            - img [ref=e3875]
+                                            - img [ref=e3878]
+                                            - img [ref=e3881]
+                                        - generic [ref=e3883]: (15.1K)
+                                    - generic [ref=e3884]: Plush quarters in a swanky lodging featuring a casino, dining & bars, plus a spa & an outdoor pool.
+                                    - generic "19 min by taxi" [ref=e3886]:
+                                      - img [ref=e3888]
+                                      - generic [ref=e3890]: 19 min
+                            - listitem "Ayala Museum , 4.6 out of 5 stars from 1,649 reviews , Modern museum for Filipino archeological artifacts, history & culture exhibits & a research library., 25 min by taxi" [ref=e3891]:
+                              - link "Ayala Museum 4.6 out of 5 stars from 1,649 reviews Modern museum for Filipino archeological artifacts, history & culture exhibits & a research library. 25 min by taxi":
+                                - /url: /search?q=Ayala+Museum&stick=H4sIAAAAAAAAAONgFmJQ4tTP1TdIMco1M9dSzE620s_JT04syczPgzOsEktKihKTQcxiAB-b1OEyAAAA#fpstate=trskp&trifp=kpq%253DAyala%252BMuseum%2526skpm%253D/m/0d2m67%2526t%253Dd
+                                - generic [ref=e3893] [cursor=pointer]:
+                                  - generic [ref=e3894]: Ayala Museum
+                                  - generic [ref=e3895]:
+                                    - img "4.6 out of 5 stars from 1,649 reviews" [ref=e3897]:
+                                      - generic [ref=e3898]:
+                                        - generic [ref=e3899]: "4.6"
+                                        - generic [ref=e3900]:
+                                          - generic [ref=e3901]:
+                                            - img [ref=e3903]
+                                            - img [ref=e3906]
+                                            - img [ref=e3909]
+                                            - img [ref=e3912]
+                                            - img [ref=e3915]
+                                          - generic [ref=e3917]:
+                                            - img [ref=e3919]
+                                            - img [ref=e3922]
+                                            - img [ref=e3925]
+                                            - img [ref=e3928]
+                                            - img [ref=e3931]
+                                        - generic [ref=e3933]: (1.6K)
+                                    - generic [ref=e3934]: Modern museum for Filipino archeological artifacts, history & culture exhibits & a research library.
+                                    - generic "25 min by taxi" [ref=e3936]:
+                                      - img [ref=e3938]
+                                      - generic [ref=e3940]: 25 min
+                  - generic [ref=e3942]:
+                    - generic [ref=e3944]:
+                      - generic [ref=e3945]:
+                        - heading "Google review summary" [level=2] [ref=e3946]
+                        - button "More info" [ref=e3948] [cursor=pointer]:
+                          - img [ref=e3950]
+                      - button "Write a review" [ref=e3953]:
+                        - img [ref=e3956]
+                        - generic [ref=e3958]: Write a review
+                    - generic [ref=e3961]:
+                      - generic [ref=e3963]:
+                        - generic "4 out of 5 stars from 249 reviews" [ref=e3964]:
+                          - generic [ref=e3965]: "4.0"
+                          - generic [ref=e3967]:
+                            - generic [ref=e3968]:
+                              - generic [ref=e3969]:
+                                - img [ref=e3971]
+                                - img [ref=e3974]
+                                - img [ref=e3977]
+                                - img [ref=e3980]
+                                - img [ref=e3983]
+                              - generic [ref=e3985]:
+                                - img [ref=e3987]
+                                - img [ref=e3990]
+                                - img [ref=e3993]
+                                - img [ref=e3996]
+                            - generic [ref=e3998]: 249 reviews
+                        - generic [ref=e3999]:
+                          - generic "5-star reviews 51 percent." [ref=e4000]:
+                            - generic [ref=e4001]: 5 star
+                          - generic "4-star reviews 24 percent." [ref=e4006]:
+                            - generic [ref=e4007]: 4 star
+                          - generic "3-star reviews 13 percent." [ref=e4012]:
+                            - generic [ref=e4013]: 3 star
+                          - generic "2-star reviews 6 percent." [ref=e4018]:
+                            - generic [ref=e4019]: 2 star
+                          - generic "1-star reviews 6 percent." [ref=e4024]:
+                            - generic [ref=e4025]: 1 star
+                      - tablist [ref=e4033]:
+                        - generic [ref=e4034]:
+                          - button "Search reviews" [ref=e4038]:
+                            - img [ref=e4041]
+                            - generic [ref=e4045]: Search reviews
+                          - button "Bathroom (27)" [ref=e4049]:
+                            - img [ref=e4052]
+                            - generic [ref=e4056]: Bathroom (27)
+                          - button "Sleep (27)" [ref=e4060]:
+                            - img [ref=e4063]
+                            - generic [ref=e4067]: Sleep (27)
+                          - button "Location (41)" [ref=e4071]:
+                            - img [ref=e4074]
+                            - generic [ref=e4078]: Location (41)
+                          - button "Service (59)" [ref=e4082]:
+                            - img [ref=e4085]
+                            - generic [ref=e4089]: Service (59)
+                          - button "Cleanliness (53)" [ref=e4093]:
+                            - generic [ref=e4098]: Cleanliness (53)
+                          - button "Property (65)" [ref=e4102]:
+                            - generic [ref=e4107]: Property (65)
+                          - button "Room (28)" [ref=e4111]:
+                            - generic [ref=e4116]: Room (28)
+                          - button "Air Conditioning (10)" [ref=e4120]:
+                            - img [ref=e4123]
+                            - generic [ref=e4127]: Air Conditioning (10)
+                          - button "Accessibility (12)" [ref=e4131]:
+                            - img [ref=e4134]
+                            - generic [ref=e4138]: Accessibility (12)
+                    - generic [ref=e4140]:
+                      - generic [ref=e4141]: Reviews on other travel sites
+                      - list [ref=e4145]:
+                        - listitem [ref=e4146]:
+                          - link "Trip.com Member , 3 weeks ago Pros:The hotel is conveniently located near the Embassy of the United States, Manila Bay, Rizal Park, and the National Museum.Cons:The room had a must..." [ref=e4147] [cursor=pointer]:
+                            - /url: https://www.trip.com/hotels/detail?hotelid=78141837&Allianceid=810504&Sid=1394411&utm_medium=cpc&utm_campaign=HPA&utm_source=google#review
+                            - generic [ref=e4149]:
+                              - generic [ref=e4150]: Trip.com
+                              - img [ref=e4151]
+                            - generic [ref=e4153]:
+                              - text: 4/5
+                              - generic [ref=e4154]: · 188 reviews
+                            - generic [ref=e4155]:
+                              - generic [ref=e4156]:
+                                - generic [ref=e4157]: Trip.com Member
+                                - text: ","
+                                - generic [ref=e4158]: 3 weeks ago
+                              - generic [ref=e4160]: Pros:The hotel is conveniently located near the Embassy of the United States, Manila Bay, Rizal Park, and the National Museum.Cons:The room had a must...
+                        - listitem [ref=e4161]:
+                          - link "bodie0420 , 8 months ago Stayed in this hotel because we joined funrun at Luneta. Ideally good location- 5mins walk to US EMBASSY, near Rizal Park, Intramuros, Dolomite Beach,..." [ref=e4162] [cursor=pointer]:
+                            - /url: https://www.tripadvisor.com/ShowUserReviews-g298573-d19603288-r1030054489?m=68573&staydates=2026_05_31_2026_06_01&uguests=1_2_0&supdv=desktop&supuc=PH&supul=en
+                            - generic [ref=e4164]:
+                              - generic [ref=e4165]: Tripadvisor
+                              - img [ref=e4166]
+                            - generic [ref=e4168]:
+                              - text: 4/5
+                              - generic [ref=e4169]: · 7 reviews
+                            - generic [ref=e4170]:
+                              - generic [ref=e4171]:
+                                - generic [ref=e4172]: bodie0420
+                                - text: ","
+                                - generic [ref=e4173]: 8 months ago
+                              - generic [ref=e4175]: Stayed in this hotel because we joined funrun at Luneta. Ideally good location- 5mins walk to US EMBASSY, near Rizal Park, Intramuros, Dolomite Beach,...
+                    - button "View more reviews" [ref=e4179]:
+                      - generic [ref=e4181]: View more reviews
+                  - generic [ref=e4183]:
+                    - heading "Photos" [level=2] [ref=e4185]
+                    - generic [ref=e4188]:
+                      - generic [ref=e4189]:
+                        - button "Exterior" [ref=e4191] [cursor=pointer]:
+                          - generic [ref=e4193]: Exterior
+                        - generic [ref=e4194]:
+                          - button "From visitors" [ref=e4197] [cursor=pointer]:
+                            - generic [ref=e4199]: From visitors
+                          - button "Food & Drink" [ref=e4201] [cursor=pointer]:
+                            - generic [ref=e4203]: Food & Drink
+                      - button "Bedroom" [ref=e4205] [cursor=pointer]:
+                        - generic [ref=e4207]: Bedroom
+                    - button "View all photos" [ref=e4210]:
+                      - generic [ref=e4212]: View all photos
+                  - generic [ref=e4214]:
+                    - heading "About this hotel" [level=2] [ref=e4216]
+                    - generic [ref=e4218]:
+                      - generic [ref=e4219]:
+                        - paragraph [ref=e4220]: Facing a leafy park, this laid-back budget hotel is 2 km from both the National Museum of the Philippines and the 17th-century San Agustin Church. Paco train station is 3 km away.
+                        - generic [ref=e4221]:
+                          - generic [ref=e4222]: "Check-in time: 3:00 PM"
+                          - generic [ref=e4223]: "Check-out time: 12:00 PM"
+                      - generic [ref=e4224]:
+                        - heading "Popular amenities" [level=3] [ref=e4225]
+                        - list [ref=e4226]:
+                          - listitem [ref=e4227]:
+                            - img [ref=e4229]
+                            - generic [ref=e4231]: Wi-Fi
+                            - generic [ref=e4232]: free
+                          - listitem [ref=e4233]:
+                            - img [ref=e4235]
+                            - generic [ref=e4237]: Air conditioning
+                          - listitem [ref=e4238]:
+                            - img [ref=e4240]
+                            - generic [ref=e4242]: Breakfast
+                            - generic [ref=e4243]: extra charge
+                          - listitem [ref=e4244]:
+                            - img [ref=e4246]
+                            - generic [ref=e4248]: Parking
+                            - generic [ref=e4249]: extra charge
+                    - button "View more hotel details" [ref=e4252]:
+                      - generic [ref=e4254]: View more hotel details
+                  - generic [ref=e4257]:
+                    - heading "Web results" [level=2] [ref=e4259]
+                    - generic [ref=e4260]:
+                      - generic [ref=e4261]:
+                        - generic [ref=e4263]: https://www.airohotelmanila.com
+                        - link "Airo Hotel" [ref=e4264] [cursor=pointer]:
+                          - /url: https://www.airohotelmanila.com/
+                          - generic [ref=e4265]: Airo Hotel
+                        - generic [ref=e4266]: ... the first night will be charged. Please send proof of payment/deposit to our email reservations.airohospitality@gmail.com or Airo Hotel Facebook page.
+                      - button "More web results" [ref=e4269] [cursor=pointer]:
+                        - img [ref=e4271]
+                        - generic [ref=e4273]: More web results
+                  - generic [ref=e4276]:
+                    - heading "People also viewed" [level=2] [ref=e4278]
+                    - list [ref=e4283]:
+                      - listitem [ref=e4284]:
+                        - link "₱1,150 Manila Manor Hotel 3.1 out of 5 stars from 766 reviews Free parking 0.9 km away":
+                          - /url: /travel/search?q=Manila&qs=MiNDaFlJZzRfSjd0Mk03V1lhQ3k5bkx6RjBaRFpqWDI1aUVBRTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CNoBEL-sAygAahcKEwigqYinpMKUAxUAAAAAHQAAAAAQIQ&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4285] [cursor=pointer]:
+                            - generic [ref=e4287]: ₱1,150
+                            - generic [ref=e4288]:
+                              - generic [ref=e4289]: Manila Manor Hotel
+                              - generic [ref=e4290]:
+                                - img "3.1 out of 5 stars from 766 reviews" [ref=e4292]:
+                                  - generic [ref=e4293]:
+                                    - generic [ref=e4294]: "3.1"
+                                    - generic [ref=e4295]:
+                                      - generic [ref=e4296]:
+                                        - img [ref=e4298]
+                                        - img [ref=e4301]
+                                        - img [ref=e4304]
+                                        - img [ref=e4307]
+                                        - img [ref=e4310]
+                                      - generic [ref=e4312]:
+                                        - img [ref=e4314]
+                                        - img [ref=e4317]
+                                        - img [ref=e4320]
+                                        - img [ref=e4323]
+                                    - generic [ref=e4325]: (766)
+                                - generic [ref=e4326]: Free parking
+                                - generic [ref=e4327]: 0.9 km away
+                      - listitem [ref=e4328]:
+                        - link "₱1,517 Casa Bocobo Hotel 4.3 out of 5 stars from 736 reviews Free parking 0.3 km away":
+                          - /url: /travel/search?q=Manila&qs=MiZDaGdJaWZUTV84U25nYmoxQVJvTEwyY3ZNWGQ2TlRBM1oyWVFBUTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CNwBEL-sAygBahcKEwigqYinpMKUAxUAAAAAHQAAAAAQIQ&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4329] [cursor=pointer]:
+                            - generic [ref=e4331]: ₱1,517
+                            - generic [ref=e4332]:
+                              - generic [ref=e4333]: Casa Bocobo Hotel
+                              - generic [ref=e4334]:
+                                - img "4.3 out of 5 stars from 736 reviews" [ref=e4336]:
+                                  - generic [ref=e4337]:
+                                    - generic [ref=e4338]: "4.3"
+                                    - generic [ref=e4339]:
+                                      - generic [ref=e4340]:
+                                        - img [ref=e4342]
+                                        - img [ref=e4345]
+                                        - img [ref=e4348]
+                                        - img [ref=e4351]
+                                        - img [ref=e4354]
+                                      - generic [ref=e4356]:
+                                        - img [ref=e4358]
+                                        - img [ref=e4361]
+                                        - img [ref=e4364]
+                                        - img [ref=e4367]
+                                        - img [ref=e4370]
+                                    - generic [ref=e4372]: (736)
+                                - generic [ref=e4373]: Free parking
+                                - generic [ref=e4374]: 0.3 km away
+                      - listitem [ref=e4375]:
+                        - link "₱732 Stay Malate Hostel 3.8 out of 5 stars from 314 reviews Low-key hostel with a rooftop cafe/bar 1.1 km away":
+                          - /url: /travel/search?q=Manila&qs=MidDaGtJd3Nma3ZmZVFpSVJfR2cwdlp5OHhNV1kxTnprMlozRnVFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CN4BEL-sAygCahcKEwigqYinpMKUAxUAAAAAHQAAAAAQIQ&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4376] [cursor=pointer]:
+                            - generic [ref=e4378]: ₱732
+                            - generic [ref=e4379]:
+                              - generic [ref=e4380]: Stay Malate Hostel
+                              - generic [ref=e4381]:
+                                - img "3.8 out of 5 stars from 314 reviews" [ref=e4383]:
+                                  - generic [ref=e4384]:
+                                    - generic [ref=e4385]: "3.8"
+                                    - generic [ref=e4386]:
+                                      - generic [ref=e4387]:
+                                        - img [ref=e4389]
+                                        - img [ref=e4392]
+                                        - img [ref=e4395]
+                                        - img [ref=e4398]
+                                        - img [ref=e4401]
+                                      - generic [ref=e4403]:
+                                        - img [ref=e4405]
+                                        - img [ref=e4408]
+                                        - img [ref=e4411]
+                                        - img [ref=e4414]
+                                    - generic [ref=e4416]: (314)
+                                - generic [ref=e4417]: Low-key hostel with a rooftop cafe/bar
+                                - generic [ref=e4418]: 1.1 km away
+                      - listitem [ref=e4419]:
+                        - link "₱1,493 JMM Grand Suites 3.8 out of 5 stars from 351 reviews Free parking 0.8 km away":
+                          - /url: /travel/search?q=Manila&qs=MidDaGtJcG83MXo4bUd1SzNNQVJvTUwyY3ZNVEY0ZUdkeFptUXhFQUU4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0COABEL-sAygDahcKEwigqYinpMKUAxUAAAAAHQAAAAAQIQ&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4420] [cursor=pointer]:
+                            - generic [ref=e4422]: ₱1,493
+                            - generic [ref=e4423]:
+                              - generic [ref=e4424]: JMM Grand Suites
+                              - generic [ref=e4425]:
+                                - img "3.8 out of 5 stars from 351 reviews" [ref=e4427]:
+                                  - generic [ref=e4428]:
+                                    - generic [ref=e4429]: "3.8"
+                                    - generic [ref=e4430]:
+                                      - generic [ref=e4431]:
+                                        - img [ref=e4433]
+                                        - img [ref=e4436]
+                                        - img [ref=e4439]
+                                        - img [ref=e4442]
+                                        - img [ref=e4445]
+                                      - generic [ref=e4447]:
+                                        - img [ref=e4449]
+                                        - img [ref=e4452]
+                                        - img [ref=e4455]
+                                        - img [ref=e4458]
+                                    - generic [ref=e4460]: (351)
+                                - generic [ref=e4461]: Free parking
+                                - generic [ref=e4462]: 0.8 km away
+                      - listitem [ref=e4463]:
+                        - link "₱1,360 Eurotel Pedro Gil 3.7 out of 5 stars from 1,395 reviews Free parking 0.8 km away":
+                          - /url: /travel/search?q=Manila&qs=MiZDaGdJcWZHZDE0T1czdWpMQVJvTEwyY3ZNWFJuWkd3eWJIWVFBUTgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0COIBEL-sAygEahcKEwigqYinpMKUAxUAAAAAHQAAAAAQIQ&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4464] [cursor=pointer]:
+                            - generic [ref=e4466]: ₱1,360
+                            - generic [ref=e4467]:
+                              - generic [ref=e4468]: Eurotel Pedro Gil
+                              - generic [ref=e4469]:
+                                - img "3.7 out of 5 stars from 1,395 reviews" [ref=e4471]:
+                                  - generic [ref=e4472]:
+                                    - generic [ref=e4473]: "3.7"
+                                    - generic [ref=e4474]:
+                                      - generic [ref=e4475]:
+                                        - img [ref=e4477]
+                                        - img [ref=e4480]
+                                        - img [ref=e4483]
+                                        - img [ref=e4486]
+                                        - img [ref=e4489]
+                                      - generic [ref=e4491]:
+                                        - img [ref=e4493]
+                                        - img [ref=e4496]
+                                        - img [ref=e4499]
+                                        - img [ref=e4502]
+                                    - generic [ref=e4504]: (1.4K)
+                                - generic [ref=e4505]: Free parking
+                                - generic [ref=e4506]: 0.8 km away
+                  - generic [ref=e4509]:
+                    - heading "Vacation rentals nearby" [level=2] [ref=e4511]
+                    - list [ref=e4516]:
+                      - listitem [ref=e4517]:
+                        - link "₱1,819/night Aug 1 – 3 Magnificent View of Manila Bay, Roxas Blvd, US Emb Sleeps 6 0.5 km away":
+                          - /url: /travel/search?q=Manila&qs=MjRDaU1Jb2JETF9yZmM4b1E1RUw3cXF2RDRwTENZZEJvTkwyY3ZNVEYyY1hOcU9HMTRNQkFDOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0COYBEL-sA2oXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAgYARIHCOoPEAgYAxgCMgIQADgBKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4518] [cursor=pointer]:
+                            - generic [ref=e4521]:
+                              - text: ₱1,819/night
+                              - generic [ref=e4522]: Aug 1 – 3
+                            - generic [ref=e4523]:
+                              - generic [ref=e4524]: Magnificent View of Manila Bay, Roxas Blvd, US Emb
+                              - generic [ref=e4525]:
+                                - generic [ref=e4526]: Sleeps 6
+                                - generic [ref=e4527]: 0.5 km away
+                      - listitem [ref=e4528]:
+                        - link "₱3,724/night Jun 22 – 25 Pearl of orient delux 1 bedroom·Sleeps 4 0.75 km away":
+                          - /url: /travel/search?q=Manila&qs=MjdDaVVJcWFDczlaN0ZzLUwxQVJEWDlmTFNqOG5pemJvQkdnMHZaeTh4TVcxamMydG5OakkxRUFJOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0COgBEL-sA2oXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAYYFhIHCOoPEAYYGRgDMgIQADgBKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4529] [cursor=pointer]:
+                            - generic [ref=e4532]:
+                              - text: ₱3,724/night
+                              - generic [ref=e4533]: Jun 22 – 25
+                            - generic [ref=e4534]:
+                              - generic [ref=e4535]: Pearl of orient delux
+                              - generic [ref=e4536]:
+                                - generic [ref=e4537]: 1 bedroom·Sleeps 4
+                                - generic [ref=e4538]: 0.75 km away
+                      - listitem [ref=e4539]:
+                        - link "₱1,890/night Aug 4 – 6 Roxas Blvd Ermita Studio US Embassy Mla 1 bedroom·Sleeps 2 0.75 km away":
+                          - /url: /travel/search?q=Manila&qs=MjRDaU1Ja0syWmg5SEkzdUpxRU95QTVOenA3ZHIyVkJvTkwyY3ZNVEYzTVhkc2NEUjJOaEFDOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0COoBEL-sA2oXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAgYBBIHCOoPEAgYBhgCMgIQADgBKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4540] [cursor=pointer]:
+                            - generic [ref=e4543]:
+                              - text: ₱1,890/night
+                              - generic [ref=e4544]: Aug 4 – 6
+                            - generic [ref=e4545]:
+                              - generic [ref=e4546]: Roxas Blvd Ermita Studio US Embassy Mla
+                              - generic [ref=e4547]:
+                                - generic [ref=e4548]: 1 bedroom·Sleeps 2
+                                - generic [ref=e4549]: 0.75 km away
+                      - listitem [ref=e4550]:
+                        - link "₱6,579/night Jul 16 – 23 Elegant Filipiniana Luxury 2BR in Ermita, Manila 2 bedrooms·Sleeps 6 0.75 km away":
+                          - /url: /travel/search?q=Manila&qs=MjZDaVFJd1puSnBxU3d4OTdEQVJDZndyR2wxT0hNeFRZYURTOW5MekV4ZUdkMmJYQnlZblFRQWc4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0COwBEL-sA2oXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAcYEBIHCOoPEAcYFxgHMgIQADgBKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4551] [cursor=pointer]:
+                            - generic [ref=e4554]:
+                              - text: ₱6,579/night
+                              - generic [ref=e4555]: Jul 16 – 23
+                            - generic [ref=e4556]:
+                              - generic [ref=e4557]: Elegant Filipiniana Luxury 2BR in Ermita, Manila
+                              - generic [ref=e4558]:
+                                - generic [ref=e4559]: 2 bedrooms·Sleeps 6
+                                - generic [ref=e4560]: 0.75 km away
+                      - listitem [ref=e4561]:
+                        - link "₱3,231/night Jun 29 – Jul 5 Amazing Marina Residential Suites Sleeps 10 0.4 km away":
+                          - /url: /travel/search?q=Manila&qs=MjdDaVVJcE4zSHdldXYtWl9nQVJEaXl2dWl6S1BJMmMwQkdnMHZaeTh4TVhsc2NUaDNaR05zRUFJOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CO4BEL-sA2oXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAYYHRIHCOoPEAcYBRgGMgIQADgBKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4562] [cursor=pointer]:
+                            - generic [ref=e4565]:
+                              - text: ₱3,231/night
+                              - generic [ref=e4566]: Jun 29 – Jul 5
+                            - generic [ref=e4567]:
+                              - generic [ref=e4568]: Amazing Marina Residential Suites
+                              - generic [ref=e4569]:
+                                - generic [ref=e4570]: Sleeps 10
+                                - generic [ref=e4571]: 0.4 km away
+                      - listitem [ref=e4572]:
+                        - link "₱2,710/night Jun 5 – 7 Staycation in Manila (2 min. walk to Robinson's) 1 bedroom·Sleeps 3 0.4 km away":
+                          - /url: /travel/search?q=Manila&qs=MjZDaVFJNzdTcnc0N0U2NUJzRU5tM2xxUFgwT3lYX2dFYURTOW5MekV4ZG5veWVUUnplRzBRQWc4AEgA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CPABEL-sA2oXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAYYBRIHCOoPEAYYBxgCMgIQADgBKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4573] [cursor=pointer]:
+                            - generic [ref=e4576]:
+                              - text: ₱2,710/night
+                              - generic [ref=e4577]: Jun 5 – 7
+                            - generic [ref=e4578]:
+                              - generic [ref=e4579]: Staycation in Manila (2 min. walk to Robinson's)
+                              - generic [ref=e4580]:
+                                - generic [ref=e4581]: 1 bedroom·Sleeps 3
+                                - generic [ref=e4582]: 0.4 km away
+                  - generic [ref=e4585]:
+                    - heading "Popular hotels in Manila" [level=2] [ref=e4587]
+                    - list [ref=e4592]:
+                      - listitem [ref=e4593]:
+                        - link "₱6,538 The Manila Hotel 4.6 out of 5 stars from 9,827 reviews Free parking 0.7 km away":
+                          - /url: /travel/search?q=Manila&qs=MhNDZ29Jekwyal80M0ExLWNmRUFFOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CPQBEJD_BWoXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4594] [cursor=pointer]:
+                            - generic [ref=e4596]: ₱6,538
+                            - generic [ref=e4597]:
+                              - generic [ref=e4598]: The Manila Hotel
+                              - generic [ref=e4599]:
+                                - img "4.6 out of 5 stars from 9,827 reviews" [ref=e4601]:
+                                  - generic [ref=e4602]:
+                                    - generic [ref=e4603]: "4.6"
+                                    - generic [ref=e4604]:
+                                      - generic [ref=e4605]:
+                                        - img [ref=e4607]
+                                        - img [ref=e4610]
+                                        - img [ref=e4613]
+                                        - img [ref=e4616]
+                                        - img [ref=e4619]
+                                      - generic [ref=e4621]:
+                                        - img [ref=e4623]
+                                        - img [ref=e4626]
+                                        - img [ref=e4629]
+                                        - img [ref=e4632]
+                                        - img [ref=e4635]
+                                    - generic [ref=e4637]: (9.8K)
+                                - generic [ref=e4638]: Free parking
+                                - generic [ref=e4639]: 0.7 km away
+                      - listitem [ref=e4640]:
+                        - link "₱7,919 Admiral Hotel Manila - MGallery Collection 4.9 out of 5 stars from 6,452 reviews Free parking 1.6 km away":
+                          - /url: /travel/search?q=Manila&qs=MhRDZ3NJdmN1RTJaWFNsSlhnQVJBQjgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CPYBEJD_BWoXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4641] [cursor=pointer]:
+                            - generic [ref=e4643]: ₱7,919
+                            - generic [ref=e4644]:
+                              - generic [ref=e4645]: Admiral Hotel Manila - MGallery Collection
+                              - generic [ref=e4646]:
+                                - img "4.9 out of 5 stars from 6,452 reviews" [ref=e4648]:
+                                  - generic [ref=e4649]:
+                                    - generic [ref=e4650]: "4.9"
+                                    - generic [ref=e4651]:
+                                      - generic [ref=e4652]:
+                                        - img [ref=e4654]
+                                        - img [ref=e4657]
+                                        - img [ref=e4660]
+                                        - img [ref=e4663]
+                                        - img [ref=e4666]
+                                      - generic [ref=e4668]:
+                                        - img [ref=e4670]
+                                        - img [ref=e4673]
+                                        - img [ref=e4676]
+                                        - img [ref=e4679]
+                                        - img [ref=e4682]
+                                    - generic [ref=e4684]: (6.5K)
+                                - generic [ref=e4685]: Free parking
+                                - generic [ref=e4686]: 1.6 km away
+                      - listitem [ref=e4687]:
+                        - link "₱6,657 Diamond Hotel Philippines 4.5 out of 5 stars from 4,946 reviews Free breakfast and parking 0.8 km away":
+                          - /url: /travel/search?q=Manila&qs=MhRDZ3NJOF9fcGotdnZob0hIQVJBQjgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CPgBEJD_BWoXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4688] [cursor=pointer]:
+                            - generic [ref=e4690]: ₱6,657
+                            - generic [ref=e4691]:
+                              - generic [ref=e4692]: Diamond Hotel Philippines
+                              - generic [ref=e4693]:
+                                - img "4.5 out of 5 stars from 4,946 reviews" [ref=e4695]:
+                                  - generic [ref=e4696]:
+                                    - generic [ref=e4697]: "4.5"
+                                    - generic [ref=e4698]:
+                                      - generic [ref=e4699]:
+                                        - img [ref=e4701]
+                                        - img [ref=e4704]
+                                        - img [ref=e4707]
+                                        - img [ref=e4710]
+                                        - img [ref=e4713]
+                                      - generic [ref=e4715]:
+                                        - img [ref=e4717]
+                                        - img [ref=e4720]
+                                        - img [ref=e4723]
+                                        - img [ref=e4726]
+                                        - img [ref=e4729]
+                                    - generic [ref=e4731]: (4.9K)
+                                - generic [ref=e4732]: Free breakfast and parking
+                                - generic [ref=e4733]: 0.8 km away
+                      - listitem [ref=e4734]:
+                        - link "₱3,447 Century Park Hotel 4.2 out of 5 stars from 4,466 reviews Free breakfast and parking 2.3 km away":
+                          - /url: /travel/search?q=Manila&qs=MhRDZ3NJaHBtSnVZbml3N25YQVJBQjgASAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CPoBEJD_BWoXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4735] [cursor=pointer]:
+                            - generic [ref=e4737]: ₱3,447
+                            - generic [ref=e4738]:
+                              - generic [ref=e4739]: Century Park Hotel
+                              - generic [ref=e4740]:
+                                - img "4.2 out of 5 stars from 4,466 reviews" [ref=e4742]:
+                                  - generic [ref=e4743]:
+                                    - generic [ref=e4744]: "4.2"
+                                    - generic [ref=e4745]:
+                                      - generic [ref=e4746]:
+                                        - img [ref=e4748]
+                                        - img [ref=e4751]
+                                        - img [ref=e4754]
+                                        - img [ref=e4757]
+                                        - img [ref=e4760]
+                                      - generic [ref=e4762]:
+                                        - img [ref=e4764]
+                                        - img [ref=e4767]
+                                        - img [ref=e4770]
+                                        - img [ref=e4773]
+                                        - img [ref=e4776]
+                                    - generic [ref=e4778]: (4.5K)
+                                - generic [ref=e4779]: Free breakfast and parking
+                                - generic [ref=e4780]: 2.3 km away
+                      - listitem [ref=e4781]:
+                        - link "₱5,734 Winford Resort and Casino Manila 4.3 out of 5 stars from 2,062 reviews Free parking 4.4 km away":
+                          - /url: /travel/search?q=Manila&qs=MhNDZ29JbU9EX2w5aUx2TUkyRUFFOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CPwBEJD_BWoXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4782] [cursor=pointer]:
+                            - generic [ref=e4784]: ₱5,734
+                            - generic [ref=e4785]:
+                              - generic [ref=e4786]: Winford Resort and Casino Manila
+                              - generic [ref=e4787]:
+                                - img "4.3 out of 5 stars from 2,062 reviews" [ref=e4789]:
+                                  - generic [ref=e4790]:
+                                    - generic [ref=e4791]: "4.3"
+                                    - generic [ref=e4792]:
+                                      - generic [ref=e4793]:
+                                        - img [ref=e4795]
+                                        - img [ref=e4798]
+                                        - img [ref=e4801]
+                                        - img [ref=e4804]
+                                        - img [ref=e4807]
+                                      - generic [ref=e4809]:
+                                        - img [ref=e4811]
+                                        - img [ref=e4814]
+                                        - img [ref=e4817]
+                                        - img [ref=e4820]
+                                        - img [ref=e4823]
+                                    - generic [ref=e4825]: (2.1K)
+                                - generic [ref=e4826]: Free parking
+                                - generic [ref=e4827]: 4.4 km away
+                      - listitem [ref=e4828]:
+                        - link "₱3,538 Hotel H2O 4.1 out of 5 stars from 2,256 reviews Free parking 0.6 km away":
+                          - /url: /travel/search?q=Manila&qs=MhNDZ29JZzgyQnU4aVhodWtmRUFFOABIAA&hl=en&checkin=2026-06-10&checkout=2026-06-11&adults=2&rooms=1&ved=0CP4BEJD_BWoXChMIoKmIp6TClAMVAAAAAB0AAAAAECE&ts=CAESCgoCCAMKAggDEAAaXAo8EjoKCS9tLzAxOTVwZDIlMHgzMzk3Y2EwMzU3MWVjMzhiOjB4NjlkMWQ1NzUxMDY5YzExZjoGTWFuaWxhEhwSFAoHCOoPEAUYFxIHCOoPEAUYGBgBMgQIABAAKgcKBToDUEhQ&ap=MAA
+                          - generic [ref=e4829] [cursor=pointer]:
+                            - generic [ref=e4831]: ₱3,538
+                            - generic [ref=e4832]:
+                              - generic [ref=e4833]: Hotel H2O
+                              - generic [ref=e4834]:
+                                - img "4.1 out of 5 stars from 2,256 reviews" [ref=e4836]:
+                                  - generic [ref=e4837]:
+                                    - generic [ref=e4838]: "4.1"
+                                    - generic [ref=e4839]:
+                                      - generic [ref=e4840]:
+                                        - img [ref=e4842]
+                                        - img [ref=e4845]
+                                        - img [ref=e4848]
+                                        - img [ref=e4851]
+                                        - img [ref=e4854]
+                                      - generic [ref=e4856]:
+                                        - img [ref=e4858]
+                                        - img [ref=e4861]
+                                        - img [ref=e4864]
+                                        - img [ref=e4867]
+                                        - img [ref=e4870]
+                                    - generic [ref=e4872]: (2.3K)
+                                - generic [ref=e4873]: Free parking
+                                - generic [ref=e4874]: 0.6 km away
+                - generic [ref=e4876]:
+                  - generic [ref=e4877]:
+                    - heading "Frequently asked questions about Airo Hotel Manila" [level=2] [ref=e4878]
+                    - generic [ref=e4880] [cursor=pointer]:
+                      - generic [ref=e4881]: What are the check-in and check-out times for Airo Hotel Manila?
+                      - button "Toggle answer visibility" [ref=e4884]:
+                        - img [ref=e4887]
+                    - generic [ref=e4890] [cursor=pointer]:
+                      - generic [ref=e4891]: What are the main amenities at Airo Hotel Manila?
+                      - button "Toggle answer visibility" [ref=e4894]:
+                        - img [ref=e4897]
+                    - generic [ref=e4900] [cursor=pointer]:
+                      - generic [ref=e4901]: Does Airo Hotel Manila offer free Wi-Fi?
+                      - button "Toggle answer visibility" [ref=e4904]:
+                        - img [ref=e4907]
+                    - generic [ref=e4910] [cursor=pointer]:
+                      - generic [ref=e4911]: Does Airo Hotel Manila have a pool?
+                      - button "Toggle answer visibility" [ref=e4914]:
+                        - img [ref=e4917]
+                    - generic [ref=e4920] [cursor=pointer]:
+                      - generic [ref=e4921]: Is parking available at Airo Hotel Manila, and is it free?
+                      - button "Toggle answer visibility" [ref=e4924]:
+                        - img [ref=e4927]
+                    - generic [ref=e4930] [cursor=pointer]:
+                      - generic [ref=e4931]: How long does it take to get from Airo Hotel Manila to Rizal Park?
+                      - button "Toggle answer visibility" [ref=e4934]:
+                        - img [ref=e4937]
+                    - generic [ref=e4940] [cursor=pointer]:
+                      - generic [ref=e4941]: How long does it take to get from Airo Hotel Manila to Ninoy Aquino International Airport?
+                      - button "Toggle answer visibility" [ref=e4944]:
+                        - img [ref=e4947]
+                  - generic [ref=e4949]:
+                    - heading "Similar hotels" [level=2] [ref=e4950]
+                    - generic [ref=e4951]:
+                      - generic [ref=e4952]:
+                        - link "Manila Manor Hotel" [ref=e4953] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChYIg4_J7t2M7WYaCy9nLzF0ZDZjX25iEAE
+                        - link "Casa Bocobo Hotel" [ref=e4954] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChgIifTM_8Sngbj1ARoLL2cvMXd6NTA3Z2YQAQ
+                        - link "Stay Malate Hostel" [ref=e4955] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChkIwsfkvfeQiIR_Gg0vZy8xMWY1Nzk2Z3FuEAE
+                      - generic [ref=e4956]:
+                        - link "JMM Grand Suites" [ref=e4957] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChkIpo71z8mGuK3MARoML2cvMTF4eGdxZmQxEAE
+                        - link "Eurotel Pedro Gil" [ref=e4958] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/ChgIqfGd14OW3ujLARoLL2cvMXRnZGwybHYQAQ
+                    - heading "Vacation rentals nearby" [level=2] [ref=e4959]
+                    - generic [ref=e4960]:
+                      - generic [ref=e4961]:
+                        - link "Magnificent View of Manila Bay, Roxas Blvd, US Emb" [ref=e4962] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiMIobDL_rfc8oQ5EL7qqvD4pLCYdBoNL2cvMTF2cXNqOG14MBAC
+                        - link "Pearl of orient delux" [ref=e4963] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiUIqaCs9Z7Fs-L1ARDX9fLSj8nizboBGg0vZy8xMW1jc2tnNjI1EAI
+                        - link "Roxas Blvd Ermita Studio US Embassy Mla" [ref=e4964] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiMIkK2Zh9HI3uJqEOyA5Nzp7dr2VBoNL2cvMTF3MXdscDR2NhAC
+                      - generic [ref=e4965]:
+                        - link "Elegant Filipiniana Luxury 2BR in Ermita, Manila" [ref=e4966] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiQIwZnJpqSwx97DARCfwrGl1OHMxTYaDS9nLzExeGd2bXByYnQQAg
+                        - link "Amazing Marina Residential Suites" [ref=e4967] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiUIpN3Hweuv-Z_gARDiyvuizKPI2c0BGg0vZy8xMXlscTh3ZGNsEAI
+                        - link "Staycation in Manila (2 min. walk to Robinson's)" [ref=e4968] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CiQI77Srw47E65BsENm3lqPX0OyX_gEaDS9nLzExdnoyeTRzeG0QAg
+                    - heading "Popular hotels" [level=2] [ref=e4969]
+                    - generic [ref=e4970]:
+                      - generic [ref=e4971]:
+                        - link "The Manila Hotel" [ref=e4972] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgoIzL2j_43A1-cfEAE
+                        - link "Admiral Hotel Manila - MGallery Collection" [ref=e4973] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsIvcuE2ZXSlJXgARAB
+                        - link "Diamond Hotel Philippines" [ref=e4974] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsI8__pj-vvhoHHARAB
+                      - generic [ref=e4975]:
+                        - link "Century Park Hotel" [ref=e4976] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgsIhpmJuYniw7nXARAB
+                        - link "Winford Resort and Casino Manila" [ref=e4977] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgoImOD_l9iLvMI2EAE
+                        - link "Hotel H2O" [ref=e4978] [cursor=pointer]:
+                          - /url: ./travel/hotels/entity/CgoIg82Bu8iXhukfEAE
+                - contentinfo [ref=e4982]:
+                  - button "Currency·PHP" [ref=e4985]:
+                    - generic [ref=e4987]: Currency·PHP
+                    - img [ref=e4988]
+                  - generic [ref=e4990]:
+                    - generic [ref=e4991]: Talomo, Davao City, Philippines - From your Internet address
+                    - link "Learn more about location link" [ref=e4993] [cursor=pointer]:
+                      - /url: https://support.google.com/websearch/answer/179386?gl=PH&hl=en-US
+                      - text: Learn more
+                  - generic [ref=e4994]:
+                    - link "About Google Travel" [ref=e4995] [cursor=pointer]:
+                      - /url: https://about.google/?hl=en-US
+                      - text: About
+                    - link "Privacy" [ref=e4996] [cursor=pointer]:
+                      - /url: https://policies.google.com/privacy?hl=en-US
+                    - link "Terms" [ref=e4997] [cursor=pointer]:
+                      - /url: https://policies.google.com/terms?hl=en-US
+                    - link "Join user studies" [ref=e4998] [cursor=pointer]:
+                      - /url: https://google.qualtrics.com/jfe/form/SV_3NMIMtX0F2zkakR?reserved%3D1%26utm_source%3DFooter%2520link%26utm_medium%3Down_web%26%20utm_campaign%3DQ1%26productTag%3Dothr%26campaignDate%3DMarch2020%26referral_code%3DUXDT415223&Q_Language=en-US
+                    - link "Feedback" [ref=e4999] [cursor=pointer]:
+                      - /url: ./#0
+                    - link "Pricing issues" [ref=e5000] [cursor=pointer]
+                    - link "Help Center" [ref=e5001] [cursor=pointer]:
+                      - /url: https://support.google.com/travel/?hl=en-US#topic=7687750
+                    - link "About this data" [ref=e5002] [cursor=pointer]:
+                      - /url: https://support.google.com/local-listings?p=how_google_sources&gl=PH&hl=en-US
+                    - link "Web results" [ref=e5004] [cursor=pointer]:
+                      - /url: /search?q=Airo%20Hotel%20Manila&gl=PH&hl=en-US
+                  - paragraph [ref=e5006]:
+                    - text: Displayed currencies may differ from the currencies used to book properties.
+                    - link "Learn more about currencies" [ref=e5007] [cursor=pointer]:
+                      - /url: https://www.google.com/googlefinance/disclaimer?hl=en-US&gl=PH
+                      - text: Learn more
+              - text: · · · · ·
+          - generic [ref=e5010]:
+            - generic [ref=e5011]: Airo Hotel Manila
+            - generic [ref=e5012]:
+              - generic [ref=e5015] [cursor=pointer]:
+                - generic [ref=e5016]:
+                  - generic [ref=e5017]: ₱1,036
+                  - generic [ref=e5018]: GREAT DEAL
+                - generic [ref=e5019]: •
+                - generic [ref=e5020]: May 23 – 24
+              - button "View prices" [ref=e5022]:
+                - generic [ref=e5025]: View prices
+  - generic [ref=e1678]: Page loaded.
