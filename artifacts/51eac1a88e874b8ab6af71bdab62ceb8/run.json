@@ -1,0 +1,23 @@
+{
+  "run_id": "51eac1a88e874b8ab6af71bdab62ceb8",
+  "stage": "search",
+  "started_at": "2026-05-18T15:34:32.490074+00:00",
+  "finished_at": "2026-05-18T15:34:48.528300+00:00",
+  "status": "success",
+  "query": {
+    "destination": "tokyo",
+    "check_in": "2026-05-31",
+    "check_out": "2026-06-01",
+    "adults": 2,
+    "children": 0,
+    "rooms": 1,
+    "currency": null,
+    "locale": null,
+    "max_results": null
+  },
+  "property_id": null,
+  "listing_id": null,
+  "opened_panels": [],
+  "error": null,
+  "artifact_dir": null
+}
