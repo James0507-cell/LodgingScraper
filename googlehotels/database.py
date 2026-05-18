@@ -1,9 +1,11 @@
 from __future__ import annotations
 
+from contextlib import contextmanager
 import sqlite3
+from datetime import date, datetime
 from pathlib import Path
 
-from .models import OfferRecord, PropertyRecord, ScrapeRun
+from .models import AmenityGroup, OfferRecord, PropertyRecord, ScrapeRun
 
 
 class Database:
@@ -15,8 +17,17 @@ class Database:
         connection.row_factory = sqlite3.Row
         return connection
 
+    @contextmanager
+    def session(self):
+        connection = self.connect()
+        try:
+            with connection:
+                yield connection
+        finally:
+            connection.close()
+
     def initialize(self) -> None:
-        with self.connect() as connection:
+        with self.session() as connection:
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS scrape_runs (
@@ -102,7 +113,7 @@ class Database:
             connection.execute(f"ALTER TABLE offers ADD COLUMN {column_name} {definition}")
 
     def save_run(self, run: ScrapeRun) -> None:
-        with self.connect() as connection:
+        with self.session() as connection:
             connection.execute(
                 """
                 INSERT INTO scrape_runs (
@@ -130,7 +141,7 @@ class Database:
     def save_property(self, record: PropertyRecord) -> None:
         import json
 
-        with self.connect() as connection:
+        with self.session() as connection:
             connection.execute(
                 """
                 INSERT INTO properties (
@@ -193,7 +204,7 @@ class Database:
             )
 
     def save_offers(self, offers: list[OfferRecord]) -> None:
-        with self.connect() as connection:
+        with self.session() as connection:
             connection.executemany(
                 """
                 INSERT INTO offers (
@@ -233,3 +244,142 @@ class Database:
                     for offer in offers
                 ],
             )
+
+    def get_run(self, run_id: str) -> dict | None:
+        with self.session() as connection:
+            row = connection.execute(
+                """
+                SELECT run_id, stage, started_at, finished_at, status, property_id, listing_id, error
+                FROM scrape_runs
+                WHERE run_id = ?
+                """,
+                (run_id,),
+            ).fetchone()
+        if row is None:
+            return None
+        return {
+            "run_id": row["run_id"],
+            "stage": row["stage"],
+            "started_at": row["started_at"],
+            "finished_at": row["finished_at"],
+            "status": row["status"],
+            "property_id": row["property_id"],
+            "listing_id": row["listing_id"],
+            "error": row["error"],
+        }
+
+    def list_runs(self, limit: int = 20) -> list[dict]:
+        with self.session() as connection:
+            rows = connection.execute(
+                """
+                SELECT run_id, stage, started_at, finished_at, status, property_id, listing_id, error
+                FROM scrape_runs
+                ORDER BY started_at DESC
+                LIMIT ?
+                """,
+                (limit,),
+            ).fetchall()
+        return [
+            {
+                "run_id": row["run_id"],
+                "stage": row["stage"],
+                "started_at": row["started_at"],
+                "finished_at": row["finished_at"],
+                "status": row["status"],
+                "property_id": row["property_id"],
+                "listing_id": row["listing_id"],
+                "error": row["error"],
+            }
+            for row in rows
+        ]
+
+    def get_property(self, property_id: str) -> PropertyRecord | None:
+        import json
+
+        with self.session() as connection:
+            row = connection.execute(
+                """
+                SELECT *
+                FROM properties
+                WHERE property_id = ?
+                """,
+                (property_id,),
+            ).fetchone()
+        if row is None:
+            return None
+        amenity_groups = [
+            AmenityGroup(
+                title=str(group.get("title", "")).strip(),
+                items=[item for item in group.get("items", []) if isinstance(item, str)],
+            )
+            for group in json.loads(row["amenity_groups_json"] or "[]")
+            if isinstance(group, dict) and str(group.get("title", "")).strip()
+        ]
+        return PropertyRecord(
+            property_id=row["property_id"],
+            canonical_url=row["canonical_url"],
+            google_entity_id=row["google_entity_id"],
+            name=row["name"],
+            address=row["address"],
+            latitude=row["latitude"],
+            longitude=row["longitude"],
+            rating=row["rating"],
+            review_count=row["review_count"],
+            description=row["description"],
+            images=json.loads(row["images_json"] or "[]"),
+            cheapest_price=row["cheapest_price"],
+            cheapest_price_amount=row["cheapest_price_amount"],
+            cheapest_price_currency=row["cheapest_price_currency"],
+            cheapest_price_provider=row["cheapest_price_provider"],
+            amenities=json.loads(row["amenities_json"] or "[]"),
+            amenity_groups=amenity_groups,
+            phone=row["phone"],
+            website=row["website"],
+            check_in_time=row["check_in_time"],
+            check_out_time=row["check_out_time"],
+            property_type=row["property_type"],
+            raw_capture_ids=json.loads(row["raw_capture_ids_json"] or "[]"),
+            last_seen_at=datetime.fromisoformat(row["last_seen_at"]),
+        )
+
+    def get_offers(
+        self,
+        property_id: str,
+        *,
+        check_in: date | None = None,
+        check_out: date | None = None,
+    ) -> list[OfferRecord]:
+        query = """
+            SELECT *
+            FROM offers
+            WHERE property_id = ?
+        """
+        params: list[object] = [property_id]
+        if check_in is not None:
+            query += " AND check_in = ?"
+            params.append(check_in.isoformat())
+        if check_out is not None:
+            query += " AND check_out = ?"
+            params.append(check_out.isoformat())
+        query += " ORDER BY price_amount ASC, scraped_at DESC"
+        with self.session() as connection:
+            rows = connection.execute(query, tuple(params)).fetchall()
+        return [
+            OfferRecord(
+                offer_id=row["offer_id"],
+                property_id=row["property_id"],
+                check_in=date.fromisoformat(row["check_in"]),
+                check_out=date.fromisoformat(row["check_out"]),
+                provider_name=row["provider_name"],
+                provider_url=row["provider_url"],
+                provider_image_url=row["provider_image_url"],
+                price=row["price"],
+                price_amount=row["price_amount"],
+                currency=row["currency"],
+                room_type=row["room_type"],
+                cancellation_policy=row["cancellation_policy"],
+                scraped_at=datetime.fromisoformat(row["scraped_at"]),
+                raw_capture_id=row["raw_capture_id"],
+            )
+            for row in rows
+        ]

@@ -25,6 +25,9 @@ python main.py <command> ...
 - `replay`
   - Replays a previous artifact run.
   - With `--live`, this is currently the strongest mode for complete property data.
+- `serve`
+  - Starts a local JSON API server on top of the same scraper and replay flows.
+  - Best for a mobile app or frontend backend integration.
 
 ## Common Query Arguments
 
@@ -62,6 +65,9 @@ The JSON shape depends on the command:
 - `detail`, `probe`, `replay`
   - print `place`
   - includes property-level fields and booking options when available
+- `serve`
+  - does not print scrape results directly
+  - starts an HTTP server and returns JSON through API endpoints instead
 
 ## 1. Initialize the Database
 
@@ -339,6 +345,83 @@ Current limitation:
 
 - It is still template-driven.
 - It depends on the saved artifact having the right request structure for the same property flow.
+
+## 6. Run the API Server
+
+Command:
+
+```bash
+python main.py serve
+```
+
+Custom host and port:
+
+```bash
+python main.py serve --host 0.0.0.0 --port 8000
+```
+
+Custom database and artifacts root:
+
+```bash
+python main.py serve --host 127.0.0.1 --port 8000 --db googlehotels.sqlite3 --artifacts artifacts
+```
+
+What it does:
+
+- Starts a local HTTP JSON API server.
+- Reuses the same internal scraper logic as `search`, `detail`, `probe`, and `replay`.
+- Lets your mobile app call the scraper through HTTP instead of invoking CLI commands.
+
+Main routes:
+
+- `GET /health`
+  - basic health check
+- `GET /api/runs`
+  - list recent stored runs
+- `GET /api/runs/<run_id>`
+  - fetch one stored run and its saved bundle if available
+- `GET /api/properties/<property_id>`
+  - fetch one stored property from SQLite
+- `POST /api/search`
+  - run live browser search
+- `POST /api/detail`
+  - run live browser detail scraping
+- `POST /api/probe`
+  - run live browser probe mode
+- `POST /api/replay`
+  - run offline replay or live replay
+
+Example health check:
+
+```bash
+curl http://127.0.0.1:8000/health
+```
+
+Example replay request:
+
+```bash
+curl -X POST http://127.0.0.1:8000/api/replay ^
+  -H "Content-Type: application/json" ^
+  -d "{\"artifact_run\":\"d6dd05565b3740bfa72d92fd1128d487\"}"
+```
+
+Example stored property request:
+
+```bash
+curl http://127.0.0.1:8000/api/properties/CAEgACgAMihDaG9Jb0t6MC1xeWlwYlhqQVJvTkwyY3ZNVEZvWDJzd05UQnNlaEFCOA1IAA
+```
+
+Why this mode matters:
+
+- It is the mode you can put behind your mobile app.
+- It gives you a stable HTTP contract even while scraper internals are still evolving.
+
+Current note:
+
+- The live scrape endpoints still inherit the same quality profile as the CLI:
+  - `search` is good for discovery but partial
+  - `detail` is weaker for full property extraction
+  - `replay` with `"live": true` is currently the strongest property endpoint
 
 ## Recommended Workflows
 
