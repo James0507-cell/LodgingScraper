@@ -1,0 +1,53 @@
+{
+  "capture_id": "0ab09294e1b7407ab4fe54a55046835e",
+  "stage": "replay",
+  "action": "search_load",
+  "page_url": "https://www.google.com/travel/search?q=Davao&hl=en-US&ts=CAEqBwoFOgNQSFA&ap=MAA",
+  "request_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=mejVKc&source-path=%2Ftravel%2Fsearch&f.sid=-8422605318596395941&bl=boq_travel-frontend-ui_20260515.02_p0&hl=en-US&soc-app=162&soc-platform=1&soc-device=1&_reqid=698699&rt=c",
+  "request_method": "POST",
+  "request_headers": {
+    "accept": "*/*",
+    "accept-language": "en-US",
+    "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+    "origin": "https://www.google.com",
+    "referer": "https://www.google.com/travel/search?q=Davao&hl=en-US&ts=CAEqBwoFOgNQSFA&ap=MAA",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+    "x-same-domain": "1",
+    "x-goog-ext-190139975-jspb": "[\"PH\",\"ZZ\",\"yol65A==\"]",
+    "x-goog-ext-259736195-jspb": "[\"en-US\",\"PH\",\"PHP\",1,null,[-480],null,null,7,[]]",
+    "sec-ch-ua": "\"HeadlessChrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\""
+  },
+  "request_body": "f.req=%5B%5B%5B%22mejVKc%22%2C%22%5B%5C%22near+Buhangin%2C+Davao+City%5C%22%2C%5C%22near+Buhangin%2C+Davao+City%5C%22%2C1%2C1%2Cnull%2C30%5D%22%2Cnull%2C%22generic%22%5D%5D%5D",
+  "response_status": 200,
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "Date": "Tue, 19 May 2026 03:32:51 GMT",
+    "Content-Disposition": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin",
+    "X-Content-Type-Options": "nosniff",
+    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+    "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /_/TravelFrontendUi/cspreport",
+    "Server": "ESF",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Accept-Ranges": "none",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "response_body": ")]}'\n\n2583\n[[\"wrb.fr\",\"mejVKc\",\"[[[1,\\\"hotel near buhangin davao city\\\",false,null,null,[[\\\"hotel \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[1]]],false,null,true,\\\"hotel near buhangin davao city\\\"],[1,\\\"inn near buhangin davao city\\\",false,null,null,[[\\\"inn \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[2]]],false,null,true,\\\"inn near buhangin davao city\\\"],[1,\\\"lodge near buhangin davao city\\\",false,null,null,[[\\\"lodge \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[3]]],false,null,true,\\\"lodge near buhangin davao city\\\"],[1,\\\"resort near buhangin davao city\\\",false,null,null,[[\\\"resort \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[4]]],false,null,true,\\\"resort near buhangin davao city\\\"],[1,\\\"d morvie near buhangin davao city\\\",false,null,null,[[\\\"d morvie \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[5]]],false,null,true,\\\"d morvie near buhangin davao city\\\"],[1,\\\"lodging house near buhangin davao city\\\",false,null,null,[[\\\"lodging house \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[6]]],false,null,true,\\\"lodging house near buhangin davao city\\\"],[1,\\\"cheap inn near buhangin davao city\\\",false,null,null,[[\\\"cheap inn \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[7]]],false,null,true,\\\"cheap inn near buhangin davao city\\\"],[1,\\\"cheap hotels near buhangin davao city\\\",false,null,null,[[\\\"cheap hotels \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[8]]],false,null,true,\\\"cheap hotels near buhangin davao city\\\"],[1,\\\"beach resort near buhangin davao city\\\",false,null,null,[[\\\"beach resort \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[9]]],false,null,true,\\\"beach resort near buhangin davao city\\\"],[1,\\\"travellers inn near buhangin davao city\\\",false,null,null,[[\\\"travellers inn \\\",true],[\\\"near buhangin davao city\\\",false]],null,[[1779161571592371,40281343,3206075168],null,null,null,null,[[10]]],false,null,true,\\\"travellers inn near buhangin davao city\\\"]],[[1779161571592371,40281343,3206075168],null,null,null,null,[[0]]]]\",null,null,null,\"generic\"]]\n55\n[[\"di\",62],[\"af.httprm\",62,\"3715808668738148329\",24]]\n26\n[[\"e\",4,null,null,2678]]\n",
+  "captured_at": "2026-05-19T03:32:51.693721+00:00",
+  "parser_version": "live-replay-1",
+  "artifact_dir": null,
+  "rpcids": [
+    "mejVKc"
+  ]
+}

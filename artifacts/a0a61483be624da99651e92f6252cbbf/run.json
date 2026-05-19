@@ -1,0 +1,31 @@
+{
+  "run_id": "a0a61483be624da99651e92f6252cbbf",
+  "stage": "detail",
+  "started_at": "2026-05-18T17:15:46.193159+00:00",
+  "finished_at": "2026-05-18T17:16:18.630437+00:00",
+  "status": "success",
+  "query": {
+    "destination": "Davao",
+    "check_in": "2026-05-31",
+    "check_out": "2026-06-01",
+    "adults": 2,
+    "children": 0,
+    "rooms": 1,
+    "currency": null,
+    "locale": null,
+    "max_results": null
+  },
+  "property_id": "c2626ffb00e924e7",
+  "listing_id": null,
+  "opened_panels": [
+    "photos",
+    "about",
+    "contact",
+    "offers",
+    "photos",
+    "about",
+    "offers"
+  ],
+  "error": null,
+  "artifact_dir": null
+}

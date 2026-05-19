@@ -1,0 +1,53 @@
+{
+  "capture_id": "9915f05ddb784ab9b327d4b35b7ac7f8",
+  "stage": "replay",
+  "action": "search_load",
+  "page_url": "https://www.google.com/travel/search?q=Davao&hl=en-US&ts=CAEqBwoFOgNQSFA&ap=MAA",
+  "request_url": "https://www.google.com/_/TravelFrontendUi/data/batchexecute?rpcids=mejVKc&source-path=%2Ftravel%2Fsearch&f.sid=6168504686148308152&bl=boq_travel-frontend-ui_20260515.02_p0&hl=en-US&soc-app=162&soc-platform=1&soc-device=1&_reqid=826100&rt=c",
+  "request_method": "POST",
+  "request_headers": {
+    "accept": "*/*",
+    "accept-language": "en-US",
+    "content-type": "application/x-www-form-urlencoded;charset=UTF-8",
+    "origin": "https://www.google.com",
+    "referer": "https://www.google.com/travel/search?q=Davao&hl=en-US&ts=CAEqBwoFOgNQSFA&ap=MAA",
+    "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/147.0.7727.15 Safari/537.36",
+    "x-same-domain": "1",
+    "x-goog-ext-190139975-jspb": "[\"PH\",\"ZZ\",\"yol65A==\"]",
+    "x-goog-ext-259736195-jspb": "[\"en-US\",\"PH\",\"PHP\",1,null,[-480],null,null,7,[]]",
+    "sec-ch-ua": "\"HeadlessChrome\";v=\"147\", \"Not.A/Brand\";v=\"8\", \"Chromium\";v=\"147\"",
+    "sec-ch-ua-mobile": "?0",
+    "sec-ch-ua-platform": "\"Windows\""
+  },
+  "request_body": "f.req=%5B%5B%5B%22mejVKc%22%2C%22%5B%5C%22Davao%5C%22%2C%5C%22near+Buhangin%2C+Davao+City%5C%22%2C1%2C0%2Cnull%2C30%2C5%5D%22%2Cnull%2C%22generic%22%5D%5D%5D",
+  "response_status": 200,
+  "response_headers": {
+    "Content-Type": "application/json; charset=utf-8",
+    "Cache-Control": "no-cache, no-store, max-age=0, must-revalidate",
+    "Pragma": "no-cache",
+    "Expires": "Mon, 01 Jan 1990 00:00:00 GMT",
+    "Date": "Tue, 19 May 2026 01:41:14 GMT",
+    "Content-Disposition": "attachment; filename=\"response.bin\"; filename*=UTF-8''response.bin",
+    "X-Content-Type-Options": "nosniff",
+    "Content-Security-Policy": "require-trusted-types-for 'script';report-uri /_/TravelFrontendUi/cspreport",
+    "Accept-CH": "Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Model, Sec-CH-UA-WoW64, Sec-CH-UA-Form-Factors, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version",
+    "Permissions-Policy": "ch-ua-arch=*, ch-ua-bitness=*, ch-ua-full-version=*, ch-ua-full-version-list=*, ch-ua-model=*, ch-ua-wow64=*, ch-ua-form-factors=*, ch-ua-platform=*, ch-ua-platform-version=*",
+    "Cross-Origin-Opener-Policy": "same-origin-allow-popups",
+    "Cross-Origin-Resource-Policy": "same-site",
+    "Server": "ESF",
+    "X-XSS-Protection": "0",
+    "X-Frame-Options": "SAMEORIGIN",
+    "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+    "Accept-Ranges": "none",
+    "Vary": "Sec-Fetch-Dest, Sec-Fetch-Mode, Sec-Fetch-Site,Accept-Encoding",
+    "Connection": "close",
+    "Transfer-Encoding": "chunked"
+  },
+  "response_body": ")]}'\n\n2677\n[[\"wrb.fr\",\"mejVKc\",\"[[[1,\\\"Davao Royal Suites and Residences\\\",false,\\\"https://encrypted-tbn2.gstatic.com/images?q\\\\u003dtbn:ANd9GcR44gxtu9obF2sTWQaDvSf6z4NF7L4B6fRqjDFMG4MxNpOsj-eF\\\",\\\"34 C. M. Recto St, Poblacion District, Davao City\\\",[[\\\"davao\\\",false],[\\\" royal suites and residences\\\",true]],\\\"/g/1th60xnr\\\",[[1779154874542962,40280940,923131706],null,null,null,null,[[1]]],false,\\\"13820728697410750064\\\",true,\\\"davao royal suites and residences\\\"],[1,\\\"Davao Bamboo Sanctuary and Ecological Park\\\",false,\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcSTns6dk8LgV-n7MaD2bcrqY5KB5h1HQM_9e7kU5_rqVj7TLheg\\\",\\\"Davao City\\\",[[\\\"davao\\\",false],[\\\" bamboo sanctuary\\\",true]],\\\"/g/11dy1j88t4\\\",[[1779154874542962,40280940,923131706],null,null,null,null,[[2]]],false,\\\"15466612181998579534\\\",true,\\\"davao bamboo sanctuary\\\"],[2,\\\"Davao City\\\",false,\\\"https://encrypted-tbn1.gstatic.com/images?q\\\\u003dtbn:ANd9GcSNR0QQR-LDWnM0Q2PIhnpPYYxhqdhgMw-que4FziISDTzesl2P\\\",\\\"City in Mindanao, Philippines\\\",[[\\\"davao\\\",false],[\\\" city\\\",true]],\\\"/m/02gn1x\\\",[[1779154874542962,40280940,923131706],null,null,null,null,[[3]]],false,null,false,\\\"davao city\\\"],[2,\\\"davao to manila flight\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to manila flight\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[4]]],false,null,false,\\\"davao to manila flight\\\"],[2,\\\"davao to cebu flight\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to cebu flight\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[5]]],false,null,false,\\\"davao to cebu flight\\\"],[2,\\\"davao to manila\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to manila\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[6]]],false,null,false,\\\"davao to manila\\\"],[2,\\\"davao to cagayan de oro\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to cagayan de oro\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[7]]],false,null,false,\\\"davao to cagayan de oro\\\"],[2,\\\"davao to cebu\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to cebu\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[8]]],false,null,false,\\\"davao to cebu\\\"],[2,\\\"davao to siargao flight\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to siargao flight\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[9]]],false,null,false,\\\"davao to siargao flight\\\"],[2,\\\"davao to zamboanga\\\",false,null,null,[[\\\"davao\\\",false],[\\\" to zamboanga\\\",true]],null,[[1779154874542962,40280940,923131706],null,null,null,null,[[10]]],false,null,false,\\\"davao to zamboanga\\\"]],[[1779154874542962,40280940,923131706],null,null,null,null,[[0]]]]\",null,null,null,\"generic\"]]\n56\n[[\"di\",71],[\"af.httprm\",70,\"-7952998290965337994\",27]]\n26\n[[\"e\",4,null,null,2773]]\n",
+  "captured_at": "2026-05-19T01:41:14.650128+00:00",
+  "parser_version": "live-replay-1",
+  "artifact_dir": null,
+  "rpcids": [
+    "mejVKc"
+  ]
+}

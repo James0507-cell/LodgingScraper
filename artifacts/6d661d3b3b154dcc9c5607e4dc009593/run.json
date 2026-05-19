@@ -1,0 +1,31 @@
+{
+  "run_id": "6d661d3b3b154dcc9c5607e4dc009593",
+  "stage": "detail",
+  "started_at": "2026-05-18T17:27:22.185726+00:00",
+  "finished_at": "2026-05-18T17:27:41.514226+00:00",
+  "status": "success",
+  "query": {
+    "destination": "davao",
+    "check_in": "2026-05-31",
+    "check_out": "2026-06-01",
+    "adults": 2,
+    "children": 0,
+    "rooms": 1,
+    "currency": null,
+    "locale": null,
+    "max_results": null
+  },
+  "property_id": "6d943cb1159b4d22",
+  "listing_id": null,
+  "opened_panels": [
+    "photos",
+    "about",
+    "contact",
+    "offers",
+    "photos",
+    "about",
+    "offers"
+  ],
+  "error": null,
+  "artifact_dir": null
+}
