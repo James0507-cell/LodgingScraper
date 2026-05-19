@@ -45,6 +45,7 @@ def create_handler(service: ScraperService):
         server_version = "GoogleHotelsAPI/0.1"
 
         def do_GET(self) -> None:
+            print(f"API Request: GET {self.path}")
             parsed = urlparse(self.path)
             path = parsed.path.rstrip("/") or "/"
             try:
@@ -90,6 +91,7 @@ def create_handler(service: ScraperService):
                 self._send_json(HTTPStatus.INTERNAL_SERVER_ERROR, {"error": str(exc)})
 
         def do_POST(self) -> None:
+            print(f"API Request: POST {self.path}")
             parsed = urlparse(self.path)
             path = parsed.path.rstrip("/") or "/"
             try:
@@ -158,7 +160,7 @@ def create_handler(service: ScraperService):
                 self._send_json(HTTPStatus.INTERNAL_SERVER_ERROR, {"error": str(exc)})
 
         def log_message(self, format: str, *args) -> None:
-            return
+            print(f"[{self.log_date_time_string()}] {format % args}")
 
         def _read_json_body(self) -> dict:
             length = int(self.headers.get("Content-Length", "0"))
