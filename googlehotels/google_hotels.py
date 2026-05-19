@@ -82,7 +82,7 @@ class GoogleHotelsScraper:
             await self._mark_action(session, "search_load")
             await self._submit_search(page, query)
             await self._validate_search_state(page, query)
-            await self._settle(page)
+            await self._wait_for_search_results(page)
             listings = parse_search_captures(session.captures, self.query_key(query))
             dom_listings = await self._extract_search_listing_dom(page, self.query_key(query))
             listings = self._merge_search_listings(listings, dom_listings)
@@ -271,10 +271,13 @@ class GoogleHotelsScraper:
         await self._submit_search(page, query)
         await self._validate_search_state(page, query)
 
-    async def _settle(self, page: Page) -> None:
-        await page.wait_for_timeout(1_500)
+    async def _settle(self, page: Page, *, delay_ms: int = 250, networkidle_timeout_ms: int | None = 2_000) -> None:
+        if delay_ms > 0:
+            await page.wait_for_timeout(delay_ms)
+        if networkidle_timeout_ms is None:
+            return
         with suppress(Exception):
-            await page.wait_for_load_state("networkidle", timeout=self.config.timeout_ms)
+            await page.wait_for_load_state("networkidle", timeout=networkidle_timeout_ms)
 
     async def _submit_search(self, page: Page, query: HotelQuery) -> None:
         destination = page.get_by_role("combobox", name="Search for places, hotels and more").first
@@ -282,7 +285,7 @@ class GoogleHotelsScraper:
         await destination.click()
         await destination.fill(query.destination)
         await destination.press("Enter")
-        await self._settle(page)
+        await self._wait_for_destination_value(page, query.destination)
         await self._set_date_range(page, query.check_in, query.check_out)
         if query.adults != 2 or query.children != 0:
             await self._set_travelers(page, query.adults, query.children)
@@ -301,17 +304,27 @@ class GoogleHotelsScraper:
         await self._click_calendar_day(dialog, check_in)
         await self._click_calendar_day(dialog, check_out)
         await dialog.get_by_text("Done", exact=True).last.click()
-        await self._settle(page)
+        await dialog.wait_for(state="hidden", timeout=self.config.timeout_ms)
+        await self._wait_for_date_values(page, check_in, check_out)
 
     async def _click_calendar_day(self, dialog: Locator, target_date: date) -> None:
         month_label = self._calendar_month_label(target_date)
         day_value = str(target_date.day)
         month_group = dialog.locator('[role="rowgroup"]').filter(has_text=month_label).first
         await month_group.wait_for(state="visible", timeout=self.config.timeout_ms)
-        day_locator = month_group.get_by_text(day_value, exact=True).first
-        if not await day_locator.count():
-            raise RuntimeError(f"Could not find calendar day {target_date.isoformat()}.")
-        await day_locator.click()
+        last_error: Exception | None = None
+        for _ in range(3):
+            day_locator = month_group.get_by_text(day_value, exact=True).first
+            if not await day_locator.count():
+                raise RuntimeError(f"Could not find calendar day {target_date.isoformat()}.")
+            try:
+                await day_locator.click()
+                return
+            except Exception as exc:
+                last_error = exc
+                await dialog.page.wait_for_timeout(100)
+        if last_error is not None:
+            raise last_error
 
     async def _set_travelers(self, page: Page, adults: int, children: int) -> None:
         button = page.get_by_role("button", name="Number of travelers. Current number of travelers").first
@@ -321,7 +334,7 @@ class GoogleHotelsScraper:
         await self._adjust_counter(dialog, "adult", adults)
         await self._adjust_counter(dialog, "child", children)
         await dialog.get_by_text("Done", exact=True).last.click()
-        await self._settle(page)
+        await dialog.wait_for(state="hidden", timeout=self.config.timeout_ms)
 
     async def _adjust_counter(self, dialog: Locator, counter_name: str, target: int) -> None:
         current = await self._read_counter(dialog, counter_name)
@@ -366,6 +379,46 @@ class GoogleHotelsScraper:
                 f"Expected '{expected_check_in}' -> '{expected_check_out}', "
                 f"got '{check_in_value}' -> '{check_out_value}'."
             )
+
+    async def _wait_for_destination_value(self, page: Page, expected_destination: str) -> None:
+        await page.wait_for_function(
+            """([role, expected]) => {
+                const element = document.querySelector(role);
+                if (!element) {
+                    return false;
+                }
+                const value = (element.value || element.getAttribute('value') || '').trim().toLowerCase();
+                return value === expected.trim().toLowerCase();
+            }""",
+            arg=['input[role="combobox"]', expected_destination],
+            timeout=self.config.timeout_ms,
+        )
+
+    async def _wait_for_date_values(self, page: Page, check_in: date, check_out: date) -> None:
+        expected_check_in = self._visible_date_value(check_in)
+        expected_check_out = self._visible_date_value(check_out)
+        await page.wait_for_function(
+            """([checkInSelector, checkOutSelector, expectedCheckIn, expectedCheckOut]) => {
+                const checkIn = document.querySelector(checkInSelector);
+                const checkOut = document.querySelector(checkOutSelector);
+                if (!checkIn || !checkOut) {
+                    return false;
+                }
+                const checkInValue = (checkIn.value || checkIn.getAttribute('value') || '').trim();
+                const checkOutValue = (checkOut.value || checkOut.getAttribute('value') || '').trim();
+                return checkInValue === expectedCheckIn && checkOutValue === expectedCheckOut;
+            }""",
+            arg=['input[aria-label="Check-in"]', 'input[aria-label="Check-out"]', expected_check_in, expected_check_out],
+            timeout=self.config.timeout_ms,
+        )
+
+    async def _wait_for_search_results(self, page: Page) -> None:
+        results = page.locator('div[jsname="mutHjb"]')
+        with suppress(Exception):
+            await results.first.wait_for(state="visible", timeout=8_000)
+        with suppress(Exception):
+            await results.nth(9).wait_for(state="visible", timeout=4_000)
+        await self._settle(page, delay_ms=500, networkidle_timeout_ms=2_500)
 
     async def _open_panel(self, page: Page, session: "CapturedPageSession", panel: PanelName) -> bool:
         locators: list[Locator] = {
